@@ -1,5 +1,6 @@
 <div align="center">
     <img src="Sesion-01/Imagenes/Bedu.png" alt="Sesion_01" style="border-radius: 10px;">
+    
 </div>
 
 # Procesamiento de Datos con Python 2024
