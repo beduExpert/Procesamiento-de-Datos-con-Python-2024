@@ -15,7 +15,7 @@ Una variable se utiliza para almacenar información que puede ser referenciada y
 
 - [Ejemplo 01: Variables.](Ejemplo-01/Readme.md)
 
-
+---
 
 ### 📖 Tipos de Datos en Python
 
@@ -57,15 +57,17 @@ Los operadores relacionales son utilizados para comparar dos valores y determina
 
 - [Ejemplo 03: Operadores Relacionales.](Ejemplo-03/Readme.md)
 
+---
+
 ### 📖 Operadores Logicos.
 
 Los operadores lógicos en Python permiten combinar expresiones condicionales y son esenciales para controlar el flujo de un programa mediante decisiones más complejas. Los principales operadores lógicos son:
 
-1. **AND (`and`)**: Evalúa como `True` si todas las condiciones que conecta son verdaderas. Por ejemplo, `True and False` devuelve `False` porque no todas las condiciones son verdaderas.
+- **AND (`and`)**: Evalúa como `True` si todas las condiciones que conecta son verdaderas. Por ejemplo, `True and False` devuelve `False` porque no todas las condiciones son verdaderas.
 
-2. **OR (`or`)**: Devuelve `True` si al menos una de las condiciones que conecta es verdadera. Por ejemplo, `True or False` devuelve `True` porque al menos una condición es verdadera.
+- **OR (`or`)**: Devuelve `True` si al menos una de las condiciones que conecta es verdadera. Por ejemplo, `True or False` devuelve `True` porque al menos una condición es verdadera.
 
-3. **NOT (`not`)**: Invierte el resultado de la condición que precede. Si la condición es `True`, `not` la convierte en `False`, y viceversa. Por ejemplo, `not False` devuelve `True`.
+- **NOT (`not`)**: Invierte el resultado de la condición que precede. Si la condición es `True`, `not` la convierte en `False`, y viceversa. Por ejemplo, `not False` devuelve `True`.
 
 - [Ejemplo 04: Operadores Lógicos.](Ejemplo-04/Readme.md)
 - [Reto 02: Simulador de Compra de Articulos.](Reto-02/Readme.md)
@@ -74,13 +76,62 @@ Los operadores lógicos en Python permiten combinar expresiones condicionales y 
 
 ### 📖 Operadores de asignación.
 
-Texto de la sección.
+Los operadores de asignación en Python son utilizados para asignar valores a variables de una forma más corta y directa. Estos operadores combinan operaciones aritméticas o lógicas con la asignación, lo que simplifica la sintaxis del código.
+
+- **Asignación (`=`)**: Asigna un valor a una variable. Ejemplo: `x = 5`.
+
+- **Asignación con suma (`+=`)**: Suma el valor del lado derecho al valor de la variable y asigna el resultado a la misma variable. Ejemplo: `x += 3` es equivalente a `x = x + 3`.
+
+- **Asignación con resta (`-=`)**: Resta el valor del lado derecho del valor de la variable y asigna el resultado a la misma variable. Ejemplo: `x -= 2` es equivalente a `x = x - 2`.
+
+- **Asignación con multiplicación (`*=`)**: Multiplica el valor de la variable por el valor del lado derecho y asigna el resultado a la misma variable. Ejemplo: `x *= 4` es equivalente a `x = x * 4`.
+
+- **Asignación con división (`/=`)**: Divide el valor de la variable por el valor del lado derecho y asigna el resultado a la misma variable. Ejemplo: `x /= 2` es equivalente a `x = x / 2`.
+
+- **Asignación con módulo (`%=`)**: Calcula el módulo utilizando el valor de la variable y el valor del lado derecho y asigna el resultado a la misma variable. Ejemplo: `x %= 3` es equivalente a `x = x % 3`.
 
 - [Ejemplo 05: Operadores de asignación.](Ejemplo-05/Readme.md)
 
+
+---
+
 ### 📖 Interpolación de Strings y lectura por teclado.
 
-Texto de la sección.
+La interpolación de strings y la lectura por teclado son herramientas esenciales en Python que mejoran la interactividad y flexibilidad de los programas. Permiten crear aplicaciones que se adaptan dinámicamente a las necesidades y entradas de los usuarios, desde simples scripts hasta interfaces de usuario complejas.
+
+
+- **Formato con `%`**:
+   Antes de la introducción de los f-strings, la interpolación se realizaba con el operador `%`, similar a sprintf en otros lenguajes de programación.
+   ```python
+   nombre = "Mundo"
+   print("Hola, %s" % nombre)
+   ```
+
+- **Método `format()`**:
+   Una forma más versátil y moderna es usar el método `format()`, que permite reordenar y reutilizar la información fácilmente.
+   ```python
+   nombre = "Mundo"
+   print("Hola, {0}".format(nombre))
+   ```
+
+- **F-strings (Literal String Interpolation)**:
+   Introducido en Python 3.6, los f-strings ofrecen una manera más legible y concisa de realizar la interpolación.
+   ```python
+   nombre = "Mundo"
+   print(f"Hola, {nombre}")
+   ```
+
+**Lectura por Teclado:**
+
+La función `input()` se utiliza para capturar la entrada del teclado en Python, permitiendo a los usuarios introducir datos directamente en un programa:
+
+```python
+nombre = input("Introduce tu nombre: ")
+print(f"¡Hola, {nombre}!")
+```
+
+Esta función siempre devuelve una cadena de texto, incluso si el usuario introduce números. Para trabajar con tipos de datos específicos, debes convertir esta entrada a su tipo correspondiente, por ejemplo, usando `int()` para convertir a entero.
+
 
 - [Ejemplo 06: Interpolación de Strings y lectura por teclado.](Ejemplo-06/Readme.md)
 - [Reto 03: Cotizador para la compra de auto.](Reto-03/Readme.md)
