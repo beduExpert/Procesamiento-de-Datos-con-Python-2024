@@ -4,13 +4,13 @@
     <img src="Imagenes/S01_Bedu.png" alt="Sesion_01">
 </div>
 
-## 🎯 Objetivo de la Sesión.
+## 🎯 Objetivo
 
 Identificar y comprender los conceptos básicos de Python, incluyendo variables, tipos de datos y operadores, para aplicarlos en la creación de programas sencillos.
 
 ## 📂 Organización de la sesión
 
-### 📖 Variables en Python.
+### 📖 Variables en Python
 Una variable se utiliza para almacenar información que puede ser referenciada y manipulada en un programa. Las variables son fundamentales en cualquier lenguaje de programación y permiten a los programadores guardar datos, como números, cadenas de texto o estructuras de datos más complejas, para su uso en operaciones computacionales.
 
 - [Ejemplo 01: Variables.](Ejemplo-01/Readme.md)
@@ -19,17 +19,17 @@ Una variable se utiliza para almacenar información que puede ser referenciada y
 
 ### 📖 Tipos de Datos en Python
 
-Python soporta varios tipos de datos, algunos de los más comunes son:
+Los tipos de datos en Python son fundamentales porque determinan qué tipo de valor puede contener una variable y qué operaciones se pueden realizar con ella. 
 
 -  **Números**: Python soporta tanto enteros (`int`) como números de punto flotante (`float`). Los enteros son números sin parte decimal, mientras que los flotantes representan números reales y pueden contener decimales.
 
 - **Cadenas de Texto (`str`)**: Las cadenas son secuencias de caracteres utilizadas para almacenar texto. Se definen encerrando los caracteres entre comillas simples o dobles.
 
-- **Listas (`list`)**: Las listas son colecciones ordenadas y mutables que pueden contener elementos de diferentes tipos, incluyendo otras listas. Se definen usando corchetes y separando los elementos con comas.
+- **Listas (`list`)**: Las listas son colecciones ordenadas y mutables que pueden contener elementos de diferentes tipos, incluyendo otras listas. Se definen usando corchetes y separando los elementos con comas (`[,,,]`).
 
-- **Tuplas (`tuple`)**: Similar a las listas, pero inmutables. Una vez definida, no puedes modificar sus elementos. Se definen usando paréntesis.
+- **Tuplas (`tuple`)**: Similar a las listas, pero inmutables. Una vez definida, no puedes modificar sus elementos. Se definen usando paréntesis (`(,,,)`).
 
-- **Diccionarios (`dict`)**: Son colecciones no ordenadas de pares clave-valor. Permiten una rápida búsqueda, inserción y eliminación de datos basados en la clave. Se definen usando llaves, con los pares clave-valor separados por comas.
+- **Diccionarios (`dict`)**: Son colecciones no ordenadas de pares clave-valor. Permiten una rápida búsqueda, inserción y eliminación de datos basados en la clave. Se definen usando llaves, con los pares clave-valor separados por comas (`{key:value}`).
 
 - **Booleanos (`bool`)**: Representan dos valores: `True` o `False`. Son muy utilizados para controlar el flujo de programas a través de declaraciones condicionales.
 
@@ -73,4 +73,4 @@ Los operadores lógicos en Python permiten combinar expresiones condicionales y 
 
 
 
-[`Anterior`](../README.md) | [`Siguiente`](../Sesion-02/README.md)
+[`Anterior`](../README.md) | [`Siguiente`](../Sesion-02/Readme.md)
