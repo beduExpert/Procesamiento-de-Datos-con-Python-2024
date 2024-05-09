@@ -13,7 +13,7 @@ Identificar y comprender los conceptos básicos de Python, incluyendo variables,
 ### 📖 Variables en Python
 Una variable se utiliza para almacenar información que puede ser referenciada y manipulada en un programa. Las variables son fundamentales en cualquier lenguaje de programación y permiten a los programadores guardar datos, como números, cadenas de texto o estructuras de datos más complejas, para su uso en operaciones computacionales.
 
-- [Ejemplo 01: Variables.](Ejemplo-01/Readme.md)
+### 📜 [Ejemplo 01: Variables.](Ejemplo-01/Readme.md)
 
 ---
 
@@ -33,9 +33,9 @@ Los tipos de datos en Python son fundamentales porque determinan qué tipo de va
 
 - **Booleanos (`bool`)**: Representan dos valores: `True` o `False`. Son muy utilizados para controlar el flujo de programas a través de declaraciones condicionales.
 
-- [Ejemplo 02: Tipos de Datos.](Ejemplo-02/Readme.md)
+### 📜 [Ejemplo 02: Tipos de Datos.](Ejemplo-02/Readme.md)
 
-- [Reto 01: Promedio de Edades.](Reto-01/Readme.md)
+### 💡 [Reto 01: Promedio de Edades.](Reto-01/Readme.md)
 
 ---
 
@@ -55,7 +55,7 @@ Los operadores relacionales son utilizados para comparar dos valores y determina
 
 - **Menor o igual que (`<=`)**: Evalúa si el valor de la izquierda es menor o igual al de la derecha. Por ejemplo, `5 <= 5` devuelve `True`.
 
-- [Ejemplo 03: Operadores Relacionales.](Ejemplo-03/Readme.md)
+### 📜 [Ejemplo 03: Operadores Relacionales.](Ejemplo-03/Readme.md)
 
 ---
 
@@ -69,8 +69,11 @@ Los operadores lógicos en Python permiten combinar expresiones condicionales y 
 
 - **NOT (`not`)**: Invierte el resultado de la condición que precede. Si la condición es `True`, `not` la convierte en `False`, y viceversa. Por ejemplo, `not False` devuelve `True`.
 
-- [Ejemplo 04: Operadores Lógicos.](Ejemplo-04/Readme.md)
-- [Reto 02: Simulador de Compra de Articulos.](Reto-02/Readme.md)
+
+
+### 📜 [Ejemplo 04: Operadores Lógicos.](Ejemplo-04/Readme.md)
+
+### 💡 [Reto 02: Simulador de Compra de Articulos.](Reto-02/Readme.md)
 ---
 
 
@@ -90,7 +93,7 @@ Los operadores de asignación en Python son utilizados para asignar valores a va
 
 - **Asignación con módulo (`%=`)**: Calcula el módulo utilizando el valor de la variable y el valor del lado derecho y asigna el resultado a la misma variable. Ejemplo: `x %= 3` es equivalente a `x = x % 3`.
 
-- [Ejemplo 05: Operadores de asignación.](Ejemplo-05/Readme.md)
+### 📜 [Ejemplo 05: Operadores de asignación.](Ejemplo-05/Readme.md)
 
 
 ---
@@ -133,7 +136,10 @@ print(f"¡Hola, {nombre}!")
 Esta función siempre devuelve una cadena de texto, incluso si el usuario introduce números. Para trabajar con tipos de datos específicos, debes convertir esta entrada a su tipo correspondiente, por ejemplo, usando `int()` para convertir a entero.
 
 
-- [Ejemplo 06: Interpolación de Strings y lectura por teclado.](Ejemplo-06/Readme.md)
-- [Reto 03: Cotizador para la compra de auto.](Reto-03/Readme.md)
+
+### 📜 [Ejemplo 06: Interpolación de Strings y lectura por teclado.](Ejemplo-06/Readme.md)
+
+
+### 💡 [Reto 03: Cotizador para la compra de auto.](Reto-03/Readme.md)
 ---
 [`Anterior`](../README.md) | [`Siguiente`](../Sesion-02/Readme.md)
