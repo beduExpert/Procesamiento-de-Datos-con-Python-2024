@@ -45,7 +45,7 @@ Los operadores relacionales son utilizados para comparar dos valores y determina
 
 - **Igual (`==`)**: Evalúa si dos valores son iguales. Por ejemplo, `5 == 5` devuelve `True`.
 
-- **No igual (`!=`)**: Verifica si dos valores no son iguales. Por ejemplo, `5 != 4` devuelve `True`.
+- **No igual (`!=`)**: Verifica si dos valores son diferentes. Por ejemplo, `5 != 4` devuelve `True`.
 
 - **Mayor que (`>`)**: Comprueba si el valor de la izquierda es mayor que el de la derecha. Por ejemplo, `10 > 5` devuelve `True`.
 
@@ -72,5 +72,17 @@ Los operadores lógicos en Python permiten combinar expresiones condicionales y 
 ---
 
 
+### 📖 Operadores de asignación.
 
+Texto de la sección.
+
+- [Ejemplo 05: Operadores de asignación.](Ejemplo-05/Readme.md)
+
+### 📖 Interpolación de Strings y lectura por teclado.
+
+Texto de la sección.
+
+- [Ejemplo 06: Interpolación de Strings y lectura por teclado.](Ejemplo-06/Readme.md)
+- [Reto 03: Cotizador para la compra de auto.](Reto-03/Readme.md)
+---
 [`Anterior`](../README.md) | [`Siguiente`](../Sesion-02/Readme.md)
