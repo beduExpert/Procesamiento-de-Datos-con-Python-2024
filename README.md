@@ -1,7 +1,6 @@
 <div align="center">
-<img src="Sesion-01/Imagenes/Bedu.png" alt="Sesion_01"style="border-radius: 10px;/>
-
-<br/>
+    <img src="Sesion-01/Imagenes/Bedu.png" alt="Sesion_01" style="border-radius: 10px;">
+</div>
 
 # Procesamiento de Datos con Python 2024
 
@@ -17,12 +16,12 @@ Identificar y comprender los conceptos básicos de Python, incluyendo variables,
 1. [Sesión 04: Programación funcional.](Sesion-04/Readme.md)
 1. [Sesión 05: APIs y Bases de datos.](Sesion-05/Readme.md)
 1. [Sesión 06: Pandas y Análisis Exploratorio de Datos](Sesion-06/Readme.md)
-1. [Sesión 07: Funciones vectorizadas, de agregacion y limpieza de datos](Sesion-07/Readme.md)
-1. [Sesión 08: Transformación, filtración y ordenamiento de datos](Sesion-08/Readme.md)
+1. [Sesión 07: Funciones vectorizadas, de agregación y limpieza de datos.](Sesion-07/Readme.md)
+1. [Sesión 08: Transformación, filtración y ordenamiento de datos.](Sesion-08/Readme.md)
 1. [Datasets](Datasets/Readme.md)
 
 [`Siguiente`](Sesion-01/Readme.md)
 
-### NOTA: ¿Que son las funciones de verificación?
+### NOTA: ¿Qué son las funciones de verificación?
 
 > Hay Retos que tienen funciones de verificación para hacer tests del código escrito por los alumnos. Cuando un Reto mencione una función de verificación, puedes encontrarla en la misma carpeta donde está el Reto, en un archivo llamado helpers.py.
