@@ -1,9 +1,9 @@
 [`Procesamiento de datos con Python`](../README.md) > `Sesión 01`
 
-<div align="center">
-<img src="Imagenes/S01_Bedu.png" alt="Sesion_01"style="border-radius: 10px;/>
 
-<br/>
+<div align="center">
+    <img src="Imagenes/S01_Bedu.png" alt="Sesion_01">
+</div>
 
 ## 🎯 Objetivo de la Sesión.
 

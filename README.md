@@ -1,11 +1,11 @@
 <div align="center">
-    <img src="Sesion-01/Imagenes/Bedu.png" alt="Sesion_01" style="border-radius: 10px;">
+    <img src="Sesion-01/Imagenes/Bedu.png" alt="Sesion_01">
 </div>
 
 
 ## 🎯 Objetivo del curso
 
-Identificar y comprender los conceptos básicos de Python, incluyendo variables, tipos de datos y operadores, para aplicarlos en la creación de programas sencillos.
+Aplicar el uso del lenguaje de programación Python para la manipulación efectiva, análisis y visualización de datos.
 
 ## 📚 Contenido
 
