@@ -7,8 +7,6 @@ Aplicar los principios básicos y convenciones para establecer una variable en P
 
 ## 📂 Organización de la sesión
 
-
-
 ### Uso de variables en Python y buenas prácticas de nomenclatura
 
 **Definición de variables:**
@@ -73,20 +71,21 @@ En Python, existen varias convenciones de nomenclatura recomendadas y ampliament
 ### 4. **Constantes**
    - **ALL_CAPS**: Las constantes se nombran con todas las letras en mayúsculas y palabras separadas por guiones bajos. Ejemplo: `MAX_ITERACIONES`.
 
-### 5. **Módulos**
-   - **snake_case o shortlowercase**: Los nombres de los módulos deben ser cortos y generalmente en minúsculas. En algunos casos se utilizan guiones bajos si mejora la legibilidad. Ejemplo: `mi_modulo`.
 
-### 6. **Paquetes**
-   - **shortlowercase**: Similar a los módulos, los nombres de los paquetes deben ser en minúsculas sin guiones bajos. Ejemplo: `mipaquete`.
-
-### 7. **Instancias y excepciones**
-   - **CamelCase** para clases de excepciones (siguiendo la convención de nombres de clases).
-   - **snake_case** para instancias de objetos y variables, siguiendo la convención de nombres de variables.
-
-### 8. **Parámetros de métodos y funciones**
-   - **snake_case**: Los nombres de parámetros deben ser en minúsculas y, si constan de varias palabras, separados por guiones bajos.
 
 Es importante adherirse a esas normas para mantener la coherencia del código, con el fin de facilitar la lectura y el mantenimiento del mismo, asi como la colaboración con otros desarrolladores.
+
+---
+
+### 🔥Dato interesante:
+
+Durante este curso utilizaremos una funcion muy particular para mostrar los resultados de nuestros ejercicios, la función `print()`. Esta funcion es una de las más utilizadas en Python y nos permite mostrar mensajes en la consola.
+
+```python
+# Ejemplo de uso de la función print()
+costo_total = 5000.0
+print(costo_total)  # Salida: 5000.0
+```
 
 ---
 
