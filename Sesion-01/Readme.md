@@ -1,4 +1,4 @@
-[`Procesamiento de datos con Python`](../README.md) > `Sesión 01`
+[`Procesamiento de datos con Python`](../Readme.md) > `Sesión 01`
 
 <div align="center">
     <img src="Imagenes/S01_Bedu.png" alt="Sesion_01">
@@ -142,4 +142,4 @@ Esta función siempre devuelve una cadena de texto, incluso si el usuario introd
 
 #### 💡 [Reto 03: Cotizador para la compra de auto.](Reto-03/Readme.md)
 ---
-[`Anterior`](../README.md) | [`Siguiente`](../Sesion-02/Readme.md)
+[`Anterior`](../Readme.md) | [`Siguiente`](../Sesion-02/Readme.md)
