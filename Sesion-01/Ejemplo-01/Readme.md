@@ -59,7 +59,7 @@ Temp = 22.5              # ambiguo y empieza con mayúscula
 int = 7                  # utiliza el nombre de un tipo de dato incorporado
 ```
 
-En Python, existen varias convenciones de nomenclatura recomendadas y ampliamente aceptadas que ayudan a mantener el código legible, consistente y en línea con las expectativas de la comunidad. Aquí están las convenciones más populares según la guía de estilo PEP 8, que es la guía de estilo estándar para Python:
+En Python, existen varias convenciones de nomenclatura recomendadas y ampliamente aceptadas que ayudan a mantener el código legible, consistente y en línea con las expectativas de la comunidad. Por ejemplo algunas de las convenciones más populares según la guía de estilo PEP 8:
 
 ### 1. **Variables**
    - **snake_case**: Los nombres de las variables deben ser en minúsculas con palabras separadas por guiones bajos. Por ejemplo: `mi_variable`.
