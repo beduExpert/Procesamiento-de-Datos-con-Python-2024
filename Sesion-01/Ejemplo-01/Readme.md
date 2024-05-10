@@ -88,5 +88,20 @@ En Python, existen varias convenciones de nomenclatura recomendadas y ampliament
 
 Es importante adherirse a esas normas para mantener la coherencia del código, con el fin de facilitar la lectura y el mantenimiento del mismo, asi como la colaboración con otros desarrolladores.
 
+<!-- Ejemplos adicionales -->
+
+Claro, aquí tienes un ejemplo de texto que puedes incluir en tu `README.md` para indicar que hay un archivo de notebook con más ejemplos disponibles:
+
 ---
+
+### Más Ejemplos en el Notebook
+
+Hemos preparado un notebook para Google Colab que contiene una serie de ejercicios y demostraciones detalladas. 
+
+Este recurso es ideal para profundizar y aplicar los conceptos vistos de manera interactiva.
+
+
+## 🛠️ [Abrir Notebook](Ejemplo_01_Variables.ipynb)
+
+
 [`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-02/Readme.md)
