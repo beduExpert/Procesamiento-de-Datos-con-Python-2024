@@ -9,13 +9,13 @@ Aplicar los principios básicos y convenciones para establecer una variable en P
 
 
 
-### Uso de Variables en Python y Buenas Prácticas de Nomenclatura
+### Uso de variables en Python y buenas prácticas de nomenclatura
 
-**Definición de Variables:**
+**Definición de variables:**
 
 En Python, una variable es un nombre que se refiere a un objeto que reside en la memoria. Las variables se utilizan para almacenar datos, manipular valores y facilitar la legibilidad y mantenimiento del código.
 
-**Declaración de Variables:**
+**Declaración de variables:**
 
 Crear o declarar variables en Python es sencillo, no necesitas especificar un tipo de dato. Python utiliza tipado dinámico, lo que significa que el tipo de una variable se determina automáticamente cuando se le asigna un valor.
 
@@ -25,9 +25,9 @@ numero = 10
 mensaje = "Hola, Python!"
 ```
 
-**Buenas Prácticas para Nombrar Variables:**
+**Buenas prácticas para nombrar variables:**
 
-1. **Claridad y Descriptividad:**
+1. **Claridad y descriptividad:**
    Las variables deben tener nombres descriptivos para hacer el código más entendible. Por ejemplo, `edad` es mejor que `e`, y `nombre_completo` mejor que `nc`.
 
 2. **Uso de `snake_case`:**
@@ -40,13 +40,13 @@ mensaje = "Hola, Python!"
    ```
 Este tipo de nomenclatura lo usaremos en el curso.
 
-3. **Evitar Nombres Confusos:**
+3. **Evitar nombres confusos:**
    No uses nombres que ya tengan un significado importante en Python, como `list` o `str`.
 
 4. **Consistencia:**
    Mantén un estilo consistente a lo largo de todo tu código. Si comienzas usando `snake_case`, sigue usándolo en todo el proyecto.
 
-**Ejemplos de Nombres de Variables Correctos e Incorrectos:**
+**Ejemplos de nombres de variables correctos e incorrectos:**
 
 ```python
 # Correctos
@@ -64,7 +64,7 @@ En Python, existen varias convenciones de nomenclatura recomendadas y ampliament
 ### 1. **Variables**
    - **snake_case**: Los nombres de las variables deben ser en minúsculas con palabras separadas por guiones bajos. Por ejemplo: `mi_variable`.
 
-### 2. **Funciones y Métodos**
+### 2. **Funciones y métodos**
    - **snake_case**: Al igual que las variables, los nombres de funciones y métodos deben seguir el formato de minúsculas con guiones bajos. Ejemplo: `calcular_total()`.
 
 ### 3. **Clases**
@@ -79,29 +79,24 @@ En Python, existen varias convenciones de nomenclatura recomendadas y ampliament
 ### 6. **Paquetes**
    - **shortlowercase**: Similar a los módulos, los nombres de los paquetes deben ser en minúsculas sin guiones bajos. Ejemplo: `mipaquete`.
 
-### 7. **Instancias y Excepciones**
+### 7. **Instancias y excepciones**
    - **CamelCase** para clases de excepciones (siguiendo la convención de nombres de clases).
    - **snake_case** para instancias de objetos y variables, siguiendo la convención de nombres de variables.
 
-### 8. **Parámetros de Métodos y Funciones**
+### 8. **Parámetros de métodos y funciones**
    - **snake_case**: Los nombres de parámetros deben ser en minúsculas y, si constan de varias palabras, separados por guiones bajos.
 
 Es importante adherirse a esas normas para mantener la coherencia del código, con el fin de facilitar la lectura y el mantenimiento del mismo, asi como la colaboración con otros desarrolladores.
 
-<!-- Ejemplos adicionales -->
-
-Claro, aquí tienes un ejemplo de texto que puedes incluir en tu `README.md` para indicar que hay un archivo de notebook con más ejemplos disponibles:
-
 ---
 
-### Más Ejemplos en el Notebook
+### Más ejemplos en el notebook
 
 Hemos preparado un notebook para Google Colab que contiene una serie de ejercicios y demostraciones detalladas. 
-
 Este recurso es ideal para profundizar y aplicar los conceptos vistos de manera interactiva.
 
 
-## 🛠️ [Abrir Notebook](Ejemplo_01_Variables.ipynb)
+### 🛠️ [Abrir Notebook](Ejemplo_01_Variables.ipynb)
 
 
 [`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-02/Readme.md)

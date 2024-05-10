@@ -17,7 +17,7 @@ Una variable se utiliza para almacenar información que puede ser referenciada y
 
 ---
 
-### 📖 Tipos de Datos en Python
+### 📖 Tipos de datos en Python
 
 Los tipos de datos en Python son fundamentales porque determinan qué tipo de valor puede contener una variable y qué operaciones se pueden realizar con ella. 
 
@@ -33,13 +33,13 @@ Los tipos de datos en Python son fundamentales porque determinan qué tipo de va
 
 - **Booleanos (`bool`)**: Representan dos valores: `True` o `False`. Son muy utilizados para controlar el flujo de programas a través de declaraciones condicionales.
 
-#### 📜 [Ejemplo 02: Tipos de Datos.](Ejemplo-02/Readme.md)
+#### 📜 [Ejemplo 02: Tipos de datos.](Ejemplo-02/Readme.md)
 
-#### 💡 [Reto 01: Promedio de Edades.](Reto-01/Readme.md)
+#### 💡 [Reto 01: Promedio de edades.](Reto-01/Readme.md)
 
 ---
 
-### 📖 Operadores Relacionales
+### 📖 Operadores relacionales
 
 Los operadores relacionales son utilizados para comparar dos valores y determinar si una relación es verdadera o falsa. En Python, los operadores relacionales más comunes son:
 
@@ -55,11 +55,11 @@ Los operadores relacionales son utilizados para comparar dos valores y determina
 
 - **Menor o igual que (`<=`)**: Evalúa si el valor de la izquierda es menor o igual al de la derecha. Por ejemplo, `5 <= 5` devuelve `True`.
 
-#### 📜 [Ejemplo 03: Operadores Relacionales.](Ejemplo-03/Readme.md)
+#### 📜 [Ejemplo 03: Operadores relacionales.](Ejemplo-03/Readme.md)
 
 ---
 
-### 📖 Operadores Logicos.
+### 📖 Operadores logicos.
 
 Los operadores lógicos en Python permiten combinar expresiones condicionales y son esenciales para controlar el flujo de un programa mediante decisiones más complejas. Los principales operadores lógicos son:
 
@@ -71,9 +71,9 @@ Los operadores lógicos en Python permiten combinar expresiones condicionales y 
 
 
 
-#### 📜 [Ejemplo 04: Operadores Lógicos.](Ejemplo-04/Readme.md)
+#### 📜 [Ejemplo 04: Operadores lógicos.](Ejemplo-04/Readme.md)
 
-#### 💡 [Reto 02: Simulador de Compra de Articulos.](Reto-02/Readme.md)
+#### 💡 [Reto 02: Simulador de compra de articulos.](Reto-02/Readme.md)
 ---
 
 
@@ -124,7 +124,7 @@ La interpolación de strings y la lectura por teclado son herramientas esenciale
    print(f"Hola, {nombre}")
    ```
 
-**Lectura por Teclado:**
+**Lectura por teclado:**
 
 La función `input()` se utiliza para capturar la entrada del teclado en Python, permitiendo a los usuarios introducir datos directamente en un programa:
 
@@ -137,7 +137,7 @@ Esta función siempre devuelve una cadena de texto, incluso si el usuario introd
 
 
 
-#### 📜 [Ejemplo 06: Interpolación de Strings y lectura por teclado.](Ejemplo-06/Readme.md)
+#### 📜 [Ejemplo 06: Interpolación de strings y lectura por teclado.](Ejemplo-06/Readme.md)
 
 
 #### 💡 [Reto 03: Cotizador para la compra de auto.](Reto-03/Readme.md)
