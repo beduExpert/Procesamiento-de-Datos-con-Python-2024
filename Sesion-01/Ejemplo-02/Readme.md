@@ -38,36 +38,15 @@ es_mayor = a > b
 print(es_mayor)  # Salida: False
 ```
 
-### 4. Listas
-Las listas (`list`) son estructuras de datos que pueden almacenar una colección de diferentes tipos de datos. Son mutables, lo que significa que podemos cambiar, añadir o eliminar elementos después de su creación.
+Estos son los tipos de datos más comunes en Python, pero hay otros tipos de datos más avanzados que veremos más adelante.
+
+---
+
+#### 🔥Dato interesante: la funcion `type()` nos permite saber el tipo de dato de una variable.
 
 ```python
-lista = [1, 2.5, 'Python', True]
-print(lista)  # Salida: [1, 2.5, 'Python', True]
-```
-
-### 5. Tuplas
-Las tuplas (`tuple`) son similares a las listas, pero son inmutables. Una vez creadas, no se pueden cambiar.
-
-```python
-tupla = (1, 2.5, 'Python', True)
-print(tupla) # Salida: (1, 2.5, 'Python', True)
-```
-
-### 6. Conjuntos
-Los conjuntos (`set`) son colecciones no ordenadas y sin elementos duplicados. Son útiles para realizar operaciones matemáticas como uniones, intersecciones y diferencias.
-
-```python
-conjunto = {1, 2, 3, 4, 4, 5}
-print(conjunto)  # Salida: {1, 2, 3, 4, 5}
-```
-
-### 7. Diccionarios
-Los diccionarios (`dict`) almacenan pares de clave-valor y son una de las estructuras de datos más útiles y frecuentemente usadas en Python.
-
-```python
-diccionario = {'nombre': 'Carlos', 'edad': 28}
-print(diccionario)  # Salida: {'nombre': 'Carlos', 'edad': 28}
+numero = 10  # Python infiere que 'numero' es de tipo int
+print(type(numero))  # Salida: <class 'int'>
 ```
 
 ---
