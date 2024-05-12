@@ -97,16 +97,7 @@ x //= 3  # x ahora es 3
 
 ### 💡¿Sabias que?...
 
-El termino PEMDAS es un acrónimo que se utiliza para recordar el orden en el que las operaciones matemáticas deben ser evaluadas.  
 
-- **P**arentheses (Paréntesis)
-- **E**xponents (Exponentes)
-- **M**ultiplication (Multiplicación)
-- **D**ivision (División)
-- **A**ddition (Suma)
-- **S**ubtraction (Resta)
-
-Este acrónimo nos ayuda a recordar el orden en que Python evalúa las operaciones matemáticas. Por ejemplo, en la expresión `2 + 3 * 4`, Python primero multiplicará `3 * 4` y luego sumará `2` al resultado.
 
 ---
 
