@@ -137,4 +137,5 @@ Esta función siempre devuelve una cadena de texto, incluso si el usuario introd
 
 #### 💡 [Reto 03: Cotizador para la compra de auto.](Reto-03/Readme.md)
 ---
-[`Anterior`](../Readme.md) | [`Siguiente`](../Sesion-02/Readme.md)
+
+⬅️ [`Anterior`](../Readme.md) | ➡️ [`Siguiente`](../Sesion-02/Readme.md)

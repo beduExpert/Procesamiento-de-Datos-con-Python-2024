@@ -40,4 +40,4 @@
 🧨 Nos vemos en el siguiente reto, ¡mucho éxito! 🧨
 
 ---
-[`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-02/Readme.md)
+[`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-03/Readme.md)

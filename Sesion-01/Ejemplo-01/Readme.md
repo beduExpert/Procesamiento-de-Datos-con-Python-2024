@@ -1,5 +1,4 @@
-[`Procesamiento de datos con Python`](../../Readme.md) > [`Sesión 01`](../Readme.md) > `Ejemplo 01: Variables`
-
+🏠 [**Inicio**](../../Readme.md) ➡️ 📖 [**Sesión 01**](../Readie.md) ➡️ 📝 `Ejemplo 01: Variables`
 
 ## 🎯 Objetivo
 
@@ -91,10 +90,10 @@ print(mensaje)  # Error: NameError: name 'mensaje' is not defined
 
 ---
 
-### Más ejemplos en el notebook
 
-Hemos preparado un notebook para Google Colab que contiene una serie de ejercicios y demostraciones detalladas. 
-Este recurso es ideal para profundizar y aplicar los conceptos vistos de manera interactiva.
+📘 **Más ejemplos en el notebook**
+
+🚀 Hemos preparado un notebook para Google Colab que contiene una serie de ejercicios y demostraciones detalladas. Este recurso es ideal para profundizar y aplicar los conceptos vistos de manera interactiva.
 
 
 ### 🛠️ [Abrir Notebook](Ejemplo_01_Variables.ipynb)
