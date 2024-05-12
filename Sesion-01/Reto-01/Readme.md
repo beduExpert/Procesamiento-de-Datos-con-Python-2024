@@ -1,4 +1,6 @@
 
+
+
 ## 🎯 Objetivo
 
 ⚒️ Desarrollar un programa en Python que permita calcular el promedio de edad de un grupo de estudiantes. Este ejercicio te ayudará a practicar la manipulación de variables y los diferentes tipos de datos en Python.
@@ -30,3 +32,6 @@
 📈 El promedio de edad de mis compañeros es de: XX.XX años.
 ```
 ---
+
+6. ✅ Un reto adicional y opcional, seria obtener el promedio de todos los participantes, incluyéndote a ti mismo. Este paso nos permitirá comprender mejor las características principales de un grupo y cómo extraer información útil de datos básicos. Además, nos preparará para realizar análisis más avanzados en el futuro, algo crucial para quienes desean ser científicos de datos.
+
