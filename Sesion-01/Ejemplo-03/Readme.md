@@ -1,115 +1,100 @@
-🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 [**Sesión 01**](../Readme.md) ➡️ / 📝 `Ejemplo 03: Operadores Relacionales`
-
+🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 [**Sesión 01**](../Readme.md) ➡️ / 📝 `Ejemplo 03: Operadores aritméticos`
 
 ## 🎯 Objetivo
 
-Aplicar el funcionamiento básico sobre los diferentes tipos de operadores relacionales que existen en Python.
+Aplicar los operadores aritméticos en Python para realizar cálculos básicos.
 
 ## 🚀 Comencemos
 
-Los operadores relacionales son utilizados para comparar dos valores, y el resultado de esta comparación es un valor booleano (`True` o `False`). Estos operadores son fundamentales en la toma de decisiones y en el control del flujo de programas.
+### Operadores Aritméticos en Python
 
+Los operadores aritméticos en Python permiten realizar cálculos matemáticos esenciales que fundamentales para cualquier tipo de programación que involucre operaciones numéricas.
 
-### 📜 Lista de Operadores Relacionales
+- `+` (suma)
+- `-` (resta)
+- `*` (multiplicación)
+- `/` (división)
+- `%` (módulo)
+- `**` (exponente)
+- `//` (división entera)
 
-- **Igual (`==`)**:  Verifica si dos valores son iguales.
-- **Diferente que (`!=`)**: Verifica si dos valores son diferentes.
-- **Mayor que (`>`)**: Comprueba si el valor de la izquierda es mayor que el de la derecha.
-- **Menor que (`<`)**: Comprueba si el valor de la izquierda es menor que el de la derecha.
-- **Mayor o igual que (`>=`)**: Evalúa si el valor de la izquierda es mayor o igual al de la derecha.
-- **Menor o igual que (`<=`)**: Evalúa si el valor de la izquierda es menor o igual al de la derecha.
+### Suma (`+`)
 
----
-
-### 🧠 Ejemplos de Operadores Relacionales
-
-### Ejemplo de igual (`==`)
+Suma dos números.
 
 ```python
-# Comparando números
-print(10 == 10)  # Salida: True
-
-# Comparando cadenas
-print('hola' == 'hola')  # Salida: True
-
-# Comparando números y cadenas
-print('1' == 1)  # Salida: False
+print(5 + 3)  # Salida: 8
 ```
 
-### Ejemplo de diferente que (`!=`)
+### Resta (`-`)
+
+Resta el segundo número del primero.
 
 ```python
-# Comparando números
-print(10 != 10)  # Salida: False
-
-# Comparando cadenas
-print('hola' != 'adios')  # Salida: True
-
-# Comparando cadenas y números
-print('1' != 1)  # Salida: True
+print(10 - 2)  # Salida: 8
 ```
 
-### Ejemplo de mayor que (`>`)
+### Multiplicación (`*`)
+
+Multiplica dos números.
 
 ```python
-# Comparando números
-print(10 > 5)  # Salida: True
-
-# Comparando caracteres (ASCII value comparison)
-print('b' > 'a')  # Salida: True
-
-# Comparando valores flotantes
-print(10.1 > 10.09)  # Salida: True
+print(4 * 2)  # Salida: 8
 ```
 
-### Ejemplo de menor que (`<`)
+### División (`/`)
+
+Divide el primer número por el segundo, resultando en un número flotante.
 
 ```python
-# Comparando números
-print(5 < 10)  # Salida: True
-
-# Comparando caracteres
-print('a' < 'b')  # Salida: True
-
-# Comparando valores flotantes
-print(0.99 < 1.1)  # Salida: True
+print(8 / 2)  # Salida: 4.0
 ```
 
-### Ejemplo de mayor o igual que (`>=`)
+### Módulo (`%`)
+
+Devuelve el resto de la división entre dos números.
 
 ```python
-# Comparando números iguales
-print(10 >= 10)  # Salida: True
-
-# Comparando números diferentes
-print(15 >= 10)  # Salida: True
+print(10 % 3)  # Salida: 1
 ```
 
-### Ejemplo de menor o igual que (`<=`)
+### Exponenciación (`**`)
+
+Eleva un número a la potencia del segundo número.
 
 ```python
-# Comparando números iguales
-print(10 <= 10)  # Salida: True
+print(2 ** 3)  # Salida: 8
+```
 
-# Comparando números diferentes
-print(5 <= 10)  # Salida: True
+### División Entera (`//`)
+
+Divide el primer número por el segundo y devuelve la parte entera del resultado, descartando cualquier resto.
+
+```python
+print(8 // 3)  # Salida: 2
 ```
 
 ---
 
-### 💡¿Sabias que?...
+### 💡¿Sabias que?... 
 
-Python utiliza un Garbage Collector integrado como parte de su sistema de gestión de memoria. Este se encarga de liberar memoria eliminando automáticamente objetos que ya no son accesibles en el programa.
+Existe una funcionalidad adicional en Python que permite generar numeros aleatorios, para ello se debe importar la libreria `random` y utilizar la función `randint` de la siguiente manera:
 
+```python
+import random
+
+print(random.randint(1, 10))  # Salida: un número aleatorio entre 1 y 10
+```
+
+### Veremos mas sobre esto en futuras sesiones.
 ---
-
 
 📘 **Más ejemplos en el notebook**
 
 Hemos preparado un notebook para Google Colab que contiene una serie de ejercicios y demostraciones detalladas. Este recurso es ideal para profundizar y aplicar los conceptos vistos de manera interactiva.
 
 
-### 🛠️ [Abrir Notebook](Ejemplo_01_Variables.ipynb)
+### 🛠️ [Abrir Notebook](Ejemplo_03_Operadores_Aritmeticos.ipynb)
 
 ---
 
