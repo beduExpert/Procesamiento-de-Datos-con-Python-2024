@@ -11,7 +11,7 @@ Aplicar los principios básicos y convenciones para establecer una variable en P
 
 **Definición de variables:**
 
-En Python, una variable es un nombre que se refiere a un objeto que reside en la memoria. Las variables se utilizan para almacenar datos, manipular valores y facilitar la legibilidad y mantenimiento del código.
+Una variable es un nombre que se refiere a un objeto que reside en la memoria. Las variables se utilizan para almacenar datos, manipular valores y facilitar la legibilidad y mantenimiento del código.
 
 **Declaración de variables:**
 
@@ -21,11 +21,13 @@ Crear o declarar variables en Python es sencillo, no necesitas especificar un ti
 # Ejemplo de declaración de variables
 numero = 10
 mensaje = "Hola, Python!"
+print(numero)  # Salida: 10
+print(mensaje)  # Salida: Hola, Python!
 ```
 
 **Buenas prácticas para nombrar variables:**
 
-1. **Claridad y descriptividad:**
+1. **Deben ser claras y descriptivas:**
    Las variables deben tener nombres descriptivos para hacer el código más entendible. Por ejemplo, `edad` es mejor que `e`, y `nombre_completo` mejor que `nc`.
 
 2. **Uso de `snake_case`:**
@@ -35,6 +37,8 @@ mensaje = "Hola, Python!"
    # Buen ejemplo de snake_case
    contador_de_usuarios = 50
    velocidad_maxima = 120
+   salario_mensual = 5000
+   interes_anual = 0.05
    ```
 Este tipo de nomenclatura lo usaremos en el curso.
 
@@ -57,7 +61,7 @@ Temp = 22.5              # ambiguo y empieza con mayúscula
 int = 7                  # utiliza el nombre de un tipo de dato incorporado
 ```
 
-En Python, existen varias convenciones de nomenclatura recomendadas y ampliamente aceptadas que ayudan a mantener el código legible, consistente y en línea con las expectativas de la comunidad. Por ejemplo algunas de las convenciones más populares según la guía de estilo PEP 8:
+Existen varias convenciones de nomenclatura recomendadas y ampliamente aceptadas que ayudan a mantener el código legible, consistente y en línea con las expectativas de la comunidad. Por ejemplo algunas de las convenciones más populares según la guía de estilo PEP 8:
 
 ### 1. **Variables**
    - **snake_case**: Los nombres de las variables deben ser en minúsculas con palabras separadas por guiones bajos. Por ejemplo: `mi_variable`.
@@ -72,19 +76,17 @@ En Python, existen varias convenciones de nomenclatura recomendadas y ampliament
    - **ALL_CAPS**: Las constantes se nombran con todas las letras en mayúsculas y palabras separadas por guiones bajos. Ejemplo: `MAX_ITERACIONES`.
 
 
-
 Es importante adherirse a esas normas para mantener la coherencia del código, con el fin de facilitar la lectura y el mantenimiento del mismo, asi como la colaboración con otros desarrolladores.
 
 ---
 
 ### 🔥Dato interesante:
 
-Durante este curso utilizaremos una funcion muy particular para mostrar los resultados de nuestros ejercicios, la función `print()`. Esta funcion es una de las más utilizadas en Python y nos permite mostrar mensajes en la consola.
+Python ejecuta el código de arriba hacia abajo, por lo que si intentas usar una variable que no ha sido declarada, Python lanzará un error. Por ejemplo:
 
 ```python
-# Ejemplo de uso de la función print()
-costo_total = 5000.0
-print(costo_total)  # Salida: 5000.0
+# Intentar usar una variable no declarada
+print(mensaje)  # Error: NameError: name 'mensaje' is not defined
 ```
 
 ---
