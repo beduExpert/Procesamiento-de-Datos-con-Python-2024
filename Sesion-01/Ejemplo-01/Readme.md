@@ -1,4 +1,4 @@
-🏠 [**Inicio**](../../Readme.md) ➡️ 📖 [**Sesión 01**](../Readie.md) ➡️ 📝 `Ejemplo 01: Variables`
+🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 [**Sesión 01**](../Readie.md) ➡️ / 📝 `Ejemplo 01: Variables`
 
 ## 🎯 Objetivo
 
@@ -98,5 +98,6 @@ print(mensaje)  # Error: NameError: name 'mensaje' is not defined
 
 ### 🛠️ [Abrir Notebook](Ejemplo_01_Variables.ipynb)
 
+---
 
-[`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-02/Readme.md)
+⬅️ [`Anterior`](../Readme.md) | ➡️ [`Siguiente`](../Ejemplo-02/Readme.md)

@@ -1,3 +1,5 @@
+🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 [**Sesión 01**](../Readie.md) ➡️ / ⚡`Reto 01: Promedio de edades.`
+
 [`Procesamiento de datos con Python`](../../Readme.md) > [`Sesión 01`](../Readme.md) > `Reto 01: Promedio de edades.`
 
 

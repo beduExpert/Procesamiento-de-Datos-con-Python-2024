@@ -1,4 +1,4 @@
-[`Procesamiento de datos con Python`](../Readme.md) > `Sesión 01`
+🏠 [**Inicio**](../Readme.md) ➡️ / 📖 `Sesión 01`
 
 <div align="center">
     <img src="Imagenes/S01_Bedu.png" alt="Sesion_01">
