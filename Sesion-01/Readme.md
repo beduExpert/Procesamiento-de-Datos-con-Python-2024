@@ -13,7 +13,7 @@
 📘 Material del prework:
 Antes de comenzar con los ejercicios de esta sesión, recordemos que en el material de prework hemos cubierto los fundamentos teóricos que aplicaremos hoy. A lo largo de esta sesión, pondremos en práctica estos conceptos mediante una serie de ejercicios y retos diseñados para reforzar y validar nuestro entendimiento. 🔥¡Vamos a comenzar!🔥
 
-## 📂 Organización de la sesión
+## 📂 Temas de la sesión
 
 ### 📖 Variables en Python
 Recordemos que una variable se utiliza para almacenar información que puede ser referenciada y manipulada en un programa. Las variables son fundamentales en cualquier lenguaje de programación y permiten a los programadores guardar datos, como números, cadenas de texto o estructuras de datos más complejas, para su uso en operaciones computacionales.

@@ -1,29 +1,27 @@
-[`Procesamiento de datos con Python`](../../Readme.md) > [`Sesión 01`](../Readme.md) > `Ejemplo 03: Operadores Relacionales`
+🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 [**Sesión 01**](../Readie.md) ➡️ / 📝 `Ejemplo 03: Operadores Relacionales`
 
 
 ## 🎯 Objetivo
 
 Aplicar el funcionamiento básico sobre los diferentes tipos de operadores relacionales que existen en Python.
 
-## 📂 Comencemos 🚀
+## 🚀 Comencemos
 
 Los operadores relacionales son utilizados para comparar dos valores, y el resultado de esta comparación es un valor booleano (`True` o `False`). Estos operadores son fundamentales en la toma de decisiones y en el control del flujo de programas.
 
 
-## 📜 Lista de Operadores Relacionales
+### 📜 Lista de Operadores Relacionales
 
-- **Igual (`==`)**: ✔️ Verifica si dos valores son iguales.
-- **No igual (`!=`)**: ❌ Verifica si dos valores son diferentes.
-- **Mayor que (`>`)**: ⬆️ Comprueba si el valor de la izquierda es mayor que el de la derecha.
-- **Menor que (`<`)**: ⬇️ Comprueba si el valor de la izquierda es menor que el de la derecha.
-- **Mayor o igual que (`>=`)**: ⬆️🔗 Evalúa si el valor de la izquierda es mayor o igual al de la derecha.
-- **Menor o igual que (`<=`)**: ⬇️🔗 Evalúa si el valor de la izquierda es menor o igual al de la derecha.
-
-## 🧠 Ejemplos de Operadores Relacionales
+- **Igual (`==`)**:  Verifica si dos valores son iguales.
+- **Diferente que (`!=`)**: Verifica si dos valores son diferentes.
+- **Mayor que (`>`)**: Comprueba si el valor de la izquierda es mayor que el de la derecha.
+- **Menor que (`<`)**: Comprueba si el valor de la izquierda es menor que el de la derecha.
+- **Mayor o igual que (`>=`)**: Evalúa si el valor de la izquierda es mayor o igual al de la derecha.
+- **Menor o igual que (`<=`)**: Evalúa si el valor de la izquierda es menor o igual al de la derecha.
 
 ---
 
-Este formato utiliza emojis para ilustrar visualmente la dirección o la naturaleza de cada comparación, haciendo la información más accesible y fácil de recordar para los lectores.
+### 🧠 Ejemplos de Operadores Relacionales
 
 ### Ejemplo de igual (`==`)
 
@@ -99,19 +97,20 @@ print(5 <= 10)  # Salida: True
 
 ---
 
-### 🔥Dato interesante:
+### 💡¿Sabias que?...
 
 Python utiliza un Garbage Collector integrado como parte de su sistema de gestión de memoria. Este se encarga de liberar memoria eliminando automáticamente objetos que ya no son accesibles en el programa.
 
 ---
 
-### Más ejemplos en el notebook
 
-Hemos preparado un notebook para Google Colab que contiene una serie de ejercicios y demostraciones detalladas. 
-Este recurso es ideal para profundizar y aplicar los conceptos vistos de manera interactiva.
+📘 **Más ejemplos en el notebook**
+
+Hemos preparado un notebook para Google Colab que contiene una serie de ejercicios y demostraciones detalladas. Este recurso es ideal para profundizar y aplicar los conceptos vistos de manera interactiva.
 
 
 ### 🛠️ [Abrir Notebook](Ejemplo_01_Variables.ipynb)
 
+---
 
-[`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-04/Readme.md)
+⬅️ [`Anterior`](../Readme.md) | ➡️ [`Siguiente`](../Ejemplo-04/Readme.md)

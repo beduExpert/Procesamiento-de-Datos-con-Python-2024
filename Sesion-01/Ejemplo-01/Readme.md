@@ -4,7 +4,7 @@
 
 Aplicar los principios básicos y convenciones para establecer una variable en Python.
 
-## 📂 Comencemos 🚀
+## 🚀 Comencemos
 
 ### Uso de variables en Python y buenas prácticas de nomenclatura
 
@@ -79,7 +79,7 @@ Es importante adherirse a esas normas para mantener la coherencia del código, c
 
 ---
 
-### 🔥Dato interesante:
+### 💡¿Sabias que?...
 
 Python ejecuta el código de arriba hacia abajo, por lo que si intentas usar una variable que no ha sido declarada, Python lanzará un error.
 
@@ -93,7 +93,7 @@ print(mensaje)  # Error: NameError: name 'mensaje' is not defined
 
 📘 **Más ejemplos en el notebook**
 
-🚀 Hemos preparado un notebook para Google Colab que contiene una serie de ejercicios y demostraciones detalladas. Este recurso es ideal para profundizar y aplicar los conceptos vistos de manera interactiva.
+Hemos preparado un notebook para Google Colab que contiene una serie de ejercicios y demostraciones detalladas. Este recurso es ideal para profundizar y aplicar los conceptos vistos de manera interactiva.
 
 
 ### 🛠️ [Abrir Notebook](Ejemplo_01_Variables.ipynb)

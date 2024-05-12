@@ -1,14 +1,11 @@
 🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 [**Sesión 01**](../Readie.md) ➡️ / ⚡`Reto 01: Promedio de edades.`
 
-[`Procesamiento de datos con Python`](../../Readme.md) > [`Sesión 01`](../Readme.md) > `Reto 01: Promedio de edades.`
-
 
 ## 🎯 Objetivo
 
 ⚒️ Desarrollar un programa en Python que permita calcular el promedio de edad de un grupo de estudiantes. Este ejercicio te ayudará a practicar la manipulación de variables y los diferentes tipos de datos en Python.
 
 ---
-
 
 ## 📝 Instrucciones
 
@@ -42,4 +39,5 @@
 🧨 Nos vemos en el siguiente reto, ¡mucho éxito! 🧨
 
 ---
-[`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-03/Readme.md)
+
+⬅️ [`Anterior`](../Readme.md) | ➡️ [`Siguiente`](../Ejemplo-02/Readme.md)
