@@ -1,4 +1,4 @@
-
+[`Procesamiento de datos con Python`](../../Readme.md) > [`Sesión 01`](../Readme.md) > `Reto 01: Promedio de edades.`
 
 
 ## 🎯 Objetivo
@@ -33,5 +33,11 @@
 ```
 ---
 
-6. ✅ Un reto adicional y opcional, seria obtener el promedio de todos los participantes, incluyéndote a ti mismo. Este paso nos permitirá comprender mejor las características principales de un grupo y cómo extraer información útil de datos básicos. Además, nos preparará para realizar análisis más avanzados en el futuro, algo crucial para quienes desean ser científicos de datos.
+6. ✅ Un reto adicional y opcional, seria obtener el promedio de todos los participantes, incluyéndote a ti mismo. Este paso nos permitirá comprender mejor las características principales de un grupo y cómo extraer información útil de datos básicos. Además, nos preparará para realizar análisis más avanzados en el futuro, algo vital para quienes desean ser científicos de datos.
 
+
+<!-- Agregamos un emoji de explosion-->
+🧨 Nos vemos en el siguiente reto, ¡mucho éxito! 🧨
+
+---
+[`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-02/Readme.md)
