@@ -5,7 +5,7 @@
 
 Aplicar los principios básicos y convenciones para establecer una variable en Python.
 
-## 📂 Organización de la sesión
+## 📂 Comencemos 🚀
 
 ### Uso de variables en Python y buenas prácticas de nomenclatura
 

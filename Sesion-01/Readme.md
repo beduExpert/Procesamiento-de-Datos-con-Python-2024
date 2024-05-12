@@ -18,7 +18,7 @@ Antes de comenzar con los ejercicios de esta sesión, recordemos que en el mater
 ### 📖 Variables en Python
 Recordemos que una variable se utiliza para almacenar información que puede ser referenciada y manipulada en un programa. Las variables son fundamentales en cualquier lenguaje de programación y permiten a los programadores guardar datos, como números, cadenas de texto o estructuras de datos más complejas, para su uso en operaciones computacionales.
 
-##### 📜 [Ejemplo 01: Variables.](Ejemplo-01/Readme.md)
+#### 📜 [Ejemplo 01: Variables.](Ejemplo-01/Readme.md)
 
 ---
 

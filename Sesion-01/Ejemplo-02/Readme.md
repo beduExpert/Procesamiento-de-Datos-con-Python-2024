@@ -5,7 +5,7 @@
 
 Aplicar los principales tipos de datos y su funcionamiento, así como las ventajas de cada uno.
 
-## 📂 Organización de la sesión
+## 📂 Comencemos 🚀
 
 
 ### Tipos de datos en Python
