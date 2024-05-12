@@ -60,13 +60,13 @@ Los operadores relacionales son utilizados para comparar dos valores y determina
 
 Los operadores lógicos en Python permiten combinar expresiones condicionales y son esenciales para controlar el flujo de un programa mediante decisiones más complejas. Los principales operadores lógicos son:
 
-| Operador | Símbolo | Descripción | Ejemplo | Resultado |
-|----------|---------|-------------|---------|-----------|
-| AND      | `and`   | Devuelve `True` si todas las condiciones son verdaderas. | `True and False` | `False` |
-| OR       | `or`    | Devuelve `True` si al menos una de las condiciones es verdadera. | `True or False` | `True` |
-| NOT      | `not`   | Invierte el resultado de la condición. | `not False` | `True` |
+- **AND (`and`)**: Evalúa como `True` si todas las condiciones que conecta son verdaderas. Por ejemplo, `True and False` devuelve `False` porque no todas las condiciones son verdaderas.
 
-Estos operadores son fundamentales para combinar condiciones y controlar el flujo de ejecución en programas Python. Puedes utilizarlos para crear expresiones condicionales más complejas y tomar decisiones basadas en múltiples factores.
+- **OR (`or`)**: Devuelve `True` si al menos una de las condiciones que conecta es verdadera. Por ejemplo, `True or False` devuelve `True` porque al menos una condición es verdadera.
+
+- **NOT (`not`)**: Invierte el resultado de la condición que precede. Si la condición es `True`, `not` la convierte en `False`, y viceversa. Por ejemplo, `not False` devuelve `True`.
+
+Estos operadores son fundamentales para combinar condiciones y controlar el flujo de ejecución en programas Python.
 
 
 #### 📜 [Ejemplo 04: Operadores lógicos.](Ejemplo-04/Readme.md)
@@ -90,20 +90,6 @@ Los operadores de asignación en Python son utilizados para asignar valores a va
 - **Asignación con división (`/=`)**: Divide el valor de la variable por el valor del lado derecho y asigna el resultado a la misma variable. Ejemplo: `x /= 2` es equivalente a `x = x / 2`.
 
 - **Asignación con módulo (`%=`)**: Calcula el módulo utilizando el valor de la variable y el valor del lado derecho y asigna el resultado a la misma variable. Ejemplo: `x %= 3` es equivalente a `x = x % 3`.
-
-
-Aquí tienes una tabla que resume los operadores de asignación en Python:
-
-| Operador           | Símbolo | Descripción                                                                               | Ejemplo         | Resultado de Ejemplo |
-|--------------------|---------|-------------------------------------------------------------------------------------------|-----------------|----------------------|
-| Asignación         | `=`     | Asigna un valor a una variable.                                                           | `x = 5`         | `x` se convierte en `5` |
-| Asignación con suma| `+=`    | Suma el valor del lado derecho al valor de la variable y asigna el resultado.             | `x += 3`        | `x` se convierte en `x + 3` |
-| Asignación con resta| `-=`   | Resta el valor del lado derecho del valor de la variable y asigna el resultado.           | `x -= 2`        | `x` se convierte en `x - 2` |
-| Asignación con multiplicación | `*=` | Multiplica el valor de la variable por el valor del lado derecho y asigna el resultado.  | `x *= 4`        | `x` se convierte en `x * 4` |
-| Asignación con división | `/=` | Divide el valor de la variable por el valor del lado derecho y asigna el resultado.      | `x /= 2`        | `x` se convierte en `x / 2` |
-| Asignación con módulo | `%=`  | Calcula el módulo utilizando el valor de la variable y el valor del lado derecho y asigna el resultado. | `x %= 3` | `x` se convierte en `x % 3` |
-
-Estos operadores facilitan la escritura de operaciones comunes sobre variables, simplificando el código y haciéndolo más legible.
 
 #### 📜 [Ejemplo 05: Operadores de asignación.](Ejemplo-05/Readme.md)
 
@@ -130,7 +116,7 @@ La interpolación de strings y la lectura por teclado son herramientas esenciale
    ```
 
 - **F-strings (Literal String Interpolation)**:
-   Introducido en Python 3.6, los f-strings ofrecen una manera más legible y concisa de realizar la interpolación.
+   Introducido en Python 3.6, los f-strings ofrecen una manera más limpia y legible de formatear strings, permitiendo la interaccion directa con variables.
    ```python
    nombre = "Mundo"
    print(f"Hola, {nombre}")
@@ -138,7 +124,7 @@ La interpolación de strings y la lectura por teclado son herramientas esenciale
 
 **Lectura por teclado:**
 
-La función `input()` se utiliza para capturar la entrada del teclado en Python, permitiendo a los usuarios introducir datos directamente en un programa:
+Recordemos que la función `input()` se utiliza para capturar la entrada del teclado en Python, permitiendo a los usuarios introducir datos directamente en un programa:
 
 ```python
 nombre = input("Introduce tu nombre: ")
