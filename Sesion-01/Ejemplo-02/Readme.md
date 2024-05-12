@@ -10,7 +10,7 @@ Aplicar los principales tipos de datos y su funcionamiento, así como las ventaj
 
 ### Tipos de datos en Python
 
-En Python, los tipos de datos son una categoría que define los valores que una variable puede tomar. Los tipos de datos más comunes en Python son:
+Los tipos de datos en Python son una categoría que define los valores que una variable puede tomar. Los tipos de datos más comunes en Python son:
 
 ### 1. Números
 Python tiene varios tipos de datos numéricos:

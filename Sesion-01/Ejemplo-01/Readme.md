@@ -82,7 +82,7 @@ Es importante adherirse a esas normas para mantener la coherencia del código, c
 
 ### 🔥Dato interesante:
 
-Python ejecuta el código de arriba hacia abajo, por lo que si intentas usar una variable que no ha sido declarada, Python lanzará un error. Por ejemplo:
+Python ejecuta el código de arriba hacia abajo, por lo que si intentas usar una variable que no ha sido declarada, Python lanzará un error.
 
 ```python
 # Intentar usar una variable no declarada
