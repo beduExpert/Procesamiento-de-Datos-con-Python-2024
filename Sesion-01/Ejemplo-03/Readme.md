@@ -8,7 +8,7 @@ Aplicar los operadores aritméticos en Python para realizar cálculos básicos.
 
 ### Operadores Aritméticos en Python
 
-Los operadores aritméticos o arithmetic operators son los más comunes que nos podemos encontrar, y nos permiten realizar operaciones matematicas sencillas, como pueden ser la suma, resta o exponente. A continuación, se muestra en la siguiente tabla algunos ejemplos, donde x=10 y y=3.
+Los operadores aritméticos o arithmetic operators son los más comunes que nos podemos encontrar, y nos permiten realizar operaciones matemáticas sencillas, como pueden ser la suma, resta o exponente. A continuación, se muestra en la siguiente tabla algunos ejemplos, donde x=10 y y=3.
 
 | Operador | Nombre         | Ejemplo         |
 |----------|----------------|-----------------|
@@ -135,7 +135,7 @@ print("Cajas necesarias:", cajas_necesarias)  # Salida: 4
 
 ### Orden de aplicación
 
-En los ejemplos anteriores simplemente se ha aplicado un operador a dos números sin mezclarlos entre ellos. Pero en la vida real, es muy común que se mezclen varios operadores en una misma linea de codigo. En estos casos, Python sigue un orden de aplicación de los operadores.
+En los ejemplos anteriores simplemente se ha aplicado un operador a dos números sin mezclarlos entre ellos. Pero en la vida real, es muy común que se mezclen varios operadores en una misma línea de código. En estos casos, Python sigue un orden de aplicación de los operadores.
 
 El termino PEMDAS es un acrónimo que se utiliza para recordar el orden en el que las operaciones matemáticas deben ser evaluadas.  
 
@@ -159,7 +159,7 @@ print(-2**4)       # Primero se hace la potencia, después se aplica el signo ne
 
 ### 💡¿Sabias que?... 
 
-Existe una funcionalidad adicional en Python que permite generar numeros aleatorios, para ello se debe importar la libreria `random` y utilizar la función `randint` de la siguiente manera:
+Existe una funcionalidad adicional en Python que permite generar números aleatorios, para ello se debe importar la librería `random` y utilizar la función `randint` de la siguiente manera:
 
 ```python
 import random

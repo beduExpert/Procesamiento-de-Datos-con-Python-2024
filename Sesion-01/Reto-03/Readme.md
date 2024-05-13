@@ -3,7 +3,7 @@
 
 ## 🎯 Objetivo
 
-⚒️ Desarrollar un programa en Python que simule la cotizacion y financiamiento de tu automóvil soñado. Se calcularán las cuotas mensuales y se mostrará una mini tabla de amortización para visualizar cómo se ira pagando poco a poco.
+⚒️ Desarrollar un programa en Python que simule la cotización y financiamiento de tu automóvil soñado. Se calcularán las cuotas mensuales y se mostrará una mini tabla de amortización para visualizar cómo se ira pagando poco a poco.
 
 ---
 

@@ -7,7 +7,7 @@ Aplicar la interpolación de strings, así como la captura de datos por consola 
 
 ## 🚀 Comencemos
 
-En el ambiente de programación, la interacción con el usuario es una parte esencial de la creación de aplicaciones. Python proporciona herramientas para facilitar la creación de aplicaciones interactivas, como la interpolación de strings y la lectura por teclado, un ejemplo podria ser un menu interactivo en consola que permita al usuario seleccionar una opción y realizar una acción.
+En el ambiente de programación, la interacción con el usuario es una parte esencial de la creación de aplicaciones. Python proporciona herramientas para facilitar la creación de aplicaciones interactivas, como la interpolación de strings y la lectura por teclado, un ejemplo podría ser un menú interactivo en consola que permita al usuario seleccionar una opción y realizar una acción.
 
 ## Interpolación de Strings
 
@@ -34,7 +34,7 @@ print("Hola, {}. Tienes {} años.".format(nombre, edad))
 
 ### F-Strings (Literal string interpolation)
 
-Introducido en Python 3.6, los f-strings ofrecen una manera más legible y eficiente de hacer interpolación de strings, asi mismo es considerada la forma más moderna de hacer interpolación de strings.
+Introducido en Python 3.6, los f-strings ofrecen una manera más legible y eficiente de hacer interpolación de strings, así mismo es considerada la forma más moderna de hacer interpolación de strings.
 
 ```python
 nombre = "Carol"
@@ -55,7 +55,7 @@ print(f"¡Hola, {nombre}!")
 
 ### Convertir Tipos de Datos
 
-A menudo necesitas convertir la entrada del usuario a un tipo de dato específico, como un entero o un flotante, considera que al leer datos por teclado, estos se almacenan como cadenas de texto, por lo que sera necesario convertirlos a un tipo de dato especifico.
+A menudo necesitas convertir la entrada del usuario a un tipo de dato específico, como un entero o un flotante, considera que al leer datos por teclado, estos se almacenan como cadenas de texto, por lo que será necesario convertirlos a un tipo de dato especifico.
 
 A este proceso se le conoce como *casting*.
 
@@ -96,7 +96,6 @@ El formateo de texto es una técnica común en la programación para presentar d
 
 Algunos ejemplos de formateo de texto son:
 
-<!-- Codigo Pytohn -->
 ```python
 # 9 dígitos: 4 enteros, 1 punto y 4 decimales
 print(f"{3.1415926:09.4f}") # Salida: 0003.1416

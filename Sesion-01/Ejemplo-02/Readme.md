@@ -42,7 +42,7 @@ Estos son los tipos de datos más comunes en Python, pero hay otros tipos de dat
 
 ### 💡¿Sabias que?... 
 
-La funcion `type()` nos permite saber el tipo de dato de una variable.
+La función `type()` nos permite saber el tipo de dato de una variable.
 
 ```python
 numero = 10  # Python infiere que 'numero' es de tipo int

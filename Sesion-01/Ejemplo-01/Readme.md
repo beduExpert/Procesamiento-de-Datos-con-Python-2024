@@ -75,7 +75,7 @@ Existen varias convenciones de nomenclatura recomendadas y ampliamente aceptadas
    - **ALL_CAPS**: Las constantes se nombran con todas las letras en mayúsculas y palabras separadas por guiones bajos. Ejemplo: `MAX_ITERACIONES`.
 
 
-Es importante adherirse a esas normas para mantener la coherencia del código, con el fin de facilitar la lectura y el mantenimiento del mismo, asi como la colaboración con otros desarrolladores.
+Es importante adherirse a esas normas para mantener la coherencia del código, con el fin de facilitar la lectura y el mantenimiento del mismo, así como la colaboración con otros desarrolladores.
 
 ---
 

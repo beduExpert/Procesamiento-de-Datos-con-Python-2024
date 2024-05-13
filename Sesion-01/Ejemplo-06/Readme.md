@@ -99,7 +99,6 @@ x //= 3  # x ahora es 3
 
 En Python es la existencia del operador "Walrus" o ":=", introducido en Python 3.8, permite hacer asignaciones de variables dentro de expresiones, lo cual puede simplificar el código y reducir la cantidad de líneas necesarias para realizar ciertas tareas.
 
-<!-- Codigo Python -->
 ```python
 # Ejemplo de uso del operador Walrus
 x = 5

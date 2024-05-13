@@ -76,7 +76,6 @@ print(a and (b or c))  # Salida: True porque (b or c) es True y luego a and True
 print(not (a and b) or c)  # Salida: True porque (a and b) es False, not False es True, y True or c es True.
 ```
 
-<!-- Codigo Python -->
 ```python
 email_verificado = True
 telefono_verificado = False

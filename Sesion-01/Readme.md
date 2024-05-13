@@ -70,7 +70,7 @@ Los operadores relacionales son utilizados para comparar dos valores y determina
 
 ---
 
-### 📖 Operadores logicos.
+### 📖 Operadores lógicos.
 
 Los operadores lógicos en Python permiten combinar expresiones condicionales y son esenciales para controlar el flujo de un programa mediante decisiones más complejas. Los principales operadores lógicos son:
 
@@ -85,7 +85,7 @@ Estos operadores son fundamentales para combinar condiciones y controlar el fluj
 
 #### 📜 [Ejemplo 05: Operadores lógicos.](Ejemplo-05/Readme.md)
 
-#### 🔥 [Reto 02: Simulador de compra de articulos.](Reto-02/Readme.md)
+#### 🔥 [Reto 02: Simulador de compra de artículos.](Reto-02/Readme.md)
 ---
 
 ### 📖 Operadores de asignación.
@@ -128,7 +128,7 @@ La interpolación de strings y la lectura por teclado son herramientas esenciale
    ```
 
 - **F-strings (Literal String Interpolation)**:
-   Introducido en Python 3.6, los f-strings ofrecen una manera más limpia y legible de formatear strings, permitiendo la interaccion directa con variables.
+   Introducido en Python 3.6, los f-strings ofrecen una manera más limpia y legible de formatear strings, permitiendo la interacción directa con variables.
    ```python
    nombre = "Mundo"
    print(f"Hola, {nombre}")
