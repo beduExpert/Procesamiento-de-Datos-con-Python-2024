@@ -1,4 +1,4 @@
-🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 [**Sesión 01**](../Readme.md) ➡️ / 📝 `Ejemplo 05: Operadores de Asignación`
+🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 [**Sesión 01**](../Readme.md) ➡️ / 📝 `Ejemplo 06: Operadores de Asignación`
 
 
 ## 🎯 Objetivo
@@ -97,17 +97,19 @@ x //= 3  # x ahora es 3
 
 ### 💡¿Sabias que?...
 
+En Python es la existencia del operador "Walrus" o ":=", introducido en Python 3.8, permite hacer asignaciones de variables dentro de expresiones, lo cual puede simplificar el código y reducir la cantidad de líneas necesarias para realizar ciertas tareas.
 
+<!-- Codigo Python -->
+```python
+# Ejemplo de uso del operador Walrus
+x = 5
+print(y := x + 2)  # Salida: 7
 
+# La variable 'y' ahora contiene el resultado de la suma
+print(y)  # Salida: 7
+
+# La variable x no ha sido modificada
+print(x)  # Salida: 5
+```
 ---
-
-📘 **Más ejemplos en el notebook**
-
-Hemos preparado un notebook para Google Colab que contiene una serie de ejercicios y demostraciones detalladas. Este recurso es ideal para profundizar y aplicar los conceptos vistos de manera interactiva.
-
-
-### 🛠️ [Abrir Notebook](Ejemplo_04_Operadores_Logicos.ipynb)
-
----
-
-⬅️ [`Anterior`](../Readme.md) | ➡️ [`Siguiente`](../Ejemplo-05/Readme.md)
+⬅️ [`Anterior`](../Readme.md) | ➡️ [`Siguiente`](../Ejemplo-07/Readme.md)

@@ -102,12 +102,4 @@ Python utiliza un Garbage Collector integrado como parte de su sistema de gesti�
 
 ---
 
-📘 **Más ejemplos en el notebook**
-
-Hemos preparado un notebook para Google Colab que contiene una serie de ejercicios y demostraciones detalladas. Este recurso es ideal para profundizar y aplicar los conceptos vistos de manera interactiva.
-
-### 🛠️ [Abrir Notebook](Ejemplo_04_Operadores_Relacionales.ipynb)
-
----
-
 ⬅️ [`Anterior`](../Readme.md) | ➡️ [`Siguiente`](../Ejemplo-05/Readme.md)

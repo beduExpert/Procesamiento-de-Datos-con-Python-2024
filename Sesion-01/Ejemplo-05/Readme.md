@@ -76,20 +76,21 @@ print(a and (b or c))  # Salida: True porque (b or c) es True y luego a and True
 print(not (a and b) or c)  # Salida: True porque (a and b) es False, not False es True, y True or c es True.
 ```
 
+<!-- Codigo Python -->
+```python
+email_verificado = True
+telefono_verificado = False
+reportado_spammer = True
+
+# Los usuarios pueden enviar si alguno de sus datos está verificado y no han sido reportados como spammers
+puede_enviar = (email_verificado or telefono_verificado) and not reportado_spammer
+print(f"¿Puede enviar contenido? {puede_enviar}")  # Salida: False
+```
 ---
 
 ### 💡¿Sabias que?...
 
 Python permite integrar módulos escritos en otros lenguajes como C y C++, lo que permite a los desarrolladores optimizar partes del código sin sacrificar la velocidad.
-
----
-
-📘 **Más ejemplos en el notebook**
-
-Hemos preparado un notebook para Google Colab que contiene una serie de ejercicios y demostraciones detalladas. Este recurso es ideal para profundizar y aplicar los conceptos vistos de manera interactiva.
-
-
-### 🛠️ [Abrir Notebook](Ejemplo_05_Operadores_Logicos.ipynb)
 
 ---
 

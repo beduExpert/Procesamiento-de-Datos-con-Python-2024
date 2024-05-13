@@ -90,14 +90,4 @@ print(mensaje)  # Error: NameError: name 'mensaje' is not defined
 
 ---
 
-
-📘 **Más ejemplos en el notebook**
-
-Hemos preparado un notebook para Google Colab que contiene una serie de ejercicios y demostraciones detalladas. Este recurso es ideal para profundizar y aplicar los conceptos vistos de manera interactiva.
-
-
-### 🛠️ [Abrir Notebook](Ejemplo_01_Variables.ipynb)
-
----
-
 ⬅️ [`Anterior`](../Readme.md) | ➡️ [`Siguiente`](../Ejemplo-02/Readme.md)

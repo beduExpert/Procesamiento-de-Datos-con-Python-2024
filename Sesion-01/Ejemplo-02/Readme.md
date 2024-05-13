@@ -48,16 +48,6 @@ La funcion `type()` nos permite saber el tipo de dato de una variable.
 numero = 10  # Python infiere que 'numero' es de tipo int
 print(type(numero))  # Salida: <class 'int'>
 ```
-
----
-
-📘 **Más ejemplos en el notebook**
-
-Hemos preparado un notebook para Google Colab que contiene una serie de ejercicios y demostraciones detalladas. Este recurso es ideal para profundizar y aplicar los conceptos vistos de manera interactiva.
-
-
-### 🛠️ [Abrir Notebook](Ejemplo_02_Tipos_Datos.ipynb)
-
 ---
 
 ⬅️ [`Anterior`](../Readme.md) | ➡️ [`Siguiente`](../Ejemplo-03/Readme.md)
