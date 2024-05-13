@@ -51,7 +51,7 @@ Los operadores aritméticos en Python se utilizan para cálculos matemáticos b�
 
 #### 📜 [Ejemplo 03: Operadores aritméticos.](Ejemplo-03/Readme.md)
 
-#### 💡 [Reto 01: Promedio de edades.](Reto-01/Readme.md)
+#### 🔥 [Reto 01: Promedio de edades.](Reto-01/Readme.md)
 
 ---
 
@@ -85,7 +85,7 @@ Estos operadores son fundamentales para combinar condiciones y controlar el fluj
 
 #### 📜 [Ejemplo 05: Operadores lógicos.](Ejemplo-05/Readme.md)
 
-#### 💡 [Reto 02: Simulador de compra de articulos.](Reto-02/Readme.md)
+#### 🔥 [Reto 02: Simulador de compra de articulos.](Reto-02/Readme.md)
 ---
 
 ### 📖 Operadores de asignación.
@@ -147,7 +147,7 @@ Esta función siempre devuelve una cadena de texto, incluso si el usuario introd
 
 #### 📜 [Ejemplo 07: Interpolación de strings y lectura por teclado.](Ejemplo-07/Readme.md)
 
-#### 💡 [Reto 03: Cotizador para la compra de auto.](Reto-03/Readme.md)
+#### 🔥 [Reto 03: Cotizador para la compra de auto.](Reto-03/Readme.md)
 ---
 
 ⬅️ [`Anterior`](../Readme.md) | ➡️ [`Siguiente`](../Sesion-02/Readme.md)
