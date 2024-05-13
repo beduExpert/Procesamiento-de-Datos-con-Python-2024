@@ -6,27 +6,11 @@ Aplicar los principios básicos sobre el control del flujo de un programa, usand
 
 ## 🚀 Comencemos
 
-La sentencia if en programación se utiliza para ejecutar un bloque de código solo si se cumple una condición específica. Es una forma de tomar decisiones dentro de un programa basado en condiciones.
-
-`Nota:` La tabulación o indentación es crucial en Python, ya que se utiliza para definir bloques de código. Es decir, un espacio en blanco al principio de una línea de código, generalmente equivalente a 4 espacios o un tabulador, indica que el código pertenece a un bloque específico.
-
-Ejemplo:
-
-```python
-if condición:
-    # Bloque de código
-    # Todo el código dentro de este bloque pertenece a la sentencia if.
-```
+Las sentencias condicionales en Python permiten ejecutar diferentes bloques de código según se cumplan o no ciertas condiciones. Las sentencias más comunes son `if`, `if-else`, y `if` anidados.
 
 ## Sentencia `if`
 
-Esta sentencia es como un guardián que decide si un bloque de código se ejecuta o no en tu programa. Funciona de manera muy sencilla:
-
-- Primero, revisa si una condición específica es `verdadera`.
-- Si la condición es `verdadera`, entonces se ejecuta el código que sigue inmediatamente después de `if`.
-- Si la condición es `falsa`, ese bloque de código se salta y no se ejecuta nada de lo que está dentro.
-
-Piensa en `if` como un interruptor que activa ciertas partes de tu programa solo cuando las condiciones son las adecuadas. Si las condiciones no se cumplen, simplemente sigue adelante sin activar ese bloque de código.
+La sentencia `if` se utiliza para ejecutar un bloque de código solo si una condición es verdadera.
 
 ### Sintaxis
 
@@ -35,25 +19,60 @@ if condición:
     # Bloque de código a ejecutar si la condición es verdadera
 ```
 
-### Ejemplo
+### Ejemplo 1: Verificar si un número es positivo
 
 ```python
-# Ejemplo de uso de la sentencia if
+# Verificar si un número es positivo
+numero = 10
+
+if numero > 0:
+    print("El número es positivo.")
+```
+
+### Ejemplo 2: Verificar si una persona es mayor de edad
+
+```python
+# Verificar si una persona es mayor de edad
 edad = 20
 
-# Verificar si la persona es mayor de edad
 if edad >= 18:
     print("Eres mayor de edad.")
 ```
 
+### Ejemplo 3: Verificar si una cadena no está vacía
+
+```python
+# Verificar si una cadena no está vacía
+cadena = "Hola, mundo"
+
+if cadena:
+    print("La cadena no está vacía.")
+```
+
+### Ejemplo 4: Verificar si un número es par
+
+```python
+# Verificar si un número es par
+numero = 4
+
+if numero % 2 == 0:
+    print("El número es par.")
+```
+
+### Ejemplo 5: Verificar si una variable tiene un valor específico
+
+```python
+# Verificar si una variable tiene un valor específico
+color = "rojo"
+
+if color == "rojo":
+    print("El color es rojo.")
+```
+
+
 ## Sentencia `if-else`
 
-La sentencia `if-else` te ayuda a decidir qué camino tomar en tu programa dependiendo de si una condición es verdadera o no, por ejemplo:
-
-1. **if**: Primero se verifica una condición. Si esta condición es `verdadera`, se ejecuta el bloque de código justo después de `if`.
-2. **else**: Si la condición de `if` es `falsa`, entonces el programa salta al código que está después de `else`.
-
-Piensa en esto como, cual de los dos caminos tomar en una bifurcación, dependiendo de la cantidad de combustible que tengas en tu auto, y la distancia que debes recorrer.
+La sentencia `if-else` permite ejecutar un bloque de código si la condición es verdadera y otro bloque si la condición es falsa.
 
 ### Sintaxis
 
@@ -64,27 +83,71 @@ else:
     # Bloque de código a ejecutar si la condición es falsa
 ```
 
-### Ejemplo
+### Ejemplo 1: Verificar si un número es positivo o negativo
 
 ```python
-# Ejemplo de uso de la sentencia if-else
+# Verificar si un número es positivo o negativo
+numero = -5
+
+if numero >= 0:
+    print("El número es positivo.")
+else:
+    print("El número es negativo.")
+```
+
+### Ejemplo 2: Verificar si una persona es mayor o menor de edad
+
+```python
+# Verificar si una persona es mayor o menor de edad
 edad = 16
 
-# Verificar si la persona es mayor o menor de edad
 if edad >= 18:
     print("Eres mayor de edad.")
 else:
     print("Eres menor de edad.")
 ```
 
+### Ejemplo 3: Verificar si una cadena está vacía o no
+
+```python
+# Verificar si una cadena está vacía o no
+cadena = ""
+
+if cadena:
+    print("La cadena no está vacía.")
+else:
+    print("La cadena está vacía.")
+```
+
+### Ejemplo 4: Verificar si un número es par o impar
+
+```python
+# Verificar si un número es par o impar.
+# Considera este ejemplo importante, ya que lo aplican en muchas entrevistas de trabajo.
+numero = 7
+
+if numero % 2 == 0:
+    print("El número es par.")
+else:
+    print("El número es impar.")
+```
+
+### Ejemplo 5: Verificar si una persona tiene permiso para votar
+
+```python
+# Verificar si una persona tiene permiso para votar
+edad = 17
+ciudadano = True
+
+if edad >= 18 and ciudadano:
+    print("Tienes permiso para votar.")
+else:
+    print("No tienes permiso para votar.")
+```
+
 ## Sentencia `if-elif-else`
 
-
-La estructura `if-elif-else` te ayuda a manejar decisiones múltiples en tus programas. De esta manera: 
-
-1. **if**: Comienza con una condición inicial. Si esta es verdadera, se ejecuta el bloque de código que le sigue y se ignoran las demás condiciones.
-2. **elif**: Significa "else if", y se usa para probar condiciones adicionales si la condición del `if` es falsa. Puedes tener tantos `elif` como necesites, y se verificarán en orden hasta que uno sea verdadero.
-3. **else**: Es el último recurso. Si ninguna de las condiciones anteriores es verdadera, entonces el código dentro de `else` se ejecuta.
+La sentencia `if-elif-else` permite manejar múltiples condiciones. Se pueden agregar tantos bloques `elif` como sean necesarios.
 
 ### Sintaxis
 
@@ -97,13 +160,12 @@ else:
     # Bloque de código a ejecutar si ninguna condición anterior es verdadera
 ```
 
-### Ejemplo
+### Ejemplo 1: Calificar una nota
 
 ```python
-# Ejemplo de uso de la sentencia if-elif-else
+# Calificar una nota
 nota = 85
 
-# Determinar la calificación basada en la nota
 if nota >= 90:
     print("Calificación: A")
 elif nota >= 80:
@@ -115,6 +177,40 @@ elif nota >= 60:
 else:
     print("Calificación: F")
 ```
+
+### Ejemplo 2: Clasificar la temperatura
+
+```python
+# Clasificar la temperatura
+temperatura = 25  # grados Celsius
+
+if temperatura > 30:
+    print("Hace calor.")
+elif temperatura >= 20:
+    print("El clima es templado.")
+elif temperatura >= 10:
+    print("Hace fresco.")
+else:
+    print("Hace frío.")
+```
+
+### Ejemplo 3: Determinar la categoría de edad
+
+```python
+# Determinar la categoría de edad
+edad = 45
+
+if edad < 13:
+    print("Eres un niño.")
+elif edad < 20:
+    print("Eres un adolescente.")
+elif edad < 65:
+    print("Eres un adulto.")
+else:
+    print("Eres un adulto mayor.")
+```
+
+
 
 ## Sentencias `if` anidadas
 
@@ -133,22 +229,58 @@ else:
     # Bloque de código a ejecutar si la condición1 es falsa
 ```
 
-### Ejemplo
+### Ejemplo 1: Verificar si un número es positivo, negativo o cero y si es par o impar
 
 ```python
-# Ejemplo de uso de sentencias if anidadas
-edad = 20
-tiene_identificación = True
+# Verificar si un número es positivo, negativo o cero y si es par o impar
+numero = -4
 
-# Verificar si la persona puede entrar a un club nocturno
-if edad >= 18:
-    if tiene_identificación:
-        print("Puedes entrar al club.")
+if numero >= 0:
+    if numero == 0:
+        print("El número es cero.")
+    elif numero % 2 == 0:
+        print("El número es positivo y par.")
     else:
-        print("Necesitas una identificación para entrar al club.")
+        print("El número es positivo e impar.")
 else:
-    print("No puedes entrar al club porque eres menor de edad.")
+    if numero % 2 == 0:
+        print("El número es negativo y par.")
+    else:
+        print("El número es negativo e impar.")
 ```
+
+### Ejemplo 2: Verificar el acceso a un sitio web basado en edad y membresía
+
+```python
+# Verificar el acceso a un sitio web basado en edad y membresía
+edad = 21
+es_miembro = True
+
+if edad >= 18:
+    if es_miembro:
+        print("Tienes acceso completo al sitio web.")
+    else:
+        print("Necesitas ser miembro para tener acceso completo.")
+else:
+    print("No tienes la edad suficiente para acceder al sitio web.")
+```
+
+### Ejemplo 3: Determinar si un estudiante aprueba, reprueba o está en recuperación basado en su nota
+
+```python
+# Determinar si un estudiante aprueba, reprueba o está en recuperación basado en su nota
+nota = 68
+
+if nota >= 60:
+    if nota >= 70:
+        print("El estudiante aprueba.")
+    else:
+        print("El estudiante está en recuperación.")
+else:
+    print("El estudiante reprueba.")
+```
+
+
 ---
 ### 💡¿Sabias que?...
 
@@ -169,7 +301,7 @@ if (input_text := input("Por favor, introduce algo: ")):
     print("Gracias por introducir algo.")
 ```
 
-El uso del operador walrus no solo reduce la cantidad de código, sino que también permite patrones de programación más eficientes y claros, especialmente en bucles o en cualquier situación donde necesites asignar y verificar un valor al mismo tiempo. 
+El uso del operador walrus no solo reduce la cantidad de código, sino que también permite patrones de programación más eficientes y claros, especialmente en bucles o en cualquier situación donde necesites asignar y verificar un valor al mismo tiempo.
 
 ---
 
