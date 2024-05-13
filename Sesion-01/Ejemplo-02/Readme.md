@@ -8,14 +8,14 @@ Aplicar los principales tipos de datos y su funcionamiento, así como las ventaj
 
 ### Tipos de datos en Python
 
-Los tipos de datos en Python son una categoría que define los valores que una variable puede tomar. Los tipos de datos más comunes en Python son:
+Los tipos de datos son una categoría que define los valores que una variable puede tomar. Los más comunes en Python son:
 
 ### 1. Números
 Python tiene varios tipos de datos numéricos:
 
 - **Enteros (`int`)**: Representan números enteros sin parte decimal. Ejemplo: `5`, `-3`, `42`.
 - **Números de punto flotante (`float`)**: Representan números reales e incluyen una parte decimal. Ejemplo: `3.14`, `-0.001`, `2.0`.
-- **Números complejos (`complex`)**: Usados para representar números complejos, tienen una parte real y una parte imaginaria. Ejemplo: `3 + 4j`.
+- **Números complejos (`complex`)**: Usados para representar números complejos como ecuaciones diferenciales, dinámica de fluidos, etc. Tienen una parte real y una parte imaginaria. Ejemplo: `3 + 4j`.
 
 ### 2. Cadenas de caracteres (Strings)
 Las cadenas (`str`) son secuencias de caracteres usadas para almacenar datos textuales. Ejemplo: `"Hola"`, `'Python es divertido'`.

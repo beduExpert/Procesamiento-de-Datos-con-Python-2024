@@ -6,8 +6,6 @@ Aplicar los operadores aritméticos en Python para realizar cálculos básicos.
 
 ## 🚀 Comencemos
 
-### Operadores Aritméticos en Python
-
 Los operadores aritméticos o arithmetic operators son los más comunes que nos podemos encontrar, y nos permiten realizar operaciones matemáticas sencillas, como pueden ser la suma, resta o exponente. A continuación, se muestra en la siguiente tabla algunos ejemplos, donde x=10 y y=3.
 
 | Operador | Nombre         | Ejemplo         |
@@ -118,7 +116,7 @@ print(8**45) #35184372088832
 ```
 ---
 
-### División Entera (`//`)
+### División entera (`//`)
 
 Divide el primer número por el segundo y devuelve la parte entera del resultado, descartando cualquier resto.
 

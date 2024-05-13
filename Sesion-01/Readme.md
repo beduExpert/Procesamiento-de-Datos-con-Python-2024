@@ -24,7 +24,7 @@ Recordemos que una variable se utiliza para almacenar información que puede ser
 
 ### 📖 Tipos de datos en Python
 
-Los tipos de datos en Python son fundamentales porque determinan qué tipo de valor puede contener una variable y qué operaciones se pueden realizar con ella. 
+Los tipos de datos son fundamentales porque determinan qué tipo de valor puede contener una variable y qué operaciones se pueden realizar con ella. 
 
 - **Números (`int`, `float`)**: Enteros para valores sin decimales y flotantes para números reales.
 - **Cadenas de Texto (`str`)**: Secuencias de caracteres para almacenar texto.
@@ -39,7 +39,7 @@ Los tipos de datos en Python son fundamentales porque determinan qué tipo de va
 
 ### 📖 Operadores aritméticos
 
-Los operadores aritméticos en Python se utilizan para cálculos matemáticos básicos, permitiendo manipular valores numéricos y realizar operaciones matemáticas comunes directamente en el código.
+Los operadores aritméticos se utilizan para cálculos básicos, permitiendo manipular valores numéricos y realizar operaciones matemáticas comunes directamente en el código.
 
 - **Suma (`+`)**: Suma dos números.
 - **Resta (`-`)**: Resta el segundo número del primero.
@@ -72,15 +72,13 @@ Los operadores relacionales son utilizados para comparar dos valores y determina
 
 ### 📖 Operadores lógicos
 
-Los operadores lógicos en Python permiten combinar expresiones condicionales y son esenciales para controlar el flujo de un programa mediante decisiones más complejas. Los principales operadores lógicos son:
+Los operadores lógicos permiten combinar expresiones condicionales y son esenciales para controlar el flujo de un programa mediante decisiones más complejas. Los principales operadores lógicos son:
 
 - **AND (`and`)**: Evalúa como `True` si todas las condiciones que conecta son verdaderas. Por ejemplo, `True and False` devuelve `False` porque no todas las condiciones son verdaderas.
 
 - **OR (`or`)**: Devuelve `True` si al menos una de las condiciones que conecta es verdadera. Por ejemplo, `True or False` devuelve `True` porque al menos una condición es verdadera.
 
 - **NOT (`not`)**: Invierte el resultado de la condición que precede. Si la condición es `True`, `not` la convierte en `False`, y viceversa. Por ejemplo, `not False` devuelve `True`.
-
-Estos operadores son fundamentales para combinar condiciones y controlar el flujo de ejecución en programas Python.
 
 
 #### 📜 [Ejemplo 05: Operadores lógicos](Ejemplo-05/Readme.md)
@@ -90,7 +88,7 @@ Estos operadores son fundamentales para combinar condiciones y controlar el fluj
 
 ### 📖 Operadores de asignación
 
-Los operadores de asignación en Python son utilizados para asignar valores a variables de una forma más corta y directa. Estos operadores combinan operaciones aritméticas o lógicas con la asignación, lo que simplifica la sintaxis del código.
+Los operadores de asignación son utilizados para asignar valores a variables de una forma más corta y directa. Estos operadores combinan operaciones aritméticas o lógicas con la asignación, lo que simplifica la sintaxis del código.
 
 - **Asignación (`=`)**: Asigna un valor a una variable. Ejemplo: `x = 5`.
 
@@ -110,11 +108,11 @@ Los operadores de asignación en Python son utilizados para asignar valores a va
 
 ### 📖 Interpolación de Strings y lectura por teclado
 
-La interpolación de strings y la lectura por teclado son herramientas esenciales en Python que mejoran la interactividad y flexibilidad de los programas. Permiten crear aplicaciones que se adaptan dinámicamente a las necesidades y entradas de los usuarios, desde simples scripts hasta interfaces de usuario complejas.
+La interpolación de strings y la lectura por teclado son herramientas esenciales que mejoran la interactividad y flexibilidad de los programas. Permiten crear aplicaciones que se adaptan dinámicamente a las necesidades y entradas de los usuarios, desde simples scripts hasta interfaces de usuario complejas.
 
 
 - **Formato con `%`**:
-   Antes de la introducción de los f-strings, la interpolación se realizaba con el operador `%`, similar a sprintf en otros lenguajes de programación.
+   Antes de la introducción de los f-strings, la interpolación se realizaba con el operador `%`, similar a printf en otros lenguajes de programación.
    ```python
    nombre = "Mundo"
    print("Hola, %s" % nombre)

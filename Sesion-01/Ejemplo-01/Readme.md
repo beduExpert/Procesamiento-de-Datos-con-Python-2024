@@ -6,7 +6,7 @@ Aplicar los principios básicos y convenciones para establecer una variable en P
 
 ## 🚀 Comencemos
 
-### Uso de variables en Python y buenas prácticas de nomenclatura
+### Uso de variables y buenas prácticas de nomenclatura
 
 **Definición de variables:**
 
@@ -14,7 +14,7 @@ Una variable es un nombre que se refiere a un objeto que reside en la memoria. L
 
 **Declaración de variables:**
 
-Crear o declarar variables en Python es sencillo, no necesitas especificar un tipo de dato. Python utiliza tipado dinámico, lo que significa que el tipo de una variable se determina automáticamente cuando se le asigna un valor.
+Crear o declarar variables es sencillo, no necesitas especificar un tipo de dato. Python utiliza tipado dinámico, lo que significa que el tipo de una variable se determina automáticamente cuando se le asigna un valor.
 
 ```python
 # Ejemplo de declaración de variables
