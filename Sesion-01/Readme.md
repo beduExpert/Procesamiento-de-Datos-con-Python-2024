@@ -18,7 +18,7 @@ Antes de comenzar con los ejercicios de esta sesión, recordemos que en el mater
 ### 📖 Variables en Python
 Recordemos que una variable se utiliza para almacenar información que puede ser referenciada y manipulada en un programa. Las variables son fundamentales en cualquier lenguaje de programación y permiten a los programadores guardar datos, como números, cadenas de texto o estructuras de datos más complejas, para su uso en operaciones computacionales.
 
-#### 📜 [Ejemplo 01: Variables.](Ejemplo-01/Readme.md)
+#### 📜 [Ejemplo 01: Variables](Ejemplo-01/Readme.md)
 
 ---
 
@@ -33,7 +33,7 @@ Los tipos de datos en Python son fundamentales porque determinan qué tipo de va
 - **Diccionarios (`dict`)**: Conjuntos de pares clave-valor para almacenamiento y búsqueda eficiente.
 - **Booleanos (`bool`)**: Valores de verdad (`True`, `False`) para controlar el flujo del programa.
 
-#### 📜 [Ejemplo 02: Tipos de datos.](Ejemplo-02/Readme.md)
+#### 📜 [Ejemplo 02: Tipos de datos](Ejemplo-02/Readme.md)
 
 ---
 
@@ -49,9 +49,9 @@ Los operadores aritméticos en Python se utilizan para cálculos matemáticos b�
 - **Exponenciación (`**`)**: Eleva un número a la potencia del segundo número.
 - **División Entera (`//`)**: Divide el primer número por el segundo y devuelve la parte entera del resultado, descartando cualquier resto.
 
-#### 📜 [Ejemplo 03: Operadores aritméticos.](Ejemplo-03/Readme.md)
+#### 📜 [Ejemplo 03: Operadores aritméticos](Ejemplo-03/Readme.md)
 
-#### 🔥 [Reto 01: Promedio de edades.](Reto-01/Readme.md)
+#### 🔥 [Reto 01: Promedio de edades](Reto-01/Readme.md)
 
 ---
 
@@ -66,11 +66,11 @@ Los operadores relacionales son utilizados para comparar dos valores y determina
 - **Mayor o igual que (`>=`)**: Evalúa si el valor de la izquierda es mayor o igual al de la derecha. Por ejemplo, `10 >= 10` devuelve `True`.
 - **Menor o igual que (`<=`)**: Evalúa si el valor de la izquierda es menor o igual al de la derecha. Por ejemplo, `5 <= 5` devuelve `True`.
 
-#### 📜 [Ejemplo 04: Operadores relacionales.](Ejemplo-04/Readme.md)
+#### 📜 [Ejemplo 04: Operadores relacionales](Ejemplo-04/Readme.md)
 
 ---
 
-### 📖 Operadores lógicos.
+### 📖 Operadores lógicos
 
 Los operadores lógicos en Python permiten combinar expresiones condicionales y son esenciales para controlar el flujo de un programa mediante decisiones más complejas. Los principales operadores lógicos son:
 
@@ -83,12 +83,12 @@ Los operadores lógicos en Python permiten combinar expresiones condicionales y 
 Estos operadores son fundamentales para combinar condiciones y controlar el flujo de ejecución en programas Python.
 
 
-#### 📜 [Ejemplo 05: Operadores lógicos.](Ejemplo-05/Readme.md)
+#### 📜 [Ejemplo 05: Operadores lógicos](Ejemplo-05/Readme.md)
 
-#### 🔥 [Reto 02: Simulador de compra de artículos.](Reto-02/Readme.md)
+#### 🔥 [Reto 02: Simulador de compra de artículos](Reto-02/Readme.md)
 ---
 
-### 📖 Operadores de asignación.
+### 📖 Operadores de asignación
 
 Los operadores de asignación en Python son utilizados para asignar valores a variables de una forma más corta y directa. Estos operadores combinan operaciones aritméticas o lógicas con la asignación, lo que simplifica la sintaxis del código.
 
@@ -104,11 +104,11 @@ Los operadores de asignación en Python son utilizados para asignar valores a va
 
 - **Asignación con módulo (`%=`)**: Calcula el módulo utilizando el valor de la variable y el valor del lado derecho y asigna el resultado a la misma variable. Ejemplo: `x %= 3` es equivalente a `x = x % 3`.
 
-#### 📜 [Ejemplo 06: Operadores de asignación.](Ejemplo-06/Readme.md)
+#### 📜 [Ejemplo 06: Operadores de asignación](Ejemplo-06/Readme.md)
 
 ---
 
-### 📖 Interpolación de Strings y lectura por teclado.
+### 📖 Interpolación de Strings y lectura por teclado
 
 La interpolación de strings y la lectura por teclado son herramientas esenciales en Python que mejoran la interactividad y flexibilidad de los programas. Permiten crear aplicaciones que se adaptan dinámicamente a las necesidades y entradas de los usuarios, desde simples scripts hasta interfaces de usuario complejas.
 
@@ -145,9 +145,9 @@ print(f"¡Hola, {nombre}!")
 
 Esta función siempre devuelve una cadena de texto, incluso si el usuario introduce números. Para trabajar con tipos de datos específicos, debes convertir esta entrada a su tipo correspondiente, por ejemplo, usando `int()` para convertir a entero.
 
-#### 📜 [Ejemplo 07: Interpolación de strings y lectura por teclado.](Ejemplo-07/Readme.md)
+#### 📜 [Ejemplo 07: Interpolación de strings y lectura por teclado](Ejemplo-07/Readme.md)
 
-#### 🔥 [Reto 03: Cotizador para la compra de auto.](Reto-03/Readme.md)
+#### 🔥 [Reto 03: Cotizador para la compra de auto](Reto-03/Readme.md)
 ---
 
 ⬅️ [`Anterior`](../Readme.md) | ➡️ [`Siguiente`](../Sesion-02/Readme.md)

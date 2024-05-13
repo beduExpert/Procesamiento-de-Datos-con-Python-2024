@@ -25,7 +25,7 @@
 
 7. **Mensaje de despedida**.
 
-8. **Ejemplo de salida**:
+**Ejemplo de salida**:
 
 ```plaintext
 Has seleccionado el modelo 'Modelo_X'.
