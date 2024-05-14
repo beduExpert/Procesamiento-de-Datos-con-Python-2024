@@ -157,15 +157,17 @@ print(-2**4)       # Primero se hace la potencia, después se aplica el signo ne
 
 ### 💡¿Sabias que?... 
 
-Existe una funcionalidad adicional en Python que permite generar números aleatorios, para ello se debe importar la librería `random` y utilizar la función `randint` de la siguiente manera:
+Si realizamos una división por cero, Python nos lanzará una excepción de tipo `ZeroDivisionError`.
 
 ```python
-import random
-
-print(random.randint(1, 10))  # Salida: un número aleatorio entre 1 y 10
+print(10/0)  # ZeroDivisionError: division by zero
 ```
 
-### Veremos mas sobre esto en futuras sesiones.
+Este tipo de excepciones son muy comunes en Python, y existen maneras de manejarlas con el fin de evitar que nuestro programa se detenga de forma abrupta.
+
+Veremos mas sobre esto en futuras sesiones.
+
+
 ---
 
 ⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Reto-01/Readme.md) ➡️

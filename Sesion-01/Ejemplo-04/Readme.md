@@ -96,10 +96,14 @@ print(5 <= 10)  # Salida: True
 
 ---
 
-### 💡¿Sabias que?...
+### 💡¿Sabias que?... 
 
-Python utiliza un Garbage Collector integrado como parte de su sistema de gestión de memoria. Este se encarga de liberar memoria eliminando automáticamente objetos que ya no son accesibles en el programa.
+Existe una funcionalidad adicional en Python que permite generar números aleatorios, para ello se debe importar la librería `random` y utilizar la función `randint` de la siguiente manera:
 
----
+```python
+import random
+
+print(random.randint(1, 10))  # Salida: un número aleatorio entre 1 y 10
+```
 
 ⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-05/Readme.md) ➡️
