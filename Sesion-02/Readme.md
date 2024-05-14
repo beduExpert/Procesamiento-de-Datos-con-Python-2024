@@ -35,7 +35,7 @@ Los ciclos `for` en Python se utilizan para iterar sobre una secuencia (como una
 - **for-else**: Ejecuta un bloque de código para cada elemento en una secuencia, y luego ejecuta un bloque de código opcional después de que se completa el ciclo, a menos que se haya interrumpido con una sentencia `break`.
 
 #### 📜 [Ejemplo 02: Sentencia For](Ejemplo-02/Readme.md)
-#### 🔥 [Reto 01: Busqueda de articulo](Reto-01/Readme.md)
+#### 🔥 [Reto 01: Búsqueda de articulo](Reto-01/Readme.md)
 ---
 
 ### 📖 Sentencia Match

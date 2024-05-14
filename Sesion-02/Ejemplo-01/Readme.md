@@ -2,7 +2,7 @@
 
 ## 🎯 Objetivo
 
-Aplicar los principios básicos sobre el control del flujo de un programa, usando la sentencia IF.
+Aplicar los principios básicos sobre el control del flujo de un programa, usando la sentencia if.
 
 ## 🚀 Comencemos
 
