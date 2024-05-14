@@ -47,4 +47,4 @@ Mes 2: Pago de $833.33, saldo pendiente: $28333.34
 
 ---
 
-⬅️ [`Anterior`](../Readme.md)
+⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Sesion-02/Readme.md) ➡️
