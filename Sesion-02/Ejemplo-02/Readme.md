@@ -204,4 +204,4 @@ print(f"Tiempo de ejecución: {fin - inicio} segundos")
 
 ---
 
-⬅️ [`Anterior`](../Readme.md) | ➡️ [`Siguiente`](../Ejemplo-02/Readme.md)
+⬅️ [`Anterior`](../Readme.md) | ➡️ [`Siguiente`](../Reto-01/Readme.md)

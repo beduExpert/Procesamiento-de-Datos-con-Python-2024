@@ -93,4 +93,4 @@ Python permite integrar módulos escritos en otros lenguajes como C y C++, lo qu
 
 ---
 
-⬅️ [`Anterior`](../Readme.md) | ➡️ [`Siguiente`](../Ejemplo-06/Readme.md)
+⬅️ [`Anterior`](../Readme.md) | ➡️ [`Siguiente`](../Reto-02/Readme.md)

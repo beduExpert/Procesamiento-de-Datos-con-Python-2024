@@ -95,4 +95,4 @@ Esto es solo un vistazo a las posibilidades que ofrece la sentencia match-case e
 
 ---
 
-⬅️ [`Anterior`](../Readme.md) | ➡️ [`Siguiente`](../Ejemplo-02/Readme.md)
+⬅️ [`Anterior`](../Readme.md) | ➡️ [`Siguiente`](../Ejemplo-04/Readme.md)
