@@ -96,18 +96,7 @@ while True:
 ---
 ### 💡¿Sabias que?...
 
-La comprensión de estructuras de datos en Python sirve para crear nuevas estructuras de datos (como listas, diccionarios, conjuntos) de manera más concisa, eficiente y legible. Permite aplicar operaciones y filtros a colecciones existentes con menos código, mejorando la claridad y reduciendo la posibilidad de errores.
-
-Un ejemplo sencillo sobre lo que se vera en la siguiente sesión es la comprensión de listas, que permite crear listas de manera más eficiente y legible.
-
-```python
-# Usamos list comprehension para calcular los cuadrados de los números del 1 al 5
-cuadrados = [x**2 for x in range(1, 6)]
-
-# Mostramos la lista resultante
-print(cuadrados)
-# Salida: [1, 4, 9, 16, 25]
-```
+Los ciclos while tienden a usarse en situaciones que requieren una condición de parada no determinada por el número de elementos a procesar, como esperar una entrada del usuario o la convergencia de un algoritmo hasta alcanzar un cierto nivel de precisión.
 
 ---
 

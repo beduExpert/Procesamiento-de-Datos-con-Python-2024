@@ -280,7 +280,6 @@ else:
     print("El estudiante reprueba.")
 ```
 
-
 ---
 ### 💡¿Sabias que?...
 
