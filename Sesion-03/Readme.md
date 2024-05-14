@@ -56,4 +56,4 @@ Se definen mediante llaves `{}` y los elementos se separan por comas `,` y cada 
 #### 🔥 [Reto 02: Gestión de Préstamos en Biblioteca](Reto-02/Readme.md)
 ---
 
-⬅️ [`Anterior`](../Readme.md) | ➡️ [`Siguiente`](../Sesion-04/Readme.md)
+⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Sesion-04/Readme.md) ➡️

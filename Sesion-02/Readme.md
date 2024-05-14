@@ -63,4 +63,4 @@ Los ciclos `while` en Python se utilizan para ejecutar un bloque de código repe
 #### 🔥 [Reto 02: Pedido a domicilio](Reto-02/Readme.md)
 ---
 
-⬅️ [`Anterior`](../Readme.md) | ➡️ [`Siguiente`](../Sesion-03/Readme.md)
+⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Sesion-03/Readme.md) ➡️

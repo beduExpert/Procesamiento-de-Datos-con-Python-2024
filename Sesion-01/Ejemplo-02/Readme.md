@@ -50,4 +50,4 @@ print(type(numero))  # Salida: <class 'int'>
 ```
 ---
 
-⬅️ [`Anterior`](../Readme.md) | ➡️ [`Siguiente`](../Ejemplo-03/Readme.md)
+⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-03/Readme.md) ➡️

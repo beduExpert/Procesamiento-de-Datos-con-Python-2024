@@ -102,4 +102,4 @@ Python utiliza un Garbage Collector integrado como parte de su sistema de gesti�
 
 ---
 
-⬅️ [`Anterior`](../Readme.md) | ➡️ [`Siguiente`](../Ejemplo-05/Readme.md)
+⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-05/Readme.md) ➡️

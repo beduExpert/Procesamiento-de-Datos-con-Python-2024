@@ -100,4 +100,4 @@ Los ciclos while tienden a usarse en situaciones que requieren una condición de
 
 ---
 
-⬅️ [`Anterior`](../Readme.md) | ➡️ [`Siguiente`](../Reto-02/Readme.md)
+⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Reto-02/Readme.md) ➡️

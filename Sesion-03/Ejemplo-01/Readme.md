@@ -26,4 +26,4 @@ mi_lista = [elemento1, elemento2, elemento3, ..., elementoN]
 
 ---
 
-⬅️ [`Anterior`](../Readme.md) | ➡️ [`Siguiente`](../Ejemplo-02/Readme.md)
+⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-02/Readme.md) ➡️
