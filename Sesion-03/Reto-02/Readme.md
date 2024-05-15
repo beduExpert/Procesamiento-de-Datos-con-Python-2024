@@ -4,8 +4,6 @@
 
 ⚒️ Desarrollar un sistema simplificado de gestión de préstamos de libros en una biblioteca, conjuntos y diccionarios.
 
-Testea tu programa con diferentes libros y situaciones de préstamo y devolución.
-
 ---
 
 ## 📝 Instrucciones
