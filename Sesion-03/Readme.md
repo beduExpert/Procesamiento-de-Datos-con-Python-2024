@@ -21,7 +21,7 @@ Las listas en Python son estructuras de datos que permiten almacenar colecciones
 
 Las listas se definen mediante corchetes `[]` y los elementos se separan por comas `,`
 
-#### 📜 [Ejemplo 01: Listas](Ejemplo-01/Readme.md)
+#### 📜 **[Ejemplo 01: Listas](Ejemplo-01/Readme.md)**
 
 ---
 
@@ -31,8 +31,8 @@ Las tuplas en Python son estructuras de datos similares a las listas, pero con l
 
 Se definen mediante paréntesis `()` y los elementos se separan por comas `,`
 
-#### 📜 [Ejemplo 02: Tuplas](Ejemplo-02/Readme.md)
-#### 🔥 [Reto 01: Sistema de Reservaciones](Reto-01/Readme.md)
+#### 📜 **[Ejemplo 02: Tuplas](Ejemplo-02/Readme.md)**
+#### 🔥 **[Reto 01: Sistema de Reservaciones](Reto-01/Readme.md)**
 ---
 
 ### 📖 Conjuntos y sus métodos
@@ -41,7 +41,7 @@ Los conjuntos en Python son estructuras de datos que permiten almacenar coleccio
 
 Se definen mediante llaves `{}` y los elementos se separan por comas `,`
 
-#### 📜 [Ejemplo 03: Conjuntos](Ejemplo-03/Readme.md)
+#### 📜 **[Ejemplo 03: Conjuntos](Ejemplo-03/Readme.md)**
 
 ---
 
@@ -51,9 +51,9 @@ Los diccionarios en Python son estructuras de datos que permiten almacenar colec
 
 Se definen mediante llaves `{}` y los elementos se separan por comas `,` y cada par de llave-valor se separa por dos puntos `:`
 
-#### 📜 [Ejemplo 04: Diccionarios](Ejemplo-04/Readme.md)
+#### 📜 **[Ejemplo 04: Diccionarios](Ejemplo-04/Readme.md)**
 
-#### 🔥 [Reto 02: Gestión de Préstamos en Biblioteca](Reto-02/Readme.md)
+#### 🔥 **[Reto 02: Gestión de Préstamos en Biblioteca](Reto-02/Readme.md)**
 ---
 
 ⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Sesion-04/Readme.md) ➡️

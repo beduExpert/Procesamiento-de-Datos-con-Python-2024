@@ -23,7 +23,7 @@ Las sentencias condicionales en Python se usan para tomar decisiones en el flujo
 - **if-else**: Ejecuta un bloque de código si una condición es verdadera; de lo contrario, ejecuta otro bloque de código.
 - **if-elif-else**: Maneja múltiples condiciones, ejecutando diferentes bloques de código según cuál condición sea verdadera.
 
-#### 📜 [Ejemplo 01: Sentencia If](Ejemplo-01/Readme.md)
+#### 📜 **[Ejemplo 01: Sentencia If](Ejemplo-01/Readme.md)**
 
 ---
 
@@ -34,8 +34,8 @@ Los ciclos `for` en Python se utilizan para iterar sobre una secuencia (como una
 - **for**: Itera sobre una secuencia, ejecutando un bloque de código para cada elemento en la secuencia.
 - **for-else**: Ejecuta un bloque de código para cada elemento en una secuencia, y luego ejecuta un bloque de código opcional después de que se completa el ciclo, a menos que se haya interrumpido con una sentencia `break`.
 
-#### 📜 [Ejemplo 02: Sentencia For](Ejemplo-02/Readme.md)
-#### 🔥 [Reto 01: Búsqueda de articulo](Reto-01/Readme.md)
+#### 📜 **[Ejemplo 02: Sentencia For](Ejemplo-02/Readme.md)**
+#### 🔥 **[Reto 01: Búsqueda de articulo](Reto-01/Readme.md)**
 ---
 
 ### 📖 Sentencia Match
@@ -46,7 +46,7 @@ Las sentencias `match` en Python, introducidas en la versión 3.10, se utilizan 
 
 Estas sentencias son útiles para simplificar el código que necesita manejar múltiples condiciones basadas en la estructura de los datos.
 
-#### 📜 [Ejemplo 03: Sentencia match](Ejemplo-03/Readme.md)
+#### 📜 **[Ejemplo 03: Sentencia match](Ejemplo-03/Readme.md)**
 
 ---
 
@@ -58,9 +58,9 @@ Los ciclos `while` en Python se utilizan para ejecutar un bloque de código repe
 - **while-else**: Ejecuta un bloque de código repetidamente mientras una condición sea verdadera, y luego ejecuta un bloque de código opcional después de que el ciclo termine, a menos que se haya interrumpido con una sentencia `break`.
 
 
-#### 📜 [Ejemplo 04: Sentencia While](Ejemplo-04/Readme.md)
+#### 📜 **[Ejemplo 04: Sentencia While](Ejemplo-04/Readme.md)**
 
-#### 🔥 [Reto 02: Pedido a domicilio](Reto-02/Readme.md)
+#### 🔥 **[Reto 02: Pedido a domicilio](Reto-02/Readme.md)**
 ---
 
 ⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Sesion-03/Readme.md) ➡️

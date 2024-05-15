@@ -90,4 +90,4 @@ print(mensaje)  # Error: NameError: name 'mensaje' is not defined
 
 ---
 
-⬅️ **[`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-02/Readme.md)** ➡️
+⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-02/Readme.md)➡️

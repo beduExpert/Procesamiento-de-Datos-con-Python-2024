@@ -170,4 +170,4 @@ Veremos mas sobre esto en futuras sesiones.
 
 ---
 
-⬅️ **[`Anterior`](../Readme.md) | [`Siguiente`](../Reto-01/Readme.md)** ➡️
+⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Reto-01/Readme.md)➡️

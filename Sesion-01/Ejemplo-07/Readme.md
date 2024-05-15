@@ -104,4 +104,4 @@ print(f"*{'Python':^10}*") # Salida: *  Python  *
 ```
 ---
 
-⬅️ **[`Anterior`](../Readme.md) | [`Siguiente`](../Reto-03/Readme.md)** ➡️
+⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Reto-03/Readme.md)➡️

@@ -106,4 +106,4 @@ import random
 print(random.randint(1, 10))  # Salida: un número aleatorio entre 1 y 10
 ```
 
-⬅️ **[`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-05/Readme.md)** ➡️
+⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-05/Readme.md)➡️

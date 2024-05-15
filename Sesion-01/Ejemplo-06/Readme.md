@@ -111,4 +111,4 @@ print(y)  # Salida: 7
 print(x)  # Salida: 5
 ```
 ---
-⬅️ **[`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-07/Readme.md)** ➡️
+⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-07/Readme.md)➡️

@@ -38,4 +38,4 @@
 
 ---
 
-⬅️ **[`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-04/Readme.md)** ➡️
+⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-04/Readme.md)➡️
