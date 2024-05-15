@@ -33,7 +33,7 @@ Los tipos de datos son fundamentales porque determinan qué tipo de valor puede 
 - **Diccionarios (`dict`)**: Conjuntos de pares clave-valor para almacenamiento y búsqueda eficiente.
 - **Booleanos (`bool`)**: Valores de verdad (`True`, `False`) para controlar el flujo del programa.
 
-#### 📜 [Ejemplo 02: Tipos de datos](Ejemplo-02/Readme.md)
+#### 📜 **[Ejemplo 02: Tipos de datos](Ejemplo-02/Readme.md)**
 
 ---
 
@@ -49,9 +49,9 @@ Los operadores aritméticos se utilizan para cálculos básicos, permitiendo man
 - **Exponenciación (`**`)**: Eleva un número a la potencia del segundo número.
 - **División Entera (`//`)**: Divide el primer número por el segundo y devuelve la parte entera del resultado, descartando cualquier resto.
 
-#### 📜 [Ejemplo 03: Operadores aritméticos](Ejemplo-03/Readme.md)
+#### 📜 **[Ejemplo 03: Operadores aritméticos](Ejemplo-03/Readme.md)**
 
-#### 🔥 [Reto 01: Promedio de edades](Reto-01/Readme.md)
+#### 🔥 **[Reto 01: Promedio de edades](Reto-01/Readme.md)**
 
 ---
 
@@ -66,7 +66,7 @@ Los operadores relacionales son utilizados para comparar dos valores y determina
 - **Mayor o igual que (`>=`)**: Evalúa si el valor de la izquierda es mayor o igual al de la derecha. Por ejemplo, `10 >= 10` devuelve `True`.
 - **Menor o igual que (`<=`)**: Evalúa si el valor de la izquierda es menor o igual al de la derecha. Por ejemplo, `5 <= 5` devuelve `True`.
 
-#### 📜 [Ejemplo 04: Operadores relacionales](Ejemplo-04/Readme.md)
+#### 📜 **[Ejemplo 04: Operadores relacionales](Ejemplo-04/Readme.md)**
 
 ---
 
@@ -81,9 +81,9 @@ Los operadores lógicos permiten combinar expresiones condicionales y son esenci
 - **NOT (`not`)**: Invierte el resultado de la condición que precede. Si la condición es `True`, `not` la convierte en `False`, y viceversa. Por ejemplo, `not False` devuelve `True`.
 
 
-#### 📜 [Ejemplo 05: Operadores lógicos](Ejemplo-05/Readme.md)
+#### 📜 **[Ejemplo 05: Operadores lógicos](Ejemplo-05/Readme.md)**
 
-#### 🔥 [Reto 02: Simulador de compra de artículos](Reto-02/Readme.md)
+#### 🔥 **[Reto 02: Simulador de compra de artículos](Reto-02/Readme.md)**
 ---
 
 ### 📖 Operadores de asignación
@@ -102,7 +102,7 @@ Los operadores de asignación son utilizados para asignar valores a variables de
 
 - **Asignación con módulo (`%=`)**: Calcula el módulo utilizando el valor de la variable y el valor del lado derecho y asigna el resultado a la misma variable. Ejemplo: `x %= 3` es equivalente a `x = x % 3`.
 
-#### 📜 [Ejemplo 06: Operadores de asignación](Ejemplo-06/Readme.md)
+#### 📜 **[Ejemplo 06: Operadores de asignación](Ejemplo-06/Readme.md)**
 
 ---
 
@@ -143,9 +143,10 @@ print(f"¡Hola, {nombre}!")
 
 Esta función siempre devuelve una cadena de texto, incluso si el usuario introduce números. Para trabajar con tipos de datos específicos, debes convertir esta entrada a su tipo correspondiente, por ejemplo, usando `int()` para convertir a entero.
 
-#### 📜 [Ejemplo 07: Interpolación de strings y lectura por teclado](Ejemplo-07/Readme.md)
+#### 📜 **[Ejemplo 07: Interpolación de strings y lectura por teclado](Ejemplo-07/Readme.md)**
 
-#### 🔥 [Reto 03: Cotizador para la compra de auto](Reto-03/Readme.md)
+#### 🔥 **[Reto 03: Cotizador para la compra de auto](Reto-03/Readme.md)**
 ---
+
 
 ⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Sesion-02/Readme.md) ➡️
