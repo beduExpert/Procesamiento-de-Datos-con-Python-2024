@@ -155,7 +155,7 @@ print(-2**4)       # Primero se hace la potencia, después se aplica el signo ne
 
 ---
 
-### 💡¿Sabias que?... 
+### 💡 **¿Sabias que?...**
 
 Si realizamos una división por cero, Python nos lanzará una excepción de tipo `ZeroDivisionError`.
 
@@ -170,4 +170,4 @@ Veremos mas sobre esto en futuras sesiones.
 
 ---
 
-⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Reto-01/Readme.md) ➡️
+⬅️ **[`Anterior`](../Readme.md) | [`Siguiente`](../Reto-01/Readme.md)** ➡️

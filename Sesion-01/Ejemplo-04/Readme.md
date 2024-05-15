@@ -96,7 +96,7 @@ print(5 <= 10)  # Salida: True
 
 ---
 
-### 💡¿Sabias que?... 
+### 💡 **¿Sabias que?...**
 
 Existe una funcionalidad adicional en Python que permite generar números aleatorios, para ello se debe importar la librería `random` y utilizar la función `randint` de la siguiente manera:
 
@@ -106,4 +106,4 @@ import random
 print(random.randint(1, 10))  # Salida: un número aleatorio entre 1 y 10
 ```
 
-⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-05/Readme.md) ➡️
+⬅️ **[`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-05/Readme.md)** ➡️

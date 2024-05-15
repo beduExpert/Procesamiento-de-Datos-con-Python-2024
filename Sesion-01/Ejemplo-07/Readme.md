@@ -90,7 +90,7 @@ print(f"¡Hola, {nombre}! Veo que te gusta {hobby}.")
 
 ---
 
-### 💡¿Sabias que?...
+### 💡 **¿Sabias que?...**
 
 El formateo de texto es una técnica común en la programación para presentar datos de manera legible al usuario.
 
@@ -104,4 +104,4 @@ print(f"*{'Python':^10}*") # Salida: *  Python  *
 ```
 ---
 
-⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Reto-03/Readme.md) ➡️
+⬅️ **[`Anterior`](../Readme.md) | [`Siguiente`](../Reto-03/Readme.md)** ➡️

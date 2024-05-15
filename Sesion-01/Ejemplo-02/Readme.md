@@ -40,7 +40,7 @@ Estos son los tipos de datos más comunes en Python, pero hay otros tipos de dat
 
 ---
 
-### 💡¿Sabias que?... 
+### 💡 **¿Sabias que?...**
 
 La función `type()` nos permite saber el tipo de dato de una variable.
 
@@ -50,4 +50,4 @@ print(type(numero))  # Salida: <class 'int'>
 ```
 ---
 
-⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-03/Readme.md) ➡️
+⬅️ **[`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-03/Readme.md)** ➡️

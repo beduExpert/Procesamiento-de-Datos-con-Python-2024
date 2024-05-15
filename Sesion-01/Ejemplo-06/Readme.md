@@ -95,7 +95,7 @@ x //= 3  # x ahora es 3
 
 ---
 
-### 💡¿Sabias que?...
+### 💡 **¿Sabias que?...**
 
 En Python es la existencia del operador "Walrus" o ":=", introducido en Python 3.8, permite hacer asignaciones de variables dentro de expresiones, lo cual puede simplificar el código y reducir la cantidad de líneas necesarias para realizar ciertas tareas.
 
@@ -111,4 +111,4 @@ print(y)  # Salida: 7
 print(x)  # Salida: 5
 ```
 ---
-⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-07/Readme.md) ➡️
+⬅️ **[`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-07/Readme.md)** ➡️

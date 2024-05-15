@@ -79,7 +79,7 @@ Es importante adherirse a esas normas para mantener la coherencia del código, c
 
 ---
 
-### 💡¿Sabias que?...
+### 💡 **¿Sabias que?...**
 
 Python ejecuta el código de arriba hacia abajo, por lo que si intentas usar una variable que no ha sido declarada, Python lanzará un error.
 
@@ -90,4 +90,4 @@ print(mensaje)  # Error: NameError: name 'mensaje' is not defined
 
 ---
 
-⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-02/Readme.md) ➡️
+⬅️ **[`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-02/Readme.md)** ➡️

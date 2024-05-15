@@ -87,10 +87,10 @@ print(f"¿Puede enviar contenido? {puede_enviar}")  # Salida: False
 ```
 ---
 
-### 💡¿Sabias que?...
+### 💡 **¿Sabias que?...**
 
 Python permite integrar módulos escritos en otros lenguajes como C y C++, lo que permite a los desarrolladores optimizar partes del código sin sacrificar la velocidad.
 
 ---
 
-⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Reto-02/Readme.md) ➡️
+⬅️ **[`Anterior`](../Readme.md) | [`Siguiente`](../Reto-02/Readme.md)** ➡️
