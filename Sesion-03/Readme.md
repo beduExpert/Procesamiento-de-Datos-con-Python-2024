@@ -25,7 +25,7 @@ Las listas se definen mediante corchetes `[]` y los elementos se separan por com
 
 ---
 
-### 📖 Tuplas y sus métodos.
+### 📖 Tuplas y sus métodos
 
 Las tuplas en Python son estructuras de datos similares a las listas, pero con la diferencia de que son inmutables, es decir, una vez creadas no pueden ser modificadas. 
 

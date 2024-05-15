@@ -24,7 +24,7 @@
     - Si no está prestado, añadirlo al conjunto de libros prestados, y mostrar un mensaje personalizado.
     ```plaintext
     ✉️ Libro 'The Great Gatsby' prestado con éxito.
-    
+    # o en caso contrario...
     ✉️ Este libro ya está prestado.
     ```
 4. 🔄 Devolver un libro:
@@ -38,7 +38,7 @@
 
 
 5. 📋 Mostrar los libros prestados:
-    - Mostrar un mensaje indicando los libros que no están prestados.
+    - Mostrar un mensaje indicando los disponibles para préstamo.
     ```plaintext
     📚 Libros disponibles para préstamo:
     - 'Ready Player One'
