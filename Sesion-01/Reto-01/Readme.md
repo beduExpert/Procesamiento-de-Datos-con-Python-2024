@@ -24,12 +24,10 @@
 4. 🧮 Calcula el promedio de edad de tus compañeros y almacena su valor en una variable.
 
 5. 📊 Finalmente, imprime tu resultado de la siguiente manera:
+   ```plaintext
+   📈 El promedio de edad de mis compañeros es de: XX.XX años.
+   ```
 
----
-
-```plaintext
-📈 El promedio de edad de mis compañeros es de: XX.XX años.
-```
 ---
 
 ✅ **Desafío adicional**: Obtener el promedio de todos los participantes, incluyéndote a ti mismo. Este paso nos permitirá comprender mejor las características principales de un grupo y cómo extraer información útil de datos básicos. Además, nos preparará para realizar análisis más avanzados en el futuro, algo vital para quienes desean ser científicos de datos.

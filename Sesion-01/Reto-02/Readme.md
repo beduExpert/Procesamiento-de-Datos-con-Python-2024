@@ -31,9 +31,9 @@
 
 6. 📊 Finalmente, imprime el total a pagar de la siguiente manera:
 
-```plaintext
-🛍️ Total a pagar por los productos es: $XX.XX
-```
+   ```plaintext
+   🛍️ Total a pagar por los productos es: $XX.XX
+   ```
 
 ✅ **Desafío adicional**: intenta imprimir un listado detallado de los productos comprados, como si fuera un ticket de compra, incluyendo el nombre, precio y stock de cada producto.
 

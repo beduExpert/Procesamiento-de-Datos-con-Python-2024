@@ -1,10 +1,10 @@
 🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 [**Sesión 03**](../Readme.md) ➡️ / 📝 `Ejemplo 01: Listas y sus métodos`
 
-## 🎯 **Objetivo**
+## 🎯 Objetivo
 
-Explorar los métodos y funciones esenciales de las listas en Python para manipular datos eficientemente.
+Explorar los métodos y funciones esenciales de las listas en Python para manipular datos.
 
-## 🚀 **Introducción**
+## 🚀 Introducción
 
 Las listas en Python son herramientas ideales para la ciencia de datos, capaces de almacenar elementos de distintos tipos y manipular datos de forma eficiente.
 
