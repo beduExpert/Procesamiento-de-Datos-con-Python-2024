@@ -17,8 +17,6 @@ def nombre_funcion(parametro1, parametro2, ...):
     return valor
 ```
 
-<!-- Veamos un poco sobre la descripcion de la estructura de la funcion -->
-
 ### 🛠️ **Estructura de una función:**
 
 1. **Nombre de la función:** Identificador que se utiliza para llamar a la función.
@@ -30,7 +28,7 @@ def nombre_funcion(parametro1, parametro2, ...):
 
 ### 🔦 **Tipos de funciones:**
 
-#### 1. Funciones Sin Argumentos
+#### 1. Funciones sin argumentos
 Ideal para acciones simples y mensajes de bienvenida.
 
 ```python
@@ -41,7 +39,7 @@ def saludo():
 saludo() # salida: ¡Hola desde una función sin argumentos!
 ```
 
-#### 2. Funciones con Argumentos Fijos
+#### 2. Funciones con argumentos fijos
 Utilizadas para operaciones que requieren entradas específicas.
 
 ```python
@@ -52,7 +50,7 @@ def suma(a, b):
 print(suma(5, 3))  # salida: 8
 ```
 
-#### 3. Funciones con Argumentos Variables `*args`
+#### 3. Funciones con argumentos variables `*args`
 Permiten flexibilidad con un número indefinido de argumentos no nombrados.
 
 ```python
@@ -64,7 +62,7 @@ def lista_argumentos(*args):
 lista_argumentos(1, 2, 3, 4, 5)
 ```
 
-#### 4. Funciones con Argumentos de Palabra Clave `**kwargs`
+#### 4. Funciones con argumentos de llave-valor `**kwargs`
 Adecuadas para cuando los argumentos pueden ser nombrados.
 
 ```python
@@ -76,7 +74,7 @@ def lista_kwargs(**kwargs):
 lista_kwargs(nombre="Juan", edad=25, ciudad="CDMX")
 ```
 
-#### 5. Funciones con Argumentos Predeterminados
+#### 5. Funciones con argumentos predeterminados
 Facilitan la configuración de parámetros con valores por defecto.
 
 ```python
@@ -92,7 +90,18 @@ print(potencia(5, 3))  # salida: 125
 
 ### 💡 **Sabías que...**
 
-Las funciones pueden devolver múltiples valores utilizando tuplas, facilitando el retorno de más de un resultado de manera sencilla.
+Es importante mencionar que las variables definidas dentro de una función son locales, es decir, que solo existen dentro de la función y no pueden ser accedidas desde fuera de ella, si lo intentamos obtendremos un error.
+
+```python
+def funcion():
+    variable_local = "Soy una variable local"
+    print(variable_local)
+
+funcion() # salida: Soy una variable local
+print(variable_local)  # NameError: name 'variable_local' is not defined
+```
+
+De igual manera las funciones pueden devolver múltiples valores utilizando tuplas, facilitando el retorno de más de un resultado de manera sencilla.
     
 ```python
 def operaciones(a, b):

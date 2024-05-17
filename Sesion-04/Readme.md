@@ -35,23 +35,13 @@ Las funciones lambda son funciones anónimas que se pueden definir en una sola l
 #### 🔥 **[Reto 01: Sistema consumo redes sociales](Reto-01/Readme.md)**
 ---
 
-### 📖 Operadores lógicos: AND, OR, NOT
-
-Los operadores lógicos son aquellos que permiten realizar operaciones de comparación entre valores booleanos, tales como `and`, `or` y `not`. Estos operadores son fundamentales para la toma de decisiones en un programa, ya que permiten evaluar múltiples condiciones y ejecutar un bloque de código en función de los resultados obtenidos.
-
-Recordando su implementación básica en sesiones anteriores, en esta sesión se abordara su uso mas avanzado, en combinación con funciones y expresiones lambda, para realizar operaciones más complejas.
-
-#### 📜 **[Ejemplo 03: Operadores lógicos](Ejemplo-03/Readme.md)**
-
----
-
 ### 📖 Control de excepciones
 
 ¿Qué ocurre cuando un programa encuentra un error? ¿Cómo podemos manejar estos errores para que no detengan la ejecución de nuestro programa? En Python y muchos lenguajes de programación, es realmente importante conservar la continuidad de la ejecución de un programa, incluso cuando se presentan errores. Para ello, se utilizan las excepciones, que son bloques de código que permiten manejar errores de forma controlada.
 
 En Python, las excepciones se manejan mediante bloques `try` y `except`, que permiten capturar errores y ejecutar un bloque de código alternativo en caso de que se presente una excepción.
 
-#### 📜 **[Ejemplo 04: Control excepciones](Ejemplo-04/Readme.md)**
+#### 📜 **[Ejemplo 03: Control excepciones](Ejemplo-03/Readme.md)**
 
 #### 🔥 **[Reto 02: Sistema filtro básico de productos](Reto-02/Readme.md)**
 ---
@@ -66,7 +56,7 @@ Filter: Filtra los elementos de una secuencia que cumplen con una condición que
 
 Reduce: Aplica una función a los elementos de una secuencia para obtener un único resultado.
 
-#### 📜 **[Ejemplo 05: Map, filter y reduce](Ejemplo-04/Readme.md)**
+#### 📜 **[Ejemplo 04: Map, filter y reduce](Ejemplo-04/Readme.md)**
 
 #### 🔥 **[Reto 02: Sistema análisis ventas en un eCommerce.](Reto-02/Readme.md)**
 ---

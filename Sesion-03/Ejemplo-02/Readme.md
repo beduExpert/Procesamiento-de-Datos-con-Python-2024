@@ -68,7 +68,15 @@ print(subtupla)  # (30, 40, 50)
 
 ### 💡 **Sabías que...**
 
-Las tuplas son más rápidas que las listas debido a que son inmutables, lo que permite a Python optimizar su uso en memoria y procesamiento.
+La función `len()` también puede ser utilizada para obtener la longitud de una tupla, la cual es equivalente al número de elementos que contiene.
+
+```python
+numeros = (10, 20, 30, 40, 50)
+longitud = len(numeros)
+print(longitud)  # 5
+```
+
+También podemos obtener la longitud de otros tipos de datos como listas, diccionarios, cadenas, esto es especialmente útil cuando no conocemos el tamaño de los datos con los que estamos trabajando.
 
 ---
 
