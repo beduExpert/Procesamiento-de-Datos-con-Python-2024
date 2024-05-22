@@ -58,7 +58,7 @@ Reduce: Aplica una función a los elementos de una secuencia para obtener un ún
 
 #### 📜 **[Ejemplo 04: Map, filter y reduce](Ejemplo-04/Readme.md)**
 
-#### 🔥 **[Reto 02: Sistema análisis ventas en un eCommerce.](Reto-02/Readme.md)**
+#### 🔥 **[Reto 03: Sistema análisis ventas en un eCommerce.](Reto-03/Readme.md)**
 ---
 
 ⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Sesion-05/Readme.md) ➡️

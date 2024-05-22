@@ -16,11 +16,8 @@
       - `nombre`
       - `marca`
       - `categoria`
-
    - Si un parámetro no es proporcionado, la función debe ser capaz de manejarlo y no utilizarlo como criterio de filtro.
-   - Utiliza operadores lógicos como `and` y `or` para filtrar los productos según los criterios especificados:
-      - 
-      - `categoria`
+   
 
 2. ➕ Crea una lista con al menos 5 productos, cada uno representado por un diccionario con las siguientes claves:
    - Nombre del producto.
@@ -33,6 +30,12 @@
    - Buscar todos los productos que pertenezcan a la categoría 'Electrónica'.
    - Buscar productos que cumplan con ambas condiciones específicas.
 
+   - Utiliza operadores lógicos como `and` y `or` para filtrar los productos dentro de la función, según los criterios especificados:
+      - `nombre`
+      - `marca`
+      - `categoria`
+   
+
 4. ✉️ Imprime los resultados de las búsquedas de manera clara y concisa, indicando si se encontraron productos o si la búsqueda no arrojó resultados.
 
 ✅ **Desafío adicional**: Considera cómo podrías modificar la función para que también maneje excepciones, asegurando que cualquier error durante la búsqueda sea capturado y manejado apropiadamente sin detener la ejecución del programa.
@@ -44,3 +47,10 @@
 ---
 
 ⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-03/Readme.md) ➡️
+
+
+
+- Utiliza operadores lógicos como `and` y `or` para filtrar los productos según los criterios especificados:
+      - `nombre`
+      - `marca`
+      - `categoria`
