@@ -69,4 +69,4 @@ Eficiencia en Procesamiento de Datos: Las funciones lambda son ampliamente utili
 
 ---
 
-⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-02/Readme.md) ➡️
+⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Reto-01/Readme.md) ➡️
