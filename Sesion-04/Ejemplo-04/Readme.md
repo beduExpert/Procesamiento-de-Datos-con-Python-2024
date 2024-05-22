@@ -92,4 +92,4 @@ Para poder utilizar reduce, es necesario importar la función desde el módulo `
 
 ---
 
-⬅️ [`Anterior`](../Ejemplo-02/Readme.md) | [`Siguiente`](../Ejemplo-04/Readme.md) ➡️
+⬅️ [`Anterior`](../Ejemplo-02/Readme.md) | [`Siguiente`](../Reto-02/Readme.md) ➡️
