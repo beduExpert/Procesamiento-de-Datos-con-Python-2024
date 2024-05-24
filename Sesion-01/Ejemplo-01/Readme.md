@@ -1,20 +1,16 @@
-🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 [**Sesión 01**](../Readme.md) ➡️ / 📝 `Ejemplo 01: Variables`
+🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 [**Sesión 01**](../Readme.md) ➡️ / 📝 `Ejemplo 01: Variables y Tipos de Datos`
 
 ## 🎯 Objetivo
 
-Aplicar los principios básicos y convenciones para establecer una variable en Python.
+Entender y aplicar los principios básicos para establecer variables y tipos de datos en Python, asegurando buenas prácticas de nomenclatura y una comprensión profunda de las estructuras de datos fundamentales.
 
 ## 🚀 Comencemos
 
 ### Uso de variables y buenas prácticas de nomenclatura
 
-**Definición de variables:**
+**Definición y declaración de variables:**
 
-Una variable es un nombre que se refiere a un objeto que reside en la memoria. Las variables se utilizan para almacenar datos, manipular valores y facilitar la legibilidad y mantenimiento del código.
-
-**Declaración de variables:**
-
-Crear o declarar variables es sencillo, no necesitas especificar un tipo de dato. Python utiliza tipado dinámico, lo que significa que el tipo de una variable se determina automáticamente cuando se le asigna un valor.
+Una variable es un nombre asignado a un objeto en memoria, utilizado para almacenar datos y facilitar la legibilidad y mantenimiento del código. En Python, declarar variables es sencillo gracias al tipado dinámico, que determina automáticamente el tipo de la variable al asignarle un valor.
 
 ```python
 # Ejemplo de declaración de variables
@@ -26,67 +22,56 @@ print(mensaje)  # Salida: Hola, Python!
 
 **Buenas prácticas para nombrar variables:**
 
-1. **Deben ser claras y descriptivas:**
-   Las variables deben tener nombres descriptivos para hacer el código más entendible. Por ejemplo, `edad` es mejor que `e`, y `nombre_completo` mejor que `nc`.
+- **Claridad y descriptividad**: Utilizar nombres claros como `edad` en lugar de `e`.
+- **snake_case**: Es el estilo preferido en Python, e.g., `contador_de_usuarios`.
+- **Evitar nombres reservados**: Tales como `list` o `str`.
+- **Consistencia**: Mantener un estilo uniforme, como `snake_case`, a lo largo del código.
 
-2. **Uso de `snake_case`:**
-   Python favorece el uso de `snake_case` para nombrar variables. Esto significa escribir nombres en minúsculas con palabras separadas por guiones bajos.
-   
-   ```python
-   # Buen ejemplo de snake_case
-   contador_de_usuarios = 50
-   velocidad_maxima = 120
-   salario_mensual = 5000
-   interes_anual = 0.05
-   ```
-Este tipo de nomenclatura lo usaremos en el curso.
+### Tipos de datos en Python
 
-3. **Evitar nombres confusos:**
-   No uses nombres que ya tengan un significado importante en Python, como `list` o `str`.
+Python ofrece varios tipos de datos, cada uno adecuado para diferentes necesidades:
 
-4. **Consistencia:**
-   Mantén un estilo consistente a lo largo de todo tu código. Si comienzas usando `snake_case`, sigue usándolo en todo el proyecto.
+1. **Números**: `int`, `float`, y `complex`.
+2. **Cadenas de caracteres (Strings)**: `str`, ejemplos incluyen "Hola" y "Python es divertido".
+3. **Booleanos**: `bool`, que solo pueden ser `True` o `False`.
 
-**Ejemplos de nombres de variables correctos e incorrectos:**
+
+<!-- Ejemplos -->
+
+### 🕵 Ejemplos:
 
 ```python
-# Correctos
-altura_del_edificio = 100
-temperatura_actual = 22.5
+nombre = "Ana"
+saludo = "Hola, " + nombre  # Concatenación de strings
+print(saludo)  # Salida: Hola, Ana
 
-# Incorrectos
-alturaDelEdificio = 100  # camelCase, no recomendado en Python
-Temp = 22.5              # ambiguo y empieza con mayúscula
-int = 7                  # utiliza el nombre de un tipo de dato incorporado
+a = 5
+es_mayor = a > 10
+print(es_mayor)  # Salida: False
 ```
 
-Existen varias convenciones de nomenclatura recomendadas y ampliamente aceptadas que ayudan a mantener el código legible, consistente y en línea con las expectativas de la comunidad. Por ejemplo algunas de las convenciones más populares según la guía de estilo PEP 8:
 
-### 1. **Variables**
-   - **snake_case**: Los nombres de las variables deben ser en minúsculas con palabras separadas por guiones bajos. Por ejemplo: `mi_variable`.
+```python
+# Ejemplo de tipos de datos
+numero = 10
+flotante = 10.5
+complejo = 1 + 2j
+cadena = "Hola, Python!"
+booleano = True
 
-### 2. **Funciones y métodos**
-   - **snake_case**: Al igual que las variables, los nombres de funciones y métodos deben seguir el formato de minúsculas con guiones bajos. Ejemplo: `calcular_total()`.
-
-### 3. **Clases**
-   - **CamelCase**: Los nombres de las clases deben iniciar con mayúsculas y no deben tener guiones bajos entre palabras. Ejemplo: `MiClase`.
-
-### 4. **Constantes**
-   - **ALL_CAPS**: Las constantes se nombran con todas las letras en mayúsculas y palabras separadas por guiones bajos. Ejemplo: `MAX_ITERACIONES`.
-
-
-Es importante adherirse a esas normas para mantener la coherencia del código, con el fin de facilitar la lectura y el mantenimiento del mismo, así como la colaboración con otros desarrolladores.
+print(type(numero))  # Salida: <class 'int'>
+print(type(flotante))  # Salida: <class 'float'>
+print(type(complejo))  # Salida: <class 'complex'>
+print(type(cadena))  # Salida: <class 'str'>
+print(type(booleano))  # Salida: <class 'bool'>
+```
 
 ---
 
 ### 💡 **¿Sabias que?...**
 
-Python ejecuta el código de arriba hacia abajo, por lo que si intentas usar una variable que no ha sido declarada, Python lanzará un error.
-
-```python
-# Intentar usar una variable no declarada
-print(mensaje)  # Error: NameError: name 'mensaje' is not defined
-```
+- **Python ejecuta el código de arriba hacia abajo**, lo que significa que usar una variable antes de declararla provocará un error.
+- **La función `type()`** nos permite conocer el tipo de dato de una variable, por ejemplo, `type(numero)` devolverá `<class 'int'>`.
 
 ---
 

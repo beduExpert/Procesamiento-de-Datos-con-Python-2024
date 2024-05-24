@@ -48,7 +48,7 @@ En Python, las excepciones se manejan mediante bloques `try` y `except`, que per
 
 ### 📖 Map, filter y reduce
 
-En ciencia de datos, es común trabajar con grandes volúmenes de datos y realizar operaciones sobre ellos. Para ello, Python cuenta con tres funciones que permiten aplicar operaciones a una secuencia de datos: `map`, `filter` y `reduce`.
+En ciencia de datos, es común trabajar con grandes volúmenes de datos y realizar operaciones sobre ellos. Python cuenta con tres funciones que permiten aplicar operaciones a una secuencia de datos: `map`, `filter` y `reduce`.
 
 Map: Aplica una función a cada elemento de una secuencia.
 
