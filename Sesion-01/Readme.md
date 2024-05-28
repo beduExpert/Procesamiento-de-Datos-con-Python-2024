@@ -13,10 +13,12 @@
 📘 Material del prework:
 Antes de comenzar con los ejercicios de esta sesión, recordemos que en el material de prework hemos cubierto los fundamentos teóricos que aplicaremos hoy. A lo largo de esta sesión, pondremos en práctica estos conceptos mediante una serie de ejercicios y retos diseñados para reforzar y validar nuestro entendimiento. 🔥¡Vamos a comenzar!🔥
 
-## 📂 Temas de la sesión
+---
+
+## 📂 Temas de la sesión...
 
 ### 📖 Variables en Python
-Recordemos que una variable se utiliza para almacenar información que puede ser referenciada y manipulada en un programa. Las variables son fundamentales en cualquier lenguaje de programación y permiten a los programadores guardar datos, como números, cadenas de texto o estructuras de datos más complejas, para su uso en operaciones computacionales.
+Recordemos que una variable se utiliza para almacenar información que puede ser referenciada y manipulada en un programa. Las variables son fundamentales en cualquier lenguaje de programación y permiten a los programadores guardar datos, como números, cadenas de texto o estructuras de datos más complejas, para su uso en operaciones computacionales, una de las mejores prácticas para nombrar variables es usando `snake_case` como convención.
 
 ---
 
@@ -32,7 +34,7 @@ Los tipos de datos son fundamentales porque determinan qué tipo de valor puede 
 - **Booleanos (`bool`)**: Valores de verdad (`True`, `False`) para controlar el flujo del programa.
 
 #### 📜 **[Ejemplo 01: Variables y Tipos de Datos](Ejemplo-01/Readme.md)**
-#### 🔥 **[Reto 01: Promedio de edades](Reto-01/Readme.md)**
+#### 🔥 **[Reto 01: Recomendación de cursos](Reto-01/Readme.md)**
 ---
 
 ### 📖 Operadores aritméticos

@@ -19,5 +19,3 @@
 9. 📁 [Datasets](Datasets/Readme.md)
 
 ➡️ [`Siguiente`](Sesion-01/Readme.md)
-
-### 📝 NOTA: ¿Qué son las funciones de verificación?

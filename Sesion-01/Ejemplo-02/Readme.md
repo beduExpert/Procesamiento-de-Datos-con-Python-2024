@@ -4,7 +4,9 @@
 
 🔍 Familiarizarse con los diferentes tipos de operadores en Python: aritméticos, relacionales, lógicos y de asignación, y aplicarlos en diferentes contextos para manejar y modificar valores de variables.
 
-## 🚀 Comencemos
+---
+
+<!-- ## 🚀 Comencemos -->
 
 ### ➕ Operadores Aritméticos
 
@@ -20,6 +22,22 @@
 | `**`     | Exponente      | `x ** y = 1000` |
 | `//`     | Cociente       | `x // y = 3`    |
 
+##### 📝 Ejemplo de operadores aritméticos:
+
+
+```python
+# Definir variables 'x' y 'y'.
+x, y = 10, 3
+print("Suma:", x + y)   # 13
+print("Resta:", x - y)  # 7
+print("Multiplicación:", x * y)  # 30
+print("División:", x / y)  # 3.333
+print("Módulo:", x % y)  # 1
+print("Exponente:", x ** y)  # 1000
+print("Cociente:", x // y)  # 3
+```
+---
+
 ### ➖ Operadores Relacionales
 
 🔍 Estos operadores comparan dos valores y devuelven un valor booleano basado en la comparación.
@@ -31,6 +49,17 @@
 - `>=`: Mayor o igual que
 - `<=`: Menor o igual que
 
+
+##### 📝 Ejemplo de operadores relacionales:
+
+```python
+# Operadores relacionales
+print("Igual a:", x == y)  # False
+print("No igual a:", x != y)  # True
+print("Mayor que:", x > y)  # True
+```
+---
+
 ### 🔄 Operadores Lógicos
 
 🤔 Utilizados para combinar condiciones booleanas.
@@ -38,6 +67,16 @@
 - `and`: Devuelve `True` si ambos operandos son verdaderos.
 - `or`: Devuelve `True` si al menos uno de los operandos es verdadero.
 - `not`: Invierte el valor del operando.
+
+
+##### 📝 Ejemplo de operadores lógicos:
+
+```python
+print("AND lógico:", (x > y) and (x < 15))  # True
+print("OR lógico:", (x > y) or (x < 5))  # True
+print("NOT lógico:", not (x > y))  # False
+```
+---
 
 ### ⏩ Operadores de Asignación
 
@@ -52,31 +91,10 @@
 - `**=`: Potencia y asigna.
 - `//=`: División entera y asigna.
 
----
 
-### 📝 Ejemplos
+##### 📝 Ejemplo de operadores de asignación:
 
 ```python
-# Operadores aritméticos
-x, y = 10, 3
-print("Suma:", x + y)   # 13
-print("Resta:", x - y)  # 7
-print("Multiplicación:", x * y)  # 30
-print("División:", x / y)  # 3.333
-print("Módulo:", x % y)  # 1
-print("Exponente:", x ** y)  # 1000
-print("Cociente:", x // y)  # 3
-
-# Operadores relacionales
-print("Igual a:", x == y)  # False
-print("No igual a:", x != y)  # True
-print("Mayor que:", x > y)  # True
-
-# Operadores lógicos
-print("AND lógico:", (x > y) and (x < 15))  # True
-print("OR lógico:", (x > y) or (x < 5))  # True
-print("NOT lógico:", not (x > y))  # False
-
 # Operadores de asignación
 x += 5  # x ahora es 15
 print("x incrementado:", x)  # 15
@@ -103,7 +121,6 @@ x = 5
 y = x + 2
 print(y)
 ```
-
 
 ---
 
@@ -137,4 +154,4 @@ print(y)
 
 ---
 
-⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-04/Readme.md)➡️
+⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Reto-02/Readme.md)➡️

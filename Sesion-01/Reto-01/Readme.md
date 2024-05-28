@@ -1,39 +1,32 @@
-🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 [**Sesión 01**](../Readme.md) ➡️ / ⚡`Reto 01: Promedio de edades.`
-
+🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 [**Sesión 01**](../Readme.md) ➡️ / ⚡`Reto 01: Sistema de Recomendación de Cursos`
 
 ## 🎯 Objetivo
 
-⚒️ Desarrollar un programa en Python que permita calcular el promedio de edad de un grupo de estudiantes. Este ejercicio te ayudará a practicar la manipulación de variables, cálculos matemáticos y los diferentes tipos de datos en Python.
+⚒️ Desarrollar un programa en Python que permita almacenar información sobre cursos y luego imprimir los detalles. Este reto te ayudará a practicar la manipulación de variables y los diferentes tipos de datos básicos en Python.
 
 ---
 
 ## 📝 Instrucciones
 
-👥 Considerando la cantidad de estudiantes, es posible resolver este reto en equipos o de manera individual.
+1. 📚 Declara las variables correspondientes para almacenar la siguiente información de al menos 3 cursos:
+   - Nombre del curso (String).
+   - Código numérico del curso (Integer).
+   - Duración en horas del curso (Float).
+   - Disponibilidad para inscripción (Boolean).
 
-1. 🗣️ Pregunta a 5 o 10 de tus compañeros de la sesión los siguientes datos:
-   - Nombre
-   - Edad
-   - Altura
-   - ¿Es estudiante? (Sí/No)
-
-2. ⌨️ Declara las variables necesarias para almacenar la información que recopilaste de tus compañeros.
-
-3. 🖨️ Imprime los tipos de datos correspondientes a un estudiante, no es necesario imprimir todos, con uno o dos es suficiente.
-
-4. 🧮 Calcula el promedio de edad de tus compañeros y almacena su valor en una variable.
-
-5. 📊 Finalmente, imprime tu resultado de la siguiente manera:
+2. 🖨️ Imprime la información de cada curso de la siguiente manera:
    ```plaintext
-   📈 El promedio de edad de mis compañeros es de: XX.XX años.
+   Curso: Introducción a Python - Código:  101 - Duración:  45.5 horas - Disponible:  True
    ```
+
+3. 🧮 **Desafío adicional**: Intenta agregar más cursos y mejorar la estructura de datos para facilitar la manipulación y visualización de la información.
 
 ---
 
-✅ **Desafío adicional**: Obtener el promedio de todos los participantes, incluyéndote a ti mismo. Este paso nos permitirá comprender mejor las características principales de un grupo y cómo extraer información útil de datos básicos. Además, nos preparará para realizar análisis más avanzados en el futuro, algo vital para quienes desean ser científicos de datos.
+✅ Este ejercicio es una excelente oportunidad para comprender cómo trabajar con tipos de datos básicos y cómo pueden ser utilizados para almacenar y manipular información de manera efectiva en Python.
 
 🏆 Nos vemos en el siguiente reto, ¡mucho éxito!.
 
 ---
 
-⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-04/Readme.md)➡️
+⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-02/Readme.md)➡️
