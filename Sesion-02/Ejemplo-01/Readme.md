@@ -23,55 +23,35 @@ if condición:
     # Bloque de código a ejecutar si la condición es verdadera
 ```
 
-### 📈 Ejemplo 1: Verificar si un número es positivo
+### Ejemplos
 
 ```python
 # Verificar si un número es positivo
 numero = 10
-
 if numero > 0:
     print("El número es positivo.")
-```
 
-### 👨‍👩‍👧 Ejemplo 2: Verificar si una persona es mayor de edad
-
-```python
 # Verificar si una persona es mayor de edad
 edad = 20
-
-if (edad >= 18):
+if edad >= 18:
     print("Eres mayor de edad.")
-```
 
-### 🔤 Ejemplo 3: Verificar si una cadena no está vacía
-
-```python
 # Verificar si una cadena no está vacía
 cadena = "Hola, mundo"
-
 if cadena:
     print("La cadena no está vacía.")
-```
 
-### 🔢 Ejemplo 4: Verificar si un número es par
-
-```python
 # Verificar si un número es par
 numero = 4
-
 if numero % 2 == 0:
     print("El número es par.")
-```
 
-### 🎨 Ejemplo 5: Verificar si una variable tiene un valor específico
-
-```python
 # Verificar si una variable tiene un valor específico
 color = "rojo"
-
 if color == "rojo":
     print("El color es rojo.")
 ```
+
 ---
 
 ## 📝 Sentencia `if-else`
@@ -87,62 +67,40 @@ else:
     # Bloque de código a ejecutar si la condición es falsa
 ```
 
-### 📉 Ejemplo 1: Verificar si un número es positivo o negativo
+### Ejemplos
 
 ```python
 # Verificar si un número es positivo o negativo
 numero = -5
-
 if numero >= 0:
     print("El número es positivo.")
 else:
     print("El número es negativo.")
-```
 
-### 👶 Ejemplo 2: Verificar si una persona es mayor o menor de edad
-
-```python
 # Verificar si una persona es mayor o menor de edad
 edad = 16
-
 if edad >= 18:
     print("Eres mayor de edad.")
 else:
     print("Eres menor de edad.")
-```
 
-### 🔄 Ejemplo 3: Verificar si una cadena está vacía o no
-
-```python
 # Verificar si una cadena está vacía o no
 cadena = ""
-
 if cadena:
     print("La cadena no está vacía.")
 else:
     print("La cadena está vacía.")
-```
 
-### 🔢 Ejemplo 4: Verificar si un número es par o impar
-
-```python
-# Verificar si un número es par o impar.
-# Considera este ejemplo importante, ya que lo aplican en muchas entrevistas de trabajo.
+# Verificar si un número es par o impar
 numero = 7
-
 if numero % 2 == 0:
     print("El número es par.")
 else:
     print("El número es impar.")
-```
 
-### 🗳️ Ejemplo 5: Verificar si una persona tiene permiso para votar
-
-```python
 # Verificar si una persona tiene permiso para votar
 edad = 17
 ciudadano = True
-
 if edad >= 18 and ciudadano:
     print("Tienes permiso para votar.")
 else:
@@ -166,12 +124,11 @@ else:
     # Bloque de código a ejecutar si ninguna condición anterior es verdadera
 ```
 
-### 📊 Ejemplo 1: Calificar una nota
+### Ejemplos
 
 ```python
 # Calificar una nota
 nota = 85
-
 if nota >= 90:
     print("Calificación: A")
 elif nota >= 80:
@@ -182,14 +139,9 @@ elif nota >= 60:
     print("Calificación: D")
 else:
     print("Calificación: F")
-```
 
-### 🌡️ Ejemplo 2: Clasificar la temperatura
-
-```python
 # Clasificar la temperatura
 temperatura = 25  # grados Celsius
-
 if temperatura > 30:
     print("Hace calor.")
 elif temperatura >= 20:
@@ -198,14 +150,9 @@ elif temperatura >= 10:
     print("Hace fresco.")
 else:
     print("Hace frío.")
-```
 
-### 🎂 Ejemplo 3: Determinar la categoría de edad
-
-```python
 # Determinar la categoría de edad
 edad = 45
-
 if edad < 13:
     print("Eres un niño.")
 elif edad < 20:
@@ -235,12 +182,11 @@ else:
     # Bloque de código a ejecutar si la condición1 es falsa
 ```
 
-### 🔢 Ejemplo 1: Verificar si un número es positivo, negativo o cero y si es par o impar
+### Ejemplos
 
 ```python
 # Verificar si un número es positivo, negativo o cero y si es par o impar
 numero = -4
-
 if numero >= 0:
     if numero == 0:
         print("El número es cero.")
@@ -253,15 +199,10 @@ else:
         print("El número es negativo y par.")
     else:
         print("El número es negativo e impar.")
-```
 
-### 🌐 Ejemplo 2: Verificar el acceso a un sitio web basado en edad y membresía
-
-```python
 # Verificar el acceso a un sitio web basado en edad y membresía
 edad = 21
 es_miembro = True
-
 if edad >= 18:
     if es_miembro:
         print("Tienes acceso completo al sitio web.")
@@ -269,14 +210,9 @@ if edad >= 18:
         print("Necesitas ser miembro para tener acceso completo.")
 else:
     print("No tienes la edad suficiente para acceder al sitio web.")
-```
 
-### 🎓 Ejemplo 3: Determinar si un estudiante aprueba, reprueba o está en recuperación basado en su nota
-
-```python
 # Determinar si un estudiante aprueba, reprueba o está en recuperación basado en su nota
 nota = 68
-
 if nota >= 60:
     if nota >= 70:
         print("El estudiante aprueba.")
@@ -292,7 +228,7 @@ else:
 
 En Python, puedes usar sentencias `if-else` en una sola línea para simplificar el código en situaciones donde las acciones a realizar son cortas. Este patrón se conoce como "Ternary Conditional Operator" o "Operador Ternario".
 
-### 📌 Sintaxis
+#### 📌 Sintaxis
 
 ```python
 variable = valor_if_true if condicion else valor_if_false
@@ -300,24 +236,20 @@ variable = valor_if_true if condicion else valor_if_false
 
 Esto es útil para asignar valores a una variable basada en una condición de manera compacta.
 
-Por ejemplo:
+#### Ejemplos
 
 ```python
 edad = 18
 mensaje = "Eres mayor de edad." if edad >= 18 else "Eres menor de edad."
 print(mensaje)  # Salida: Eres mayor de edad.
-```
 
-Este operador ternario puede mejorar la legibilidad del código cuando se trata de condiciones simples, evitando la necesidad de múltiples líneas y haciendo el código más conciso.
-
-Otro ejemplo práctico podría ser la selección de valores predeterminados:
-
-```python
+# Otro ejemplo
 descuento = 20 if es_vip else 5
 print(f"El descuento aplicado es: {descuento}%")
 ```
 
-Usar el operador ternario en Python te ayuda a escribir código más compacto y fácil de leer en situaciones donde la lógica de la condición es simple.
+Este operador ternario puede mejorar la legibilidad del código cuando se trata de condiciones simples, evitando la necesidad de múltiples líneas y haciendo el código más conciso.
+
 
 ---
 
