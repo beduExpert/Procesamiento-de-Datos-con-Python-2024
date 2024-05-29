@@ -142,4 +142,4 @@ Esta función siempre devuelve una cadena de texto, incluso si el usuario introd
 ---
 
 
-⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Sesion-02/Readme.md)➡️
+⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../Sesion-02/Readme.md)➡️

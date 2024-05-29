@@ -22,8 +22,8 @@
 | `**`     | Exponente      | `x ** y = 1000` |
 | `//`     | Cociente       | `x // y = 3`    |
 
-##### 📝 Ejemplo de operadores aritméticos:
 
+##### 📝 Ejemplo de operadores aritméticos:
 
 ```python
 # Definir variables 'x' y 'y'.
@@ -154,4 +154,4 @@ print(y)
 
 ---
 
-⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Reto-02/Readme.md)➡️
+⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../Reto-02/Readme.md)➡️

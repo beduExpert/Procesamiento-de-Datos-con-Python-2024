@@ -124,4 +124,4 @@ El operador  **`==`** verifica la igualdad entre dos valores, lo que resulta esp
 ---
 
 
-⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Ejemplo-04/Readme.md) ➡️
+⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../Ejemplo-04/Readme.md) ➡️

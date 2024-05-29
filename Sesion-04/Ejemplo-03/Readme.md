@@ -154,4 +154,4 @@ except ValueError as e:
 ```
 ---
 
-⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Reto-02/Readme.md) ➡️
+⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../Reto-02/Readme.md) ➡️

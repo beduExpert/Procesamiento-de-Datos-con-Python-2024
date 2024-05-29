@@ -80,4 +80,4 @@ También podemos obtener la longitud de otros tipos de datos como listas, diccio
 
 ---
 
-⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Reto-01/Readme.md) ➡️
+⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../Reto-01/Readme.md) ➡️

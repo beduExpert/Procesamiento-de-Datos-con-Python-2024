@@ -97,4 +97,4 @@ Su estructura es muy similar a un objeto JSON, que veremos más adelante en el c
 
 ---
 
-⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Reto-02/Readme.md) ➡️
+⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../Reto-02/Readme.md) ➡️

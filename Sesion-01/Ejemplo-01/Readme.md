@@ -1,4 +1,4 @@
-🏠 [**Inicio**](../../Readme.md)➡️ / 📖 [**Sesión 01**](../Readme.md) ➡️ / 📝 `Ejemplo 01: Variables y Tipos de Datos`
+🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 [**Sesión 01**](../Readme.md) ➡️ / 📝 `Ejemplo 01: Variables y Tipos de Datos`
 
 ## 🎯 Objetivo
 
@@ -75,4 +75,4 @@ print(type(booleano))  # Salida: <class 'bool'>
 
 ---
 
-⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Reto-01/Readme.md)➡️
+⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../Reto-01/Readme.md)➡️

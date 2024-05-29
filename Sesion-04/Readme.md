@@ -61,4 +61,4 @@ Reduce: Aplica una función a los elementos de una secuencia para obtener un ún
 #### 🔥 **[Reto 03: Sistema análisis ventas en un eCommerce.](Reto-03/Readme.md)**
 ---
 
-⬅️ [`Anterior`](../Readme.md) | [`Siguiente`](../Sesion-05/Readme.md) ➡️
+⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../Sesion-05/Readme.md) ➡️
