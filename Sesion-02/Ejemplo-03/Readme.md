@@ -1,15 +1,18 @@
-🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 [**Sesión 02**](../Readme.md) ➡️ / 📝 `Ejemplo 03: Sentencia Match.`
+🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 [**Sesión 02**](../Readme.md) ➡️ / 📝 `Ejemplo 03: Sentencia Match`
 
-## 🎯 Objetivo
+## 🎯 **Objetivo**
 
-Aplicar los principios básicos sobre el control del flujo de un programa, usando la sentencia match.
+Aplicar los principios básicos sobre el control del flujo de un programa, usando la sentencia `match`.
 
-## 🚀 Comencemos
+---
 
-En Python, la sentencia match-case se utiliza como una estructura de control que permite realizar comparaciones de patrones más sofisticadas y legibles en comparación con las secuencias típicas de instrucciones if-elif-else. Este fue introducido en Python 3.10 como parte de lo que comúnmente se conoce como "pattern matching", inspirado en características similares de otros lenguajes de programación como Java, C#, Rust y Kotlin.
+## 🚀 **Comencemos**
 
+En Python, la sentencia `match-case` se utiliza como una estructura de control que permite realizar comparaciones de patrones más sofisticadas y legibles en comparación con las secuencias típicas de instrucciones `if-elif-else`. Esta fue introducida en Python 3.10 como parte de lo que comúnmente se conoce como "pattern matching", inspirado en características similares de otros lenguajes de programación como Java, C#, Rust y Kotlin.
 
-### Sintaxis
+---
+
+### 📌 **Sintaxis**
 
 ```python
 match objeto:
@@ -19,11 +22,12 @@ match objeto:
         # acciones si el objeto coincide con el patrón2
     case _:
         # acciones si el objeto no coincide con ninguno de los patrones anteriores
-
 ```
 
+### 📋 **Ejemplos**
 
-### Ejemplo 1: Manejo de Menús
+#### Ejemplo 1: Manejo de menús
+
 Supongamos que tienes un menú de opciones y quieres ejecutar diferentes funciones dependiendo de la elección del usuario.
 
 ```python
@@ -40,7 +44,8 @@ match opcion:
         print("Opción no válida.")
 ```
 
-### Ejemplo 2: Clasificación de Tipos de Datos
+#### Ejemplo 2: Clasificación de tipos de datos
+
 Puedes usar `match` para clasificar diferentes tipos de datos ingresados por un usuario.
 
 ```python
@@ -55,7 +60,8 @@ match dato:
         print("Es una mezcla de números y letras o caracteres especiales.")
 ```
 
-### Ejemplo 3: Respuestas Basadas en Estado
+#### Ejemplo 3: Respuestas basadas en estado
+
 En este ejemplo, `match` se usa para proporcionar una respuesta basada en el estado de un objeto, como el estado de un pedido.
 
 ```python
@@ -73,13 +79,15 @@ match estado_pedido:
 ```
 
 ---
-### 💡¿Sabias que?...
 
-La estructura match case en Python ofrece una capacidad avanzada de "pattern matching exhaustivo", lo que permite no solo evaluar valores, sino también descomponer y analizar estructuras de datos complejas como listas, diccionarios y objetos personalizados. A diferencia del switch en otros lenguajes, match case soporta la extracción directa de valores (destructuring), facilitando la manipulación de datos sin necesidad de acceder a ellos por índice.
+### 💡 **¿Sabías que?**
 
+La estructura `match-case` en Python ofrece una capacidad avanzada de "pattern matching exhaustivo", lo que permite no solo evaluar valores, sino también descomponer y analizar estructuras de datos complejas como listas, diccionarios y objetos personalizados. A diferencia del `switch` en otros lenguajes, `match-case` soporta la extracción directa de valores (destructuring), facilitando la manipulación de datos sin necesidad de acceder a ellos por índice.
+
+#### Ejemplo: Desestructuración con Listas
 
 ```python
-# Ejemplo de match case con listas
+# Ejemplo de match-case con listas
 lista = [1, 2, 3]
 
 match lista:
@@ -91,7 +99,7 @@ match lista:
         print("La lista no coincide con los patrones anteriores.")
 ```
 
-Esto es solo un vistazo a las posibilidades que ofrece la sentencia match-case en Python. A medida que te familiarices con esta característica, podrás aplicarla en una variedad de situaciones para mejorar la legibilidad y la eficiencia de tu código.
+Esto es solo un vistazo a las posibilidades que ofrece la sentencia `match-case` en Python. A medida que te familiarices con esta característica, podrás aplicarla en una variedad de situaciones para mejorar la legibilidad de tu código.
 
 ---
 

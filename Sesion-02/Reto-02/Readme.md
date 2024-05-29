@@ -27,6 +27,8 @@
 
 5. 🧮 Después de añadir cada producto al pedido, muestra un mensaje indicando el producto añadido y el total acumulado. Luego, pregunta al usuario si desea continuar añadiendo productos. Si responde "no", muestra el total del pedido, agradece y finaliza el bucle.
 
+6. 📦 Al final del bucle, muestra el total del pedido y un mensaje de agradecimiento.
+
 ---
 
 ✅ **Desafío adicional**: Implementa una opción en el menú que le permita al usuario ver el total de su pedido en cualquier momento antes de finalizar.

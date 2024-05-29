@@ -4,9 +4,13 @@
 
 Explorar los métodos y funciones esenciales de las listas en Python para manipular datos.
 
+---
+
 ## 🚀 Introducción
 
 Las listas en Python son herramientas ideales para la ciencia de datos, capaces de almacenar elementos de distintos tipos y manipular datos de forma eficiente.
+
+---
 
 ### 🔦 **Sintaxis básica de listas:**
 

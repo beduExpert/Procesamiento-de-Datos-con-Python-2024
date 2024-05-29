@@ -47,10 +47,3 @@
 ---
 
 ⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../Ejemplo-03/Readme.md) ➡️
-
-
-
-- Utiliza operadores lógicos como `and` y `or` para filtrar los productos según los criterios especificados:
-      - `nombre`
-      - `marca`
-      - `categoria`

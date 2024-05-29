@@ -4,10 +4,13 @@
 
 Explorar los métodos y funciones esenciales de los conjuntos en Python para manejar colecciones de elementos únicos.
 
+---
 
 ## 🚀 Introducción
 
 Los conjuntos o `set()` en Python son colecciones desordenadas de datos únicos y mutables, que permiten operaciones matemáticas de conjuntos como uniones, intersecciones, diferencias, entre otras. Su naturaleza desordenada los hace ideales para la gestión de datos donde la unicidad es más importante que el orden de los elementos.
+
+---
 
 ### 🔦 **Sintaxis básica de conjuntos:**
 

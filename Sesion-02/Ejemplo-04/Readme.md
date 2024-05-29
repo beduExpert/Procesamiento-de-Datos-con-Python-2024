@@ -4,11 +4,15 @@
 
 Implementar el funcionamiento básico sobre ciclos de repetición indefinidos, y como salir de ellos.
 
+---
+
 ## 🚀 Comencemos
 
 Los ciclos de repetición son una estructura de control que permite ejecutar un bloque de código múltiples veces. El ciclo `while` es un tipo de ciclo que se utiliza para ejecutar un bloque de código repetidamente mientras una condición específica sea verdadera, pero hay que tener cuidado de no caer en un ciclo infinito o `infinite loop`, ya que este se ejecutará indefinidamente hasta que se detenga manualmente, o colapse el sistema.
 
-### Sintaxis
+---
+
+### 📌 **Sintaxis**
 
 ```python
 while condición:

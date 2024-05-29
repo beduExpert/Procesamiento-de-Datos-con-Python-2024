@@ -4,9 +4,13 @@
 
 Explorar y aplicar los diferentes tipos de declaración de funciones en Python, así como la forma de retornar valores y el uso de argumentos.
 
+---
+
 ## 🚀 Introducción
 
 Las funciones en Python nos ayudan a organizar y reutilizar código. Son bloques de código que realizan una tarea específica y pueden ser llamados en cualquier parte del programa después de haberlas declarado. Las funciones se definen con la palabra reservada `def`, seguida del nombre de la función y los parámetros entre paréntesis. 
+
+---
 
 ### 🔦 **Sintaxis básica de una función:**
 
@@ -25,6 +29,8 @@ def nombre_funcion(parametro1, parametro2, ...):
 4. **Retorno:** Valor que la función devuelve al ser llamada, puede ser opcional.
 5. **Llamada a la función:** Ejecución de la función con los argumentos necesarios.
 6. **Argumentos:** Son los `valores` que se pasan a la función al ser llamada, Ej: `funcion("Hola", 2024)`, donde `"Hola"` y `2024` son argumentos.
+
+---
 
 ### 🔦 **Tipos de funciones:**
 

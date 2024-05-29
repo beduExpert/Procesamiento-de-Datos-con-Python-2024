@@ -4,9 +4,13 @@
 
 Implementar el manejo de excepciones en Python para escribir programas más seguros y confiables, evitando que se detengan inesperadamente.
 
+---
+
 ## 🚀 Introducción
 
 En lenguajes de programación como Python, es común que los programas se detengan si se encuentra un error. Sin embargo, en muchas ocasiones, es preferible que el programa continúe ejecutándose, incluso si se presenta un error. Para manejar estos casos, Python cuenta con un sistema de excepciones que permite capturar y manejar errores de forma controlada.
+
+---
 
 ### 🔦 **Sintaxis básica excepciones**
 
@@ -28,6 +32,8 @@ finally:
     # Bloque de código que se ejecuta siempre, haya o no excepción
     pass
 ```
+
+---
 
 ### 🛠️ **Excepciones mas comunes:**
 
