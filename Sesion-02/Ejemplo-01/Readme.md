@@ -26,11 +26,6 @@ if condición:
 ### Ejemplos
 
 ```python
-# Verificar si un número es positivo
-numero = 10
-if numero > 0:
-    print("El número es positivo.")
-
 # Verificar si una persona es mayor de edad
 edad = 20
 if edad >= 18:
@@ -45,11 +40,6 @@ if cadena:
 numero = 4
 if numero % 2 == 0:
     print("El número es par.")
-
-# Verificar si una variable tiene un valor específico
-color = "rojo"
-if color == "rojo":
-    print("El color es rojo.")
 ```
 
 ---
@@ -76,20 +66,6 @@ if numero >= 0:
     print("El número es positivo.")
 else:
     print("El número es negativo.")
-
-# Verificar si una persona es mayor o menor de edad
-edad = 16
-if edad >= 18:
-    print("Eres mayor de edad.")
-else:
-    print("Eres menor de edad.")
-
-# Verificar si una cadena está vacía o no
-cadena = ""
-if cadena:
-    print("La cadena no está vacía.")
-else:
-    print("La cadena está vacía.")
 
 # Verificar si un número es par o impar
 numero = 7
@@ -140,17 +116,6 @@ elif nota >= 60:
 else:
     print("Calificación: F")
 
-# Clasificar la temperatura
-temperatura = 25  # grados Celsius
-if temperatura > 30:
-    print("Hace calor.")
-elif temperatura >= 20:
-    print("El clima es templado.")
-elif temperatura >= 10:
-    print("Hace fresco.")
-else:
-    print("Hace frío.")
-
 # Determinar la categoría de edad
 edad = 45
 if edad < 13:
@@ -185,21 +150,6 @@ else:
 ### Ejemplos
 
 ```python
-# Verificar si un número es positivo, negativo o cero y si es par o impar
-numero = -4
-if numero >= 0:
-    if numero == 0:
-        print("El número es cero.")
-    elif numero % 2 == 0:
-        print("El número es positivo y par.")
-    else:
-        print("El número es positivo e impar.")
-else:
-    if numero % 2 == 0:
-        print("El número es negativo y par.")
-    else:
-        print("El número es negativo e impar.")
-
 # Verificar el acceso a un sitio web basado en edad y membresía
 edad = 21
 es_miembro = True
@@ -226,7 +176,7 @@ else:
 
 ### 💡 **¿Sabías que?...**
 
-En Python, puedes usar sentencias `if-else` en una sola línea para simplificar el código en situaciones donde las acciones a realizar son cortas. Este patrón se conoce como "Ternary Conditional Operator" o "Operador Ternario".
+En Python, puedes usar sentencias `if-else` en una sola línea para simplificar el código en situaciones donde las acciones a realizar son cortas. Este patrón se conoce como "Ternary Conditional Operator" u "Operador Ternario".
 
 #### 📌 Sintaxis
 

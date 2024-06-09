@@ -38,6 +38,10 @@
 
 4. ✉️ Imprime los resultados de las búsquedas de manera clara y concisa, indicando si se encontraron productos o si la búsqueda no arrojó resultados.
 
+   ```plaintext
+   Producto encontrado: Producto 1 - Marca: Marca A - Categoría: Electrónica.
+   ```
+
 ✅ **Desafío adicional**: Considera cómo podrías modificar la función para que también maneje excepciones, asegurando que cualquier error durante la búsqueda sea capturado y manejado apropiadamente sin detener la ejecución del programa.
 
 ---
@@ -46,4 +50,4 @@
 
 ---
 
-⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../Ejemplo-03/Readme.md) ➡️
+⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../Ejemplo-04/Readme.md) ➡️

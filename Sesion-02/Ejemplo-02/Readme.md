@@ -102,7 +102,7 @@ else:
 
 ### 💡 **¿Sabías que?...**
 
-La librería `time` en Python proporciona varias funciones relacionadas con el manejo del tiempo y la fecha. Es muy útil para medir el tiempo de ejecución de un bloque de código y saber si nuestro programa está tardando demasiado en ejecutarse.
+La librería `time` en Python proporciona funciones relacionadas con el tiempo y la fecha. Es muy útil para medir el tiempo de ejecución de nuestro código y saber si el programa está tardando demasiado en ejecutarse.
 
 ##### Ejemplo: Medir el tiempo de ejecución de un ciclo
 

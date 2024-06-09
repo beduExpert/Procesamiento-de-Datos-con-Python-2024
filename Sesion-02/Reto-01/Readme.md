@@ -11,9 +11,9 @@
 
 👥 Considerando la cantidad de estudiantes, es posible resolver este reto en equipos o de manera individual.
 
-1. 🗣️ Supongamos que hay 10 pasillos en total en la tienda de abarrotes y que el artículo se encuentra perdido en uno de esos pasillos de manera aleatoria.
+1. 🗣️ Supongamos que hay 10 pasillos en total en una tienda de abarrotes y el artículo lo dejaron en uno de esos pasillos de manera aleatoria.
 
-2. ⌨️ Define una variable para almacenar el número total de pasillos. Luego, emplea la funcionalidad de números aleatorios para seleccionar un pasillo al azar dentro del total de pasillos y guarda este número en otra variable.
+2. ⌨️ Define una variable para almacenar el número total de pasillos. Luego, emplea la funcionalidad de `random()` para seleccionar un pasillo al azar y guarda este número en otra variable.
 
 3. 🔄 Utiliza un ciclo `for` simulando que vas en busca de ese articulo pasillo tras pasillo hasta llegar al ultimo.
 

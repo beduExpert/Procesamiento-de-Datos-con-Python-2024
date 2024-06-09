@@ -126,7 +126,7 @@ print(y)
 
 ### 💡 **¿Sabias que?...**
 
-- **Manejo de excepciones**: 🚨 Al realizar una división por cero en Python, se lanza una excepción `ZeroDivisionError`. Este tipo de errores es común y se puede manejar adecuadamente para evitar que el programa se detenga abruptamente. Más sobre esto se explorará en futuras sesiones.
+- **Manejo de excepciones**: 🚨 Al realizar una división por cero en Python, se lanza una excepción `ZeroDivisionError`. Este tipo de errores es común y se puede manejar adecuadamente para evitar que el programa se detenga abruptamente, esta funcionalidad la veremos en la sesión 04. 
   
 - **Generación de números aleatorios**: 🎲 Python permite generar números aleatorios utilizando la librería `random`. Por ejemplo, `random.randint(1, 10)` genera un número aleatorio entre 1 y 10. Esta funcionalidad es útil para situaciones que requieren elementos de aleatoriedad, como simulaciones o juegos.
 
@@ -135,7 +135,7 @@ print(y)
   ```python
     x = 5
     print(y := x + 2)  # Salida: 7
-    # 'y' ahora contiene el resultado de la suma, y 'x
+    # 'y' ahora contiene el resultado de la suma, y 'x´ sigue siendo 5.
 
     # Equivalente a:
     x = 5

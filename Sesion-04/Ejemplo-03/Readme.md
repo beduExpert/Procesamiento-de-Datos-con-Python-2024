@@ -65,35 +65,8 @@ Son algunas de las excepciones más comunes en Python, pero existen muchas más 
    finally:
       print("Operación de ingreso de edad completada.")
    ```
-2. **Lectura de un archivo**: Este ejemplo intenta abrir y leer un archivo. Si el archivo no existe, se captura la excepción y se informa al usuario.
 
-   ```python
-   try:
-      with open("datos.txt", "r") as archivo:
-         datos = archivo.read()
-   except FileNotFoundError:
-      print("El archivo no fue encontrado.")
-   else:
-      print("Contenido del archivo leído exitosamente.")
-   finally:
-      print("Operación de lectura de archivo completada.")
-   ```
-
-3. **Conversión de tipos de datos**: Aquí se intenta convertir una cadena a un número flotante, útil en situaciones donde los valores de entrada provienen como texto (por ejemplo, desde un campo de entrada en una interfaz gráfica).
-
-   ```python
-   entrada_usuario = "3.14159"
-   try:
-      valor = float(entrada_usuario)
-   except ValueError:
-      print("No se puede convertir la entrada a un número flotante.")
-   else:
-      print(f"Valor convertido: {valor}")
-   finally:
-      print("Intento de conversión completado.")
-   ```
-
-4. **División segura**: Este código realiza una división, pero maneja el caso en que el divisor sea cero, lo cual es un error común.
+2. **División segura**: Este código realiza una división, pero maneja el caso en que el divisor sea cero, lo cual es un error común.
 
    ```python
    try:
@@ -108,43 +81,29 @@ Son algunas de las excepciones más comunes en Python, pero existen muchas más 
       print("Operación de división completada.")
    ```
 
-5. **Acceso a elementos en una lista**: Este ejemplo maneja el acceso a un índice que podría estar fuera del rango de la lista, lo cual es una situación común al trabajar con colecciones de datos.
 
-   ```python
-   lista = [1, 2, 3]
-   try:
-      print(lista[5])
-   except IndexError:
-      print("Índice fuera de rango.")
-   else:
-      print("Acceso al elemento completado.")
-   finally:
-      print("Operación de acceso a lista completada.")
-   ```
-
-
-Es importante mencionar que el uso de la palabra reservada `else` y `finally` no es obligatorio, pero es una buena práctica incluirlos para tener un control más preciso del flujo del programa y asegurarse de que las operaciones se completen correctamente.
+El uso de la palabra reservada `else` y `finally` no es obligatorio, pero es una buena práctica incluirlos para asegurarse de que las operaciones se completen correctamente.
 
 ---
 
 
 ### 💡 **Sabías que...**
 
-En el bloque `except`, es posible darle un nombre a la excepción que se captura, lo cual es útil para obtener más información sobre el error que se ha producido. Por ejemplo, en lugar de capturar cualquier excepción con `except Exception as e`, se puede especificar el tipo de excepción que se espera, como `except ValueError as e` o `except FileNotFoundError as e`.
+En el bloque except, puedes nombrar la excepción capturada para obtener más información sobre el error. Esto se hace especificando el tipo de excepción esperado..
 
 ```python
 try:
-    # Bloque de código que puede generar una excepción
+    # Código que puede generar una excepción
     pass
 except ValueError as e:
-    # Bloque de código que se ejecuta si se genera una excepción de tipo ValueError
+    # Código que se ejecuta si se genera una excepción de tipo ValueError
     print(f"Error de valor: {e}")
 except FileNotFoundError as e:
-    # Bloque de código que se ejecuta si se genera una excepción de tipo FileNotFoundError
+    # Código que se ejecuta si se genera una excepción de tipo FileNotFoundError
     print(f"Error de archivo no encontrado: {e}")
 ```
 
-`Raise` en Python se utiliza para lanzar intencionalmente excepciones, permitiendo gestionar condiciones inesperadas o indeseables en un programa. Esto es útil para validar entradas, manejar fallos críticos, y controlar el flujo de ejecución de una manera estructurada.
+`Raise` en Python se utiliza para lanzar intencionalmente excepciones, lo que ayuda a gestionar condiciones inesperadas en un programa.
 
 
 ```python

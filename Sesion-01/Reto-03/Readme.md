@@ -20,7 +20,7 @@
 4. 🖨️ Muestra los detalles del financiamiento utilizando interpolación de strings:
    - El modelo del automóvil seleccionado.
    - El precio total del automóvil.
-   - El número de meses del financiamiento.
+   - El número de meses del financiamiento (Ejemplo: 12, 24, 36, 48, 60).
    - La cuota mensual.
 
 5. 📊 Genera y muestra una tabla de amortización simple para los primeros dos meses:
@@ -33,9 +33,9 @@
 
    ```plaintext
    🚗 Modelo: Toyota Corolla
-   💰 Precio total: $20000
+   💰 Precio total: $50,000.00
    📅 Meses de financiamiento: 12
-   💳 Cuota mensual: $1666.67
+   💳 Cuota mensual: $4,166.67
 
    📊 Tabla de amortización
    -------------------------
@@ -55,4 +55,4 @@
 
 ---
 
-⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../Ejemplo-03/Readme.md)➡️
+⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../../Sesion-02/Readme.md)➡️

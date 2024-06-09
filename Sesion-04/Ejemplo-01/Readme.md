@@ -84,12 +84,13 @@ lista_kwargs(nombre="Juan", edad=25, ciudad="CDMX")
 Facilitan la configuración de parámetros con valores por defecto.
 
 ```python
-def potencia(numero, exp=2):
-    return numero ** exp
+def saludo(nombre="Invitado"):
+    print(f"¡Hola {nombre}!"
 
-# Llamada a la función con y sin argumentos predeterminados.
-print(potencia(5))  # salida: 25
-print(potencia(5, 3))  # salida: 125
+# Llamada a la función sin argumentos.
+saludo()  # salida: ¡Hola Invitado!
+# Llamada a la función con argumento.
+saludo("Mario")  # salida: ¡Hola Mario!
 ```
 
 ---
@@ -105,20 +106,6 @@ def funcion():
 
 funcion() # salida: Soy una variable local
 print(variable_local)  # NameError: name 'variable_local' is not defined
-```
-
-De igual manera las funciones pueden devolver múltiples valores utilizando tuplas, facilitando el retorno de más de un resultado de manera sencilla.
-    
-```python
-def operaciones(a, b):
-    suma = a + b
-    resta = a - b
-    return suma, resta
-
-# Llamada a la función y asignación de los valores retornados.
-resultado_suma, resultado_resta = operaciones(10, 5)
-print(resultado_suma)  # salida: 15
-print(resultado_resta)  # salida: 5
 ```
 
 ---

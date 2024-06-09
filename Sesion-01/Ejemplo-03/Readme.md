@@ -14,7 +14,7 @@ En el ambiente de programación, la interacción con el usuario es una parte ese
 
 ## 🔠 **Interpolación de strings**
 
-El formateo de cadenas de caracteres o strings es una técnica común en la programación con el fin de presentar datos de manera legible, al usuario. Python ofrece varias formas de interpolación de strings, cada una con sus propias ventajas y desventajas.
+El formateo de cadenas de caracteres o strings es una técnica común en la programación con el fin de presentar datos de manera legible, al usuario por medio de la consola. Python ofrece varias formas de interpolación de strings, cada una con sus propias ventajas y desventajas.
 
 ### 📝 **Método de formato `%`**
 
@@ -37,7 +37,7 @@ print("Hola, {}. Tienes {} años.".format(nombre, edad))
 
 ### 📝 **F-Strings (Literal string interpolation)**
 
-Introducido en Python 3.6, los f-strings ofrecen una manera más legible y eficiente de hacer interpolación de strings, así mismo es considerada la forma más moderna de hacer interpolación de strings.
+Introducido en Python 3.6, los f-strings ofrecen una manera más legible y eficiente de hacer interpolación de strings, así mismo es considerada la forma más moderna de hacer interpolación de strings, por lo que su uso sera implementado durante el todo el curso.
 
 ```python
 nombre = "Carol"

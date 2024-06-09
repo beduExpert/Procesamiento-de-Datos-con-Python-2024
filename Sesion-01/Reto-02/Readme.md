@@ -38,7 +38,7 @@
 
 ---
 
-✅ **Desafío adicional**: intenta imprimir un listado detallado de los productos comprados, como si fuera un ticket de compra, incluyendo el nombre, precio y stock de cada producto, así como el precio final después de aplicar cualquier aumento.
+✅ **Desafío adicional**: intenta imprimir un listado detallado de los productos comprados, como si fuera un ticket de compra, incluyendo el nombre, precio y stock de cada producto, así como el precio final después de aplicar cualquier aumento, puedes implementar prints personalizados.
 
 ---
 

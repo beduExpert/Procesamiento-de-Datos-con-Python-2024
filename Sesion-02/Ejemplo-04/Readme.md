@@ -94,7 +94,8 @@ while True:
         case _:
             print("Opción no válida, intenta de nuevo.")
 
-# Salida: El programa solicita al usuario que ingrese un número y muestra un mensaje correspondiente, hasta que el usuario elige la opción 4 para salir.
+# Salida: El programa solicita al usuario que ingrese un número y muestra un mensaje correspondiente, 
+# hasta que el usuario elige la opción 4 para salir.
 ```
 
 ---

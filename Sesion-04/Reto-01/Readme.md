@@ -12,11 +12,11 @@
 
 1. ➕ Crea una lista de tiempos en horas que una persona pasó en redes sociales durante una semana. Ej: `2, 1.5, 2.5, 3, 1, 4,` 
 
-2. 📜 Define una función para calcular el tiempo promedio diario que una persona pasa en redes sociales basado en una lista de tiempos semanales.
+2. 📜 Define una función para calcular el tiempo promedio diario de una persona.
    - Considera que la función puede manejar listas vacías, retornando `0` en esos casos, es posible utilizar la función `len()`.
    - Existe una función `sum()` que puede ser útil para sumar los elementos de una lista.
 
-3. 🔄 Llama a la función definida anteriormente, obtén el resultado e imprime un mensaje similar:
+3. 🔄 Llama a la función, obtén el resultado e imprime un mensaje similar:
    ```plaintext
    ✉️ El tiempo promedio diario en redes sociales es de 2.07 horas.
    ```
