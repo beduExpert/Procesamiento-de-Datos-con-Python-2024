@@ -25,6 +25,8 @@
 
 ✅ Este ejercicio es una excelente oportunidad para comprender cómo trabajar con tipos de datos básicos y cómo pueden ser utilizados para almacenar y manipular información de manera efectiva en Python.
 
+---
+
 🏆 Nos vemos en el siguiente reto, ¡mucho éxito!.
 
 ---

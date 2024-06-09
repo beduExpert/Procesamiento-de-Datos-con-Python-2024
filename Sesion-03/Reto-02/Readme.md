@@ -22,6 +22,7 @@
 3. ➕ Prestar un libro:
     - Verificar si el libro ya está prestado.
     - Si no está prestado, añadirlo al conjunto de libros prestados, y mostrar un mensaje personalizado.
+    
     ```plaintext
     ✉️ Libro 'The Great Gatsby' prestado con éxito.
     # o en caso contrario...
@@ -39,12 +40,12 @@
 
 5. 📋 Mostrar los libros prestados:
     - Mostrar un mensaje indicando los disponibles para préstamo.
+    
     ```plaintext
     📚 Libros disponibles para préstamo:
     - 'Ready Player One'
     - 'Top Gun: Maverick'
     - 'Gran Turismo'
-    
     ```
 
 ✅ **Desafío adicional**: Considera manejar situaciones como intentos de préstamo de libros inexistentes o la actualización de detalles de libros existentes.

@@ -49,6 +49,8 @@
 
 ✅ **Desafío adicional**: intenta imprimir una tabla de amortización completa para todos los meses del financiamiento, mostrando el pago mensual y el saldo pendiente para cada mes.
 
+---
+
 🏆 Nos vemos en el siguiente reto, ¡mucho éxito!.
 
 ---
