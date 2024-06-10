@@ -6,7 +6,7 @@
 
 ## 🎯 Objetivo
 
-⚒️ Desarrollar habilidades para interactuar con APIs, bases de datos como MySQL, MongoDB, aplicando conceptos de programación para el manejo de datos así como expresiones regulares.
+⚒️ Comprender y aplicar los conceptos de interacción con APIs, bases de datos MySQL y MongoDB, y participar en un círculo de estudio para reforzar el aprendizaje.
 
 ---
 
@@ -18,39 +18,37 @@ Antes de comenzar con los ejercicios de esta sesión, recordemos que en el mater
 
 ## 📂 Temas de la sesión
 
-### 📖 APIs y sus métodos
+### 📖 Interacción con APIs y sus métodos
 
-Las sentencias condicionales en Python se usan para tomar decisiones en el flujo del programa basado en condiciones específicas.
+Las APIs (Application Programming Interfaces) permiten a las aplicaciones comunicarse entre sí. En Python, interactuar con APIs es una habilidad esencial para obtener datos de servicios web y realizar operaciones de procesamiento de información en tiempo real.
 
-- **if**: Ejecuta un bloque de código si una condición es verdadera.
-- **if-else**: Ejecuta un bloque de código si una condición es verdadera; de lo contrario, ejecuta otro bloque de código.
-- **if-elif-else**: Maneja múltiples condiciones, ejecutando diferentes bloques de código según cuál condición sea verdadera.
+Aprenderemos a usar bibliotecas como `requests` para enviar peticiones HTTP y procesar las respuestas. Además, veremos ejemplos prácticos de cómo conectarse a APIs y manejar los datos obtenidos.
 
-#### 📜 **[Ejemplo 01: Sentencia If](Ejemplo-01/Readme.md)**
-#### 🔥 **[Reto 01: Búsqueda de articulo](Reto-01/Readme.md)**
+#### 📜 **[Ejemplo 01: Interacción con APIs](Ejemplo-01/Readme.md)**
+#### 🔥 **[Reto 01: Buscador de peliculas favoritas](Reto-01/Readme.md)**
+
 ---
 
-### 📖 Interacción con base de datos MySQL y MongoDB
+### 📖 Bases de datos MySQL y MongoDB
 
-Los ciclos `for` en Python se utilizan para iterar sobre una secuencia (como una lista, tupla, diccionario, conjunto o cadena) y ejecutar un bloque de código para cada elemento en la secuencia.
+Las bases de datos son fundamentales para gestionar y analizar grandes volúmenes de información en tiempos extremadamente cortos. Exploraremos cómo conectarnos y realizar operaciones básicas en bases de datos relacionales como MySQL y NoSQL como MongoDB.
 
-- **for**: Itera sobre una secuencia, ejecutando un bloque de código para cada elemento en la secuencia.
-- **for-else**: Ejecuta un bloque de código para cada elemento en una secuencia, y luego ejecuta un bloque de código opcional después de que se completa el ciclo, a menos que se haya interrumpido con una sentencia `break`.
+Para MySQL, usaremos la biblioteca `mysql-connector-python`, y para MongoDB, la biblioteca `PyMongo`. Aprenderemos a realizar consultas, así como a manejar cursores para iterar sobre resultados.
 
-#### 📜 **[Ejemplo 02: Sentencia For](Ejemplo-02/Readme.md)**
-#### 🔥 **[Reto 02: Búsqueda de articulo](Reto-01/Readme.md)**
+#### 📜 **[Ejemplo 02: Base de datos MySQL y MongoDB](Ejemplo-02/Readme.md)**
+#### 🔥 **[Reto 02: Sistema ](Reto-02/Readme.md)**
+
+
 ---
 
-### 📖 Expresiones regulares
 
-Las sentencias `match` en Python, introducidas en la versión 3.10, se utilizan para realizar coincidencias estructurales, similar a las sentencias `switch` en otros lenguajes. Permiten comparar un valor con varios patrones y ejecutar el bloque de código correspondiente al primer patrón coincidente.
+### ⭕ Círculo de estudio
 
-- **match-case**: Esta sentencia recibe una expresión y compara su valor con patrones sucesivos dados en uno o más bloques case.
+En el círculo de estudio se destinara una hora para reforzar los temas aprendidos durante las sesiones previas. Asi mismo compartiran los enlaces y/o documentos relacionados al avance de sus proyectos.
 
-Estas sentencias son útiles para simplificar el código que necesita manejar múltiples condiciones basadas en la estructura de los datos.
 
-#### 📜 **[Ejemplo 03: Sentencia match](Ejemplo-03/Readme.md)**
-#### 🔥 **[Reto 03: Búsqueda de articulo](Reto-01/Readme.md)**
+#### 📜 **[Circulo: Formato de preguntas y respuestas](Ejemplo-03/Readme.md)**
+
 
 ---
 

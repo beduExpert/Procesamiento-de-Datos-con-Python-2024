@@ -1,4 +1,4 @@
-🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 [**Sesión 02**](../Readme.md) ➡️ / ⚡`Reto 03: Análisis de Ventas`
+🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 [**Sesión 04**](../Readme.md) ➡️ / ⚡`Reto 03: Análisis de Ventas`
 
 ## 🎯 Objetivo
 
