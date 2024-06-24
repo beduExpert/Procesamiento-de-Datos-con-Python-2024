@@ -4,7 +4,8 @@
 
 Implementar los conceptos básicos de Python, así como ciclos, condiciones y funciones en un mini proyecto, con el objetivo de aclarar y comprender los temas vistos en sesiones anteriores 1 a 4.
 
-Esta seccion esfecificamente para preguntas y respuestas de los temas vistos en las sesiones previas, asi como el avance de los proyectos.
+Esta sección es específicamente para preguntas y respuestas de los temas vistos en las sesiones previas, así como el avance de los proyectos.
+
 
 ---
 
@@ -15,16 +16,16 @@ El experto o experta explicará brevemente los temas vistos en las sesiones ante
 ---
 
 
-### 🛒 Proyecto: Sistema de Gestión de Inventario para una Tienda
+### 🛒 Proyecto: sistema de gestión de inventario para una tienda
 
 #### 🎯 Objetivo del Proyecto:
 Desarrollar un sistema de gestión de inventario para una tienda utilizando Python. Este sistema permitirá al usuario agregar, actualizar y eliminar productos del inventario, así como consultar la información del inventario utilizando diversas estructuras de datos y técnicas de programación.
 
 ---
 
-### 📚 Módulo 1: Fundamentos de Programación
+### 📚 Módulo 1: Fundamentos de programación
 
-#### 📝 1.1 Variables y Tipos de Datos
+#### 📝 1.1 Variables y tipos de datos
 - **Objetivo**: Definir y utilizar variables de diferentes tipos (enteros, flotantes, cadenas, booleanos).
 - **Actividad**: Crear variables para almacenar la información básica de un producto (nombre, precio, cantidad, categoría).
 
@@ -35,7 +36,7 @@ Desarrollar un sistema de gestión de inventario para una tienda utilizando Pyth
     categoria_producto = "Electrónica"
     ```
 
-#### ➕ 1.2 Operadores en Python
+#### ➕ 1.2 Operadores en python
 - **Objetivo**: Implementar operadores aritméticos, de comparación y lógicos para realizar operaciones con datos.
 - **Actividad**: Calcular el valor total del inventario y determinar si hay suficiente stock.
 
@@ -44,7 +45,7 @@ Desarrollar un sistema de gestión de inventario para una tienda utilizando Pyth
     hay_stock = cantidad_producto > 0
     ```
 
-#### 🗣️ 1.3 Interpolación de Strings y Lectura por Teclado
+#### 🗣️ 1.3 Interpolación de strings y lectura por teclado
 - **Objetivo**: Utilizar la interpolación de strings, para generar mensajes y leer datos ingresados por el usuario.
 - **Actividad**: Pedir al usuario que ingrese la información de un nuevo producto y mostrar un mensaje de confirmación.
 
@@ -59,7 +60,7 @@ Desarrollar un sistema de gestión de inventario para una tienda utilizando Pyth
 
 ---
 
-### 🔄 Módulo 2: Control de Flujo
+### 🔄 Módulo 2: Control de flujo
 
 #### 🔀 2.1 Sentencia if
 - **Objetivo**: Implementar la sentencia if para tomar decisiones en el código.
@@ -82,9 +83,9 @@ Desarrollar un sistema de gestión de inventario para una tienda utilizando Pyth
         print(producto) # Mostrar el nombre del producto
     ```
 
-#### 🔍 2.3 Sentencia Match
+#### 🔍 2.3 Sentencia match
 - **Objetivo**: Implementar la sentencia match (Python 3.10+) para manejar múltiples condiciones.
-- **Actividad**: Categorizar productos basándose en su categoría.
+- **Actividad**: Determinar la categoría de un producto y mostrar un mensaje correspondiente.
 
     ```python
     match categoria_producto:
@@ -96,7 +97,7 @@ Desarrollar un sistema de gestión de inventario para una tienda utilizando Pyth
             print("Categoría desconocida.")
     ```
 
-#### 🔄 2.4 Ciclo While
+#### 🔄 2.4 Ciclo while
 - **Objetivo**: Implementar el ciclo while para realizar iteraciones basadas en una condición.
 - **Actividad**: Permitir al usuario continuar agregando productos hasta que decida detenerse.
 
@@ -110,9 +111,9 @@ Desarrollar un sistema de gestión de inventario para una tienda utilizando Pyth
 
 ---
 
-### 📋 Módulo 3: Estructuras de Datos
+### 📋 Módulo 3: Estructuras de datos
 
-#### 📄 3.1 Listas y sus Métodos
+#### 📄 3.1 Listas y sus métodos
 - **Objetivo**: Implementar listas y sus métodos para almacenar y manipular datos.
 - **Actividad**: Crear una lista de productos y agregar nuevos a la lista.
 
@@ -122,7 +123,7 @@ Desarrollar un sistema de gestión de inventario para una tienda utilizando Pyth
     print(productos) # Mostrar la lista de productos
     ```
 
-#### 📚 3.2 Tuplas y sus Métodos
+#### 📚 3.2 Tuplas y sus métodos
 - **Objetivo**: Implementar tuplas para almacenar datos que no deben cambiar.
 - **Actividad**: Crear una tupla con la información de un producto.
 
@@ -131,7 +132,7 @@ Desarrollar un sistema de gestión de inventario para una tienda utilizando Pyth
     print(producto) # Mostrar la información del producto
     ```
 
-#### 🔢 3.3 Conjuntos y sus Métodos
+#### 🔢 3.3 Conjuntos y sus métodos
 - **Objetivo**: Implementar conjuntos para almacenar colecciones de elementos únicos.
 - **Actividad**: Crear un conjunto de categorías de productos.
 
@@ -141,7 +142,7 @@ Desarrollar un sistema de gestión de inventario para una tienda utilizando Pyth
     print(categorias) # Mostrar las categorías disponibles
     ```
 
-#### 🔑 3.4 Diccionarios y sus Métodos
+#### 🔑 3.4 Diccionarios y sus métodos
 - **Objetivo**: Implementar diccionarios para almacenar datos en pares clave-valor.
 - **Actividad**: Crear un diccionario para almacenar la información de varios productos.
 
@@ -155,9 +156,9 @@ Desarrollar un sistema de gestión de inventario para una tienda utilizando Pyth
 
 ---
 
-### 🛠️ Módulo 4: Funciones y Programación Funcional
+### 🛠️ Módulo 4: Funciones y programación funcional
 
-#### 🔧 4.1 Definición de Funciones
+#### 🔧 4.1 Definición de funciones
 - **Objetivo**: Definir y utilizar funciones para organizar el código.
 - **Actividad**: Crear una función para agregar un nuevo producto al inventario.
 
@@ -167,7 +168,7 @@ Desarrollar un sistema de gestión de inventario para una tienda utilizando Pyth
         return inventario
     ```
 
-#### ✏️ 4.2 Funciones Lambda
+#### ✏️ 4.2 Funciones lambda
 - **Objetivo**: Implementar funciones lambda para crear funciones pequeñas y anónimas.
 - **Actividad**: Crear una función lambda para calcular el impuesto sobre el precio de un producto.
 
@@ -176,7 +177,7 @@ Desarrollar un sistema de gestión de inventario para una tienda utilizando Pyth
     print(calcular_impuesto(100))
     ```
 
-#### ❗ 4.3 Control de Excepciones
+#### ❗ 4.3 Control de excepciones
 - **Objetivo**: Manejar errores y excepciones en el código.
 - **Actividad**: Manejar posibles errores al ingresar datos de un producto.
 
@@ -187,7 +188,7 @@ Desarrollar un sistema de gestión de inventario para una tienda utilizando Pyth
         print("Por favor, ingrese un número válido para el precio.")
     ```
 
-#### 🔀 4.4 Map, Filter y Reduce
+#### 🔀 4.4 Map, filter y reduce
 - **Objetivo**: Implementar las funciones map, filter y reduce para manipular listas y otros iterables.
 - **Actividad**: Calcular el precio total de todos los productos en el inventario.
 
