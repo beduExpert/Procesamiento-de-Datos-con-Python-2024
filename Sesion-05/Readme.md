@@ -25,7 +25,7 @@ Las APIs (Application Programming Interfaces) permiten a las aplicaciones comuni
 Aprenderemos a usar bibliotecas como `requests` para enviar peticiones HTTP y procesar las respuestas. Además, veremos ejemplos prácticos de cómo conectarse a APIs y manejar los datos obtenidos.
 
 #### 📜 **[Ejemplo 01: Interacción con APIs](Ejemplo-01/Readme.md)**
-#### 🔥 **[Reto 01: Buscador de peliculas favoritas](Reto-01/Readme.md)**
+#### 🔥 **[Reto 01: Buscador de peliculas mas populares](Reto-01/Readme.md)**
 
 ---
 
@@ -36,7 +36,7 @@ Las bases de datos son fundamentales para gestionar y analizar grandes volúmene
 Para MySQL, usaremos la biblioteca `mysql-connector-python`, y para MongoDB, la biblioteca `PyMongo`. Aprenderemos a realizar consultas, así como a manejar cursores para iterar sobre resultados.
 
 #### 📜 **[Ejemplo 02: Base de datos MySQL y MongoDB](Ejemplo-02/Readme.md)**
-#### 🔥 **[Reto 02: Sistema ](Reto-02/Readme.md)**
+#### 🔥 **[Reto 02: Mysql_tienda y MongoDB_users](Reto-02/Readme.md)**
 
 
 ---

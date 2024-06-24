@@ -1,8 +1,8 @@
-🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 [**Sesión 03**](../Readme.md) ➡️ / ⚡`Reto 01: Sistema de reservaciones`
+🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 [**Sesión 05**](../Readme.md) ➡️ / ⚡`Reto 01: Buscador de peliculas mas populares`
 
 ## 🎯 Objetivo
 
-⚒️ Desarrollar un sistema simplificado de gestión de reservaciones para un restaurante utilizando listas de tuplas.
+⚒️ Obtener información sobre las películas más populares usando la API de The Movie Database (TMDB), e imprimir el titulo, fecha de estreno y votación promedio de cada película.
 
 ---
 
@@ -10,20 +10,33 @@
 
 👥 Considerando la cantidad de estudiantes, es posible resolver este reto en equipos o de manera individual.
 
-1. 📜 Define una lista de tuplas donde cada tupla represente una reservación. Con los siguientes datos:
-   - Nombre del cliente
-   - Cantidad de personas
+1. 🔑 Solicita a tu Experto o Experta la API Key para acceder a los datos de la API The Movie Database (TMDB), en caso de no tenerla.
 
-2. ➕ Añade al menos 5 reservaciones a la lista.
+2. 🌐 Realiza una petición a la API de TMDB para obtener las películas populares.
+   - URL base: `https://api.themoviedb.org/3/movie/popular?language=es-MX&page=1`
 
-3. ➖ Elimina una reservación existente de la lista.
+3. ⚙️ Configura los parámetros de la petición en un diccionario:
+   - `language`: puede ser (`es-MX`).
+   - `page`: puede ser 1.
 
-4. 🔄 Finalmente recorre la lista de reservaciones e imprime un mensaje personalizado:
+4. 🔒 Configura los encabezados de la petición en un diccionario:
+   - `Authorization`: usa el token de Bearer con tu API Key.
+   - `accept`: especifica que esperas una respuesta en formato JSON.
+
+5. 🔄 Obtén la respuesta e itera sobre los resultados obtenidos para cada película, imprime un mensaje similar:
    ```plaintext
-   ✉️ Reservación: Mario Gonzalez, Para: 4 personas.
+   ✉️ Película 1: Título de la película, Fecha de estreno: (Fecha), Votación promedio: (Votación).
+   ✉️ Película 2: Título de la película, Fecha de estreno: (Fecha), Votación promedio: (Votación).
+   ...
    ```
 
-✅ **Desafío adicional**: Piensa en cómo podrías mejorar la gestión de las reservaciones. Algunas ideas pueden incluir manejar situaciones donde intentas eliminar una reservación que no existe o cómo manejar la actualización de una reservación existente.
+<!-- Nota con emoji -->
+📌 **Nota**:
+   - Considera que las peliculas pueden cambiar con respecto a la fecha en que se realice el reto, por lo que los resultados pueden variar, sin embargo, el formato de impresión debe ser similar.
+
+---
+
+✅ **Desafío adicional**: Considera cómo podrías obtener la película con la mayor cantidad de votos.
 
 ---
 
@@ -31,4 +44,4 @@
 
 ---
 
-⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../Ejemplo-03/Readme.md) ➡️
+⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../Ejemplo-02/Readme.md) ➡️

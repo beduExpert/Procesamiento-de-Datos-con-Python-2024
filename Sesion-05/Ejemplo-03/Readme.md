@@ -1,130 +1,217 @@
-🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 [**Sesión 03**](../Readme.md) ➡️ / 📝 `Ejemplo 03: Conjuntos y sus métodos`
+🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 [**Sesión 05**](../Readme.md) ➡️ / ⭕ `Círculo de estudio`
 
 ## 🎯 Objetivo
 
-Explorar los métodos y funciones esenciales de los conjuntos en Python para manejar colecciones de elementos únicos.
+Implementar los conceptos básicos de Python, así como ciclos, condiciones y funciones en un mini proyecto, con el objetivo de aclarar y comprender los temas vistos en sesiones anteriores 1 a 4.
+
+Esta seccion esfecificamente para preguntas y respuestas de los temas vistos en las sesiones previas, asi como el avance de los proyectos.
 
 ---
 
 ## 🚀 Introducción
 
-Los conjuntos o `set()` en Python son colecciones desordenadas de datos únicos y mutables, que permiten operaciones matemáticas de conjuntos como uniones, intersecciones, diferencias, entre otras. Su naturaleza desordenada los hace ideales para la gestión de datos donde la unicidad es más importante que el orden de los elementos.
-
----
-
-### 🔦 **Sintaxis básica de conjuntos:**
-
-```python
-# Declaración de conjuntos, con o sin elementos.
-conjunto_vacio = set()
-numeros = {1, 2, 3, 4, 5}
-elementos = {1, 'hola', True, 3.1416}
-# Elementos duplicados se eliminan automáticamente.
-duplicados = {1, 2, 3, 1, 2, 3} # {1, 2, 3}
-```
-
-### 🔦 **Acceso a elementos:**
-
-A diferencia de las listas y tuplas, los conjuntos no soportan el acceso indexado. Para trabajar con elementos individuales, se utilizan métodos específicos como un `for` o `in`.
-
-
-### 🧰 **Métodos Comunes de Conjuntos:**
-
-| Método                | Descripción |
-|-----------------------|-------------|
-| `add(x)`              | Añade el elemento `x` al conjunto si no está presente. |
-| `remove(x)`           | Elimina el elemento `x` del conjunto. Lanza `KeyError` si `x` no está presente. |
-| `discard(x)`          | Elimina el elemento `x` del conjunto si está presente (sin lanzar errores). |
-| `clear()`             | Elimina todos los elementos del conjunto. |
-| `union(other)`        | Devuelve un nuevo conjunto que es la unión de este conjunto con otro(s). |
-| `intersection(other)` | Devuelve un nuevo conjunto con elementos comunes entre este conjunto y otro(s). |
-| `difference(other)`   | Devuelve un nuevo conjunto con elementos que están en este conjunto pero no en otro(s). |
-
-### 🔦 **Ejemplos de métodos comunes de conjuntos:**
-
-1. **`add()`** - Añadir un elemento al conjunto:
-   ```python
-   frutas = {'manzana', 'banana'}
-   frutas.add('naranja')
-   print(frutas)  # {'manzana', 'banana', 'naranja'}
-   ```
-
-2. **`remove()`** - Eliminar un elemento específico:
-   ```python
-   frutas = {'manzana', 'banana', 'naranja'}
-   frutas.remove('banana')
-   print(frutas)  # {'manzana', 'naranja'}
-   ```
-
----
-
-### 🔄 **Iteración sobre conjuntos:**
-
-Los conjuntos soportan la iteración directa con un ciclo `for`.
-
-```python
-frutas = {'manzana', 'banana', 'naranja'}
-for fruta in frutas:
-    print(fruta) # manzana, banana, naranja
-```
-
----
-
-### 🔦 **Operaciones con Conjuntos:**
-
-Los conjuntos soportan varias operaciones que permiten comparar contenidos y realizar operaciones matemáticas de conjuntos.
-
-```python
-# Operaciones de conjunto para uniones e intersecciones.
-a = {1, 2, 3}
-b = {3, 4, 5}
-union = a.union(b)
-interseccion = a.intersection(b)
-print(union)  # {1, 2, 3, 4, 5}
-print(interseccion)  # {3}
-```
----
-
-### 💡 **Sabías que...**
-
-Existe una diferencia clave entre utilizar `in` e `==` para comparar o buscar elementos en estructuras de datos en Python.
-
-#### 1. Por ejemplo  **`in`**:
-
-La palabra reservada **`in`** verifica la presencia de un elemento dentro de una colección, como listas, tuplas, conjuntos y diccionarios. En los ciclos, "in" se utiliza tanto para iterar sobre los elementos de la colección como para comprobar si un elemento está incluido en la misma, mediante condiciones en sentencias if o while.
-
-  ```python
-  numeros = [1, 2, 3, 4, 5]
-
-  # Iterar sobre los elementos de la lista.
-  for numero in numeros:
-      print(numero)
-
-  # Verificar si el número 3 está en la lista.
-  while 3 in numeros:
-      numeros.remove(3)
-  
-  if 3 in numeros:
-      print("El número 3 está en la lista.")
-  ```
-
-#### 2. Mientras que **`==`**:
-
-El operador  **`==`** verifica la igualdad entre dos valores, lo que resulta especialmente útil para comparar tipos de datos como cadenas, números y booleanos. En los ciclos, == se emplea para comparar elementos de una colección con un valor específico, utilizando este operador dentro de condiciones en bucles para determinar si se cumple una igualdad específica.
-
-
-  ```python
-  nombres = ["Ana", "Luis", "Carlos"]
-  for nombre in nombres:
-      if nombre == "Luis":
-          print("Hemos encontrado a Luis!")
-  ```
-
-### Diferencia clave:
-- **`in`** pregunta si un elemento está presente en una colección.
-- **`==`** comprueba si dos valores son exactamente iguales.
+El experto o experta explicará brevemente los temas vistos en las sesiones anteriores, aplicados a un proyecto de ejemplo. Posteriormente, se abrirá un espacio para preguntas y respuestas, así como para compartir los avances de los proyectos de los estudiantes.
 
 ---
 
 
-⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../Ejemplo-04/Readme.md) ➡️
+### 🛒 Proyecto: Sistema de Gestión de Inventario para una Tienda
+
+#### 🎯 Objetivo del Proyecto:
+Desarrollar un sistema de gestión de inventario para una tienda utilizando Python. Este sistema permitirá al usuario agregar, actualizar y eliminar productos del inventario, así como consultar la información del inventario utilizando diversas estructuras de datos y técnicas de programación.
+
+---
+
+### 📚 Módulo 1: Fundamentos de Programación
+
+#### 📝 1.1 Variables y Tipos de Datos
+- **Objetivo**: Definir y utilizar variables de diferentes tipos (enteros, flotantes, cadenas, booleanos).
+- **Actividad**: Crear variables para almacenar la información básica de un producto (nombre, precio, cantidad, categoría).
+
+    ```python
+    nombre_producto = "Laptop"
+    precio_producto = 1200.50
+    cantidad_producto = 10
+    categoria_producto = "Electrónica"
+    ```
+
+#### ➕ 1.2 Operadores en Python
+- **Objetivo**: Implementar operadores aritméticos, de comparación y lógicos para realizar operaciones con datos.
+- **Actividad**: Calcular el valor total del inventario y determinar si hay suficiente stock.
+
+    ```python
+    valor_total = precio_producto * cantidad_producto
+    hay_stock = cantidad_producto > 0
+    ```
+
+#### 🗣️ 1.3 Interpolación de Strings y Lectura por Teclado
+- **Objetivo**: Utilizar la interpolación de strings, para generar mensajes y leer datos ingresados por el usuario.
+- **Actividad**: Pedir al usuario que ingrese la información de un nuevo producto y mostrar un mensaje de confirmación.
+
+    ```python
+    nombre_producto = input("Ingrese el nombre del producto: ")
+    precio_producto = float(input("Ingrese el precio del producto: "))
+    cantidad_producto = int(input("Ingrese la cantidad del producto: "))
+    categoria_producto = input("Ingrese la categoría del producto: ")
+
+    print(f"Producto agregado: {nombre_producto}, Precio: {precio_producto}, Cantidad: {cantidad_producto}, Categoría: {categoria_producto}")
+    ```
+
+---
+
+### 🔄 Módulo 2: Control de Flujo
+
+#### 🔀 2.1 Sentencia if
+- **Objetivo**: Implementar la sentencia if para tomar decisiones en el código.
+- **Actividad**: Verificar si un producto está en stock y mostrar un mensaje adecuado.
+
+    ```python
+    if cantidad_producto > 0:
+        print("El producto está en stock.")
+    else:
+        print("El producto no está en stock.")
+    ```
+
+#### 🔁 2.2 Ciclo for
+- **Objetivo**: Implementar el ciclo for para iterar sobre una lista de productos.
+- **Actividad**: Iterar sobre una lista de productos y mostrar sus nombres.
+
+    ```python
+    productos = ["Laptop", "Mouse", "Teclado"]
+    for producto in productos:
+        print(producto) # Mostrar el nombre del producto
+    ```
+
+#### 🔍 2.3 Sentencia Match
+- **Objetivo**: Implementar la sentencia match (Python 3.10+) para manejar múltiples condiciones.
+- **Actividad**: Categorizar productos basándose en su categoría.
+
+    ```python
+    match categoria_producto:
+        case "Electrónica":
+            print("El producto es de la categoría Electrónica.")
+        case "Ropa":
+            print("El producto es de la categoría Ropa.")
+        case _:
+            print("Categoría desconocida.")
+    ```
+
+#### 🔄 2.4 Ciclo While
+- **Objetivo**: Implementar el ciclo while para realizar iteraciones basadas en una condición.
+- **Actividad**: Permitir al usuario continuar agregando productos hasta que decida detenerse.
+
+    ```python
+    continuar = True
+    while continuar:
+        nombre_producto = input("Ingrese el nombre del producto: ")
+        # (lectura de otros datos del producto)
+        continuar = input("¿Desea agregar otro producto? (s/n): ") == 's'
+    ```
+
+---
+
+### 📋 Módulo 3: Estructuras de Datos
+
+#### 📄 3.1 Listas y sus Métodos
+- **Objetivo**: Implementar listas y sus métodos para almacenar y manipular datos.
+- **Actividad**: Crear una lista de productos y agregar nuevos a la lista.
+
+    ```python
+    productos = ["Laptop", "Mouse", "Teclado"]
+    productos.append("Monitor")
+    print(productos) # Mostrar la lista de productos
+    ```
+
+#### 📚 3.2 Tuplas y sus Métodos
+- **Objetivo**: Implementar tuplas para almacenar datos que no deben cambiar.
+- **Actividad**: Crear una tupla con la información de un producto.
+
+    ```python
+    producto = ("Laptop", 1200.50, 10, "Electrónica")
+    print(producto) # Mostrar la información del producto
+    ```
+
+#### 🔢 3.3 Conjuntos y sus Métodos
+- **Objetivo**: Implementar conjuntos para almacenar colecciones de elementos únicos.
+- **Actividad**: Crear un conjunto de categorías de productos.
+
+    ```python
+    categorias = {"Electrónica", "Ropa", "Hogar"}
+    categorias.add("Deportes")
+    print(categorias) # Mostrar las categorías disponibles
+    ```
+
+#### 🔑 3.4 Diccionarios y sus Métodos
+- **Objetivo**: Implementar diccionarios para almacenar datos en pares clave-valor.
+- **Actividad**: Crear un diccionario para almacenar la información de varios productos.
+
+    ```python
+    inventario = {
+        "Laptop": {"precio": 1200.50, "cantidad": 10, "categoría": "Electrónica"},
+        "Mouse": {"precio": 20.00, "cantidad": 50, "categoría": "Electrónica"}
+    }
+    print(inventario) # Mostrar el inventario completo
+    ```
+
+---
+
+### 🛠️ Módulo 4: Funciones y Programación Funcional
+
+#### 🔧 4.1 Definición de Funciones
+- **Objetivo**: Definir y utilizar funciones para organizar el código.
+- **Actividad**: Crear una función para agregar un nuevo producto al inventario.
+
+    ```python
+    def agregar_producto(inventario, nombre, precio, cantidad, categoria):
+        inventario[nombre] = {"precio": precio, "cantidad": cantidad, "categoría": categoria}
+        return inventario
+    ```
+
+#### ✏️ 4.2 Funciones Lambda
+- **Objetivo**: Implementar funciones lambda para crear funciones pequeñas y anónimas.
+- **Actividad**: Crear una función lambda para calcular el impuesto sobre el precio de un producto.
+
+    ```python
+    calcular_impuesto = lambda precio: precio * 0.16
+    print(calcular_impuesto(100))
+    ```
+
+#### ❗ 4.3 Control de Excepciones
+- **Objetivo**: Manejar errores y excepciones en el código.
+- **Actividad**: Manejar posibles errores al ingresar datos de un producto.
+
+    ```python
+    try:
+        precio_producto = float(input("Ingrese el precio del producto: "))
+    except ValueError:
+        print("Por favor, ingrese un número válido para el precio.")
+    ```
+
+#### 🔀 4.4 Map, Filter y Reduce
+- **Objetivo**: Implementar las funciones map, filter y reduce para manipular listas y otros iterables.
+- **Actividad**: Calcular el precio total de todos los productos en el inventario.
+
+    ```python
+    from functools import reduce
+
+    precios = [1200.50, 20.00, 50.00]
+    total = reduce(lambda x, y: x + y, precios)
+    print(total)
+    ```
+
+---
+
+<!-- Conclusion sobre el mini proyecto-->
+## 🤔Conclusiones
+
+En esta sección, se ha aplicado los conceptos básicos de Python, en diferentes situaciones y escenarios, con el objetivo de reforzar y comprender los temas vistos en las sesiones anteriores. A través de un mini proyecto de un sistema de gestión de inventario.
+
+En base a tu proyecto, genera un resumen de como aplicarias los temas vistos hasta el momento.
+
+---
+
+🏆 Nos vemos en la siguiente sesión, ¡mucho éxito!.
+
+---
+
+⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../Ejemplo-06/Readme.md) ➡️

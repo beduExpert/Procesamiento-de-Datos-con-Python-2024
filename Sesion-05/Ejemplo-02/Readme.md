@@ -1,86 +1,114 @@
-🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 [**Sesión 03**](../Readme.md) ➡️ / 📝 `Ejemplo 02: Tuplas y sus métodos`
+🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 [**Sesión 05**](../Readme.md) ➡️ / 📝 `Ejemplo 02: Base de datos MySQL y MongoDB`
 
 ## 🎯 Objetivo
 
-Explorar los métodos y funciones esenciales de las tuplas en Python para manipular datos.
+Implementar métodos populares para interactuar y obtener información tanto de bases de datos relacionales como MySQL (fetchone, fetchmany, fetchall) como de bases de datos NoSQL como MongoDB (find_one, find, cursores).
 
 ---
 
 ## 🚀 Introducción
 
-Las tuplas en Python son estructuras de datos inmutables, lo que significa que una vez definidas no pueden ser modificadas aun en tiempo de ejecución. Esto las hace ideales para asegurar que los datos no sean cambiados a lo largo de un programa.
+Las bases de datos son una parte fundamental en el desarrollo de aplicaciones, ya que permiten almacenar y recuperar información de manera rapida. Existen diferentes tipos de bases de datos, entre las más populares se encuentran las bases de datos relacionales y las bases de datos NoSQL, cada una con sus propias características y ventajas.
+
+En Python, existen librerías que permiten interactuar con diferentes tipos de bases de datos, como `mysql-connector-python` para MySQL y `pymongo` para MongoDB, con la finalidad de poder ejecutar consultas desde Python y obtener información de manera programática.
 
 ---
 
-### 🔦 **Sintaxis básica de tuplas:**
 
-```python
-# Declaración de tuplas, con o sin elementos.
-tupla_vacia = ()
-tupla_vacia = tuple()
-numeros = (1, 2, 3, 4, 5)
-elementos = (1, 'hola', True, 3.1416)
+#### 🗃️ **MySQL**:
+
+Para interactuar con una base de datos MySQL desde Python, es necesario instalar el conector `mysql-connector-python`. Se puede utilizar el siguiente comando:
+
+```bash
+# Si usas Google Colab, ejecuta esta celda
+!pip install mysql-connector-python
 ```
-### 🔦 **Acceso a elementos:**
+
+Si requieres conocer más acerca de como interactuar con una base de datos MySQL desde Python, puedes consultar la documentación oficial de MySQL [aquí](https://dev.mysql.com/doc/connector-python/en/).
+
+Tambien puedes consultar la documentación de `W3Schools` para obtener más información y ejemplos [aquí](https://www.w3schools.com/python/python_mysql_getstarted.asp).
+
+
+
+📌 **Procedimiento para hacer una consulta**:
+
 
 ```python
-# Acceso mediante índice, que comienza en 0
-numeros = (10, 20, 30, 40, 50)
-print(numeros[0])  # Salida: 10
-print(numeros[2])  # Salida: 30
-```
-### 🧰 **Métodos Comunes de Tuplas:**
+import mysql.connector
 
-| Método                | Descripción |
-|-----------------------|-------------|
-| `count(x)`            | Cuenta las apariciones de `x` en la tupla. |
-| `index(x)`            | Devuelve el primer índice de `x` en la tupla. |
+# Crear una conexión a la base de datos.
+mydb = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="password",
+    database="mydatabase"
+) # Pidele a tu Experto o Experta que te proporcione los datos de conexión.
 
-### 🔦 **Ejemplos de métodos comunes de tuplas:**
+# Crear un cursor para ejecutar consultas.
+mycursor = mydb.cursor()
 
-1. **`count()`** - Contar ocurrencias de un elemento:
-   ```python
-   elementos = (1, 2, 2, 3, 4, 2)
-   cuenta = elementos.count(2)
-   print(cuenta)  # 3
-   ```
+# Ejecutar una consulta.
+mycursor.execute("SELECT * FROM Usuarios")
 
-2. **`index()`** - Encontrar el primer índice de un elemento:
-   ```python
-   elementos = (1, 2, 3, 4, 5)
-   indice = elementos.index(3)
-   print(indice)  # 2
-   ```
+# Obtener los resultados de la consulta.
+myresult = mycursor.fetchall()
 
----
-
-### 🍰 **Slicing en Tuplas:**
-
-El slicing permite acceder a subconjuntos de elementos en una tupla mediante rangos.
-
-```python
-# Subtuplas mediante slicing.
-# Sintaxis: tupla[inicio:fin:incremento], el rango es [inicio, fin).
-
-numeros = (10, 20, 30, 40, 50, 60, 70, 80)
-subtupla = numeros[2:5]
-print(subtupla)  # (30, 40, 50)
+# Mostrar los resultados.
+for x in myresult:
+    print(x)
 ```
 
 ---
+
+#### 📦 **MongoDB**:
+
+Para interactuar con una base de datos MongoDB desde Python, es necesario instalar la librería `pymongo`. Se puede utilizar el siguiente comando:
+
+```bash
+# Si usas Google Colab, ejecuta esta celda
+!pip install pymongo
+```
+
+Si requieres conocer más acerca de como interactuar con una base de datos MongoDB desde Python, puedes consultar la documentación oficial de MongoDB [aquí](https://pymongo.readthedocs.io/en/stable/).
+
+Tambien puedes consultar la documentación de `W3Schools` para obtener más información y ejemplos [aquí](https://www.w3schools.com/python/python_mongodb_getstarted.asp).
+
+📌 **Procedimiento para hacer una consulta**:
+
+```python
+import pymongo
+
+# Crear una conexión a la base de datos.
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["mydatabase"]
+
+# Pidele a tu Experto o Experta que te proporcione los datos de conexión.
+
+# Obtener una colección.
+mycol = mydb["Usuarios"]
+
+# Realizar una consulta.
+myquery = { "name": "John" }
+mydoc = mycol.find(myquery)
+
+# Mostrar los resultados.
+for x in mydoc:
+    print(x)
+```
+---
+
+
 
 ### 💡 **Sabías que...**
 
-La función `len()` también puede ser utilizada para obtener la longitud de una tupla, la cual es equivalente al número de elementos que contiene.
 
-```python
-numeros = (10, 20, 30, 40, 50)
-longitud = len(numeros)
-print(longitud)  # 5
-```
+**MySQL**:
+- `mysql-connector-python` es un conector oficial de MySQL para Python, lo que significa que es desarrollado y mantenido por Oracle. Una de sus ventajas es que proporciona soporte completo para las características avanzadas de MySQL, como el manejo de transacciones y la compatibilidad con los últimos estándares SQL. Además, incluye soporte para autenticación mediante plugins y conexiones SSL, lo que lo hace ideal para aplicaciones que requieren altos niveles de seguridad.
 
-También podemos obtener la longitud de otros tipos de datos como listas, diccionarios, cadenas, esto es especialmente útil cuando no conocemos el tamaño de los datos con los que estamos trabajando.
+**MongoDB**:
+- `pymongo` es una de las bibliotecas más utilizadas para interactuar con MongoDB desde Python. Una de sus características destacadas es el soporte para operaciones de agregación, que permiten realizar consultas complejas y análisis de datos directamente en la base de datos, utilizando el pipeline de agregación de MongoDB. Esto permite a los desarrolladores realizar transformaciones y agregaciones de datos directamente en el servidor de la base de datos, reduciendo la necesidad de procesamiento adicional en la aplicación y mejorando el rendimiento general.
+
 
 ---
 
-⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../Reto-01/Readme.md) ➡️
+⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../Reto-02/Readme.md) ➡️
