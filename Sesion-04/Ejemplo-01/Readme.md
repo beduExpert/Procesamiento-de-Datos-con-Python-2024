@@ -6,7 +6,7 @@ Explorar y aplicar los diferentes tipos de declaración de funciones en Python, 
 
 ---
 
-## 🚀 Introducción
+## 🚀 Comencemos
 
 Las funciones en Python nos ayudan a organizar y reutilizar código. Son bloques de código que realizan una tarea específica y pueden ser llamados en cualquier parte del programa después de haberlas declarado. Las funciones se definen con la palabra reservada `def`, seguida del nombre de la función y los parámetros entre paréntesis. 
 

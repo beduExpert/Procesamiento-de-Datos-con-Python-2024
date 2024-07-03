@@ -6,7 +6,7 @@ Implementar métodos populares para interactuar y obtener información tanto de 
 
 ---
 
-## 🚀 Introducción
+## 🚀 Comencemos
 
 Las bases de datos son una parte fundamental en el desarrollo de aplicaciones, ya que permiten almacenar y recuperar información de manera rapida. Existen diferentes tipos de bases de datos, entre las más populares se encuentran las bases de datos relacionales y las bases de datos NoSQL, cada una con sus propias características y ventajas.
 
@@ -54,8 +54,8 @@ mycursor.execute("SELECT * FROM Usuarios")
 myresult = mycursor.fetchall()
 
 # Mostrar los resultados.
-for x in myresult:
-    print(x)
+for resultado in myresult:
+    print(resultado)
 ```
 
 ---
@@ -92,8 +92,8 @@ myquery = { "name": "John" }
 mydoc = mycol.find(myquery)
 
 # Mostrar los resultados.
-for x in mydoc:
-    print(x)
+for resultado in mydoc:
+    print(resultado)
 ```
 ---
 

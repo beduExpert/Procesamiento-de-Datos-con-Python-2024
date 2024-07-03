@@ -6,7 +6,7 @@ Explorar los métodos y funciones esenciales de los diccionarios en Python para 
 
 ---
 
-## 🚀 Introducción
+## 🚀 Comencemos
 
 Los diccionarios en Python son estructuras de datos que almacenan información en pares clave-valor, siendo ideales para accesos rápidos y eficientes a sus elementos, así mismo a partir de Python 3.7, los diccionarios conservan el orden en el se insertaron los elementos.
 

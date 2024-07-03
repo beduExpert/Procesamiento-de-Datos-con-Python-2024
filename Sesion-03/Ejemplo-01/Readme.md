@@ -6,7 +6,7 @@ Explorar los métodos y funciones esenciales de las listas en Python para manipu
 
 ---
 
-## 🚀 Introducción
+## 🚀 Comencemos
 
 Las listas en Python son herramientas ideales para la ciencia de datos, capaces de almacenar elementos de distintos tipos y manipular datos de forma eficiente.
 
@@ -105,7 +105,6 @@ numeros = [10, 20, 30]
 
 # Intentar acceder a un índice que no existe
 print(numeros[100])  # Error: IndexError: list index out of range
-
 
 # Intentar acceder a un índice negativo
 print(numeros[-1])  # Salida: 30

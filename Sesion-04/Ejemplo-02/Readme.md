@@ -6,7 +6,7 @@ Implementar funciones lambda en Python para simplificar la escritura de código 
 
 ---
 
-## 🚀 Introducción
+## 🚀 Comencemos
 
 Las funciones lambda, también conocidas como funciones anónimas, permiten definir operaciones en una sola línea sin utilizar la palabra reservada `def`. Son ideales para simplificar el código y aumentar su legibilidad, especialmente en situaciones donde se necesita una operación sencilla que se utilizará solamente una vez.
 

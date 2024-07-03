@@ -6,7 +6,7 @@ Explorar los métodos y funciones esenciales de las tuplas en Python para manipu
 
 ---
 
-## 🚀 Introducción
+## 🚀 Comencemos
 
 Las tuplas en Python son estructuras de datos inmutables, lo que significa que una vez definidas no pueden ser modificadas aun en tiempo de ejecución. Esto las hace ideales para asegurar que los datos no sean cambiados a lo largo de un programa.
 

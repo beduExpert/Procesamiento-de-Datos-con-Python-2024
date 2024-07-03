@@ -6,7 +6,7 @@ Implementar el manejo de las funciones`map()`, `filter()` y `reduce()` en Python
 
 ---
 
-## 🚀 Introducción
+## 🚀 Comencemos
 
 En ciencia de datos, aplicar funciones a elementos de una lista es común y puede ser tedioso. Python simplifica este proceso mediante `map()`, `filter()` y `reduce()`, que permiten manipular eficientemente grandes volúmenes de datos, aplicando, filtrando y reduciendo funciones en menos líneas de código.
 

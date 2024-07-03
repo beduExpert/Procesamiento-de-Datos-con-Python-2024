@@ -39,7 +39,7 @@
 
 
 5. 📋 Mostrar los libros prestados:
-    - Mostrar un mensaje indicando los disponibles para préstamo.
+    - Mostrar un mensaje indicando los libros disponibles para préstamo.
     
     ```plaintext
     📚 Libros disponibles para préstamo:

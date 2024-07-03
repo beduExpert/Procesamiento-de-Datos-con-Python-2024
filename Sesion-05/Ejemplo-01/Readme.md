@@ -6,7 +6,7 @@ Implementar los métodos más populares para realizar peticiones HTTP, con el ob
 
 ---
 
-## 🚀 Introducción
+## 🚀 Comencemos
 
 Una **API** (*Interfaz de Programación de Aplicaciones*) es un conjunto de reglas y protocolos que permite a diferentes programas comunicarse entre sí, actuando como un mensajero que lleva solicitudes (`request`) de un cliente a un servidor y devuelve respuestas (`response`), facilitando la integración y el funcionamiento de aplicaciones y servicios web.
 

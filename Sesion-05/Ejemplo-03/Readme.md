@@ -9,7 +9,7 @@ Esta sección es específicamente para preguntas y respuestas de los temas visto
 
 ---
 
-## 🚀 Introducción
+## 🚀 Comencemos
 
 El experto o experta explicará brevemente los temas vistos en las sesiones anteriores, aplicados a un proyecto de ejemplo. Posteriormente, se abrirá un espacio para preguntas y respuestas, así como para compartir los avances de los proyectos de los estudiantes.
 
@@ -207,7 +207,7 @@ Desarrollar un sistema de gestión de inventario para una tienda utilizando Pyth
 
 En esta sección, se ha aplicado los conceptos básicos de Python, en diferentes situaciones y escenarios, con el objetivo de reforzar y comprender los temas vistos en las sesiones anteriores. A través de un mini proyecto de un sistema de gestión de inventario.
 
-En base a tu proyecto, genera un resumen de como aplicarias los temas vistos hasta el momento.
+En la siguiente sección, se abordará una estructura de proyecto final, que permitirá aplicar los conceptos aprendidos en un proyecto más completo y desafiante.
 
 ---
 
@@ -215,4 +215,4 @@ En base a tu proyecto, genera un resumen de como aplicarias los temas vistos has
 
 ---
 
-⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../Ejemplo-06/Readme.md) ➡️
+⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../Ejemplo-04/Readme.md) ➡️
