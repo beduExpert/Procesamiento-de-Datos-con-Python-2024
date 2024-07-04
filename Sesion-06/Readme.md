@@ -6,7 +6,7 @@
 
 ## 🎯 Objetivo
 
-⚒️ Desarrollar habilidades avanzadas en el manejo de datos con Pandas en Python, explorando las series, indexaciones complejas y manipulaciones de DataFrames para análisis de datos semi complejos. Este enfoque la implementación de técnicas en escenarios reales, mejorando la toma de decisiones basada en datos.
+⚒️ Desarrollar habilidades avanzadas en el manejo de datos con Pandas en Python, explorando series, indexaciones complejas y manipulaciones de DataFrames para el análisis de datos semi-complejos. Este enfoque se centra en la implementación de técnicas en escenarios reales, mejorando la toma de decisiones basada en datos.
 
 ---
 
@@ -18,18 +18,18 @@ Antes de comenzar con los ejercicios de esta sesión, recordemos que en el mater
 
 ## 📂 Temas de la sesión
 
-### 📖 Series de Pandas
+### 📖 Series de pandas
 
 Las Series en Pandas son estructuras de datos unidimensionales que pueden almacenar datos de cualquier tipo. Son similares a los arrays en NumPy, pero con capacidades de indexación más potentes, lo que permite un manejo más eficiente y personalizado de los datos.
 
 Las Series son una herramienta fundamental para el análisis de datos en Python, ya que permiten manipular y transformar datos de forma sencilla y eficiente, podemos relacionarlas con las columnas de una tabla en una base de datos.
 
 
-#### 📜 **[Ejemplo 01: Series de Pandas](Ejemplo-01/Readme.md)**
+#### 📜 **[Ejemplo 01: Series de pandas](Ejemplo-01/Readme.md)**
 
 ---
 
-### 📖 Métodos de indexación
+### 📖 Métodos avanzados de indexación
 
 La indexación avanzada permite seleccionar segmentos de datos de formas más complejas y específicas, utilizando condiciones lógicas y rangos más sofisticados. Esta técnica es fundamental para realizar análisis detallados y extraer subconjuntos significativos de datos.
 
@@ -49,7 +49,7 @@ Los DataFrames son una herramienta esencial para el análisis de datos en Python
 
 ---
 
-### 📖 Manipulación de columnas en un DataFrame
+### 📖 Manipulación de columnas en un Dataframe
 
 Manipular columnas en un DataFrame es esencial para la preparación y análisis de datos, incluyendo tareas como renombrar, eliminar, seleccionar y transformar columnas. Estas habilidades son críticas para adaptar los datos a necesidades específicas de análisis.
 
@@ -63,7 +63,7 @@ Este proceso es fundamental para la limpieza y transformación de datos, ya que 
 
 ### 📖 Análisis exploratorio y gestión de datos
 
-El análisis exploratorio de datos es importante para identificar patrones y anomalías en la información, garantizando la integridad de los insights en ciencia de datos. Se abordará  la lectura y manipulación de archivos .csv y .json para la carga óptima en DataFrames, junto con técnicas esenciales de limpieza y transformación de datos, elementos claves en el preprocesamiento de datos.
+El análisis exploratorio de datos es importante para identificar patrones y anomalías en la información, garantizando la integridad de los insights en ciencia de datos. Se abordará la lectura y manipulación de archivos .csv y .json para la carga óptima en DataFrames, junto con técnicas esenciales de limpieza y transformación de datos, elementos claves en el preprocesamiento de datos.
 
 #### 📜 **[Ejemplo 05: Análisis exploratorio y gestión de datos](Ejemplo-05/Readme.md)**
 

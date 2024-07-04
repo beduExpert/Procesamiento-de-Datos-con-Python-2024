@@ -18,7 +18,7 @@ Un `DataFrame` en Pandas es una estructura de datos bidimensional y tabular en P
 
 ---
 
-## 📋 **DataFrame en Pandas** 📊
+## 📋 **Dataframe en pandas** 📊
 
 Existen diversas formas de crear un `DataFrame` en Pandas, veamos algunas de las más comunes:
 
@@ -47,9 +47,7 @@ import pandas as pd
    # 3  Diana    40    PUE
    ```
 
-<!-- A partir de una Serie: -->
-
-2. **A partir de multiples Series:** Cada Serie se convierte en una columna en el DataFrame.
+2. **A partir de multiples series:** Cada Serie se convierte en una columna en el DataFrame.
    ```python
    s1 = pd.Series([1, 2, 3], index=['a', 'b', 'c'], name='Columna1')
    s2 = pd.Series([4, 5, 6], index=['a', 'b', 'c'], name='Columna2')
@@ -102,7 +100,7 @@ Existen muchos otros argumentos que puedes utilizar para personalizar tu DataFra
 
 <!-- Metodos de indexacion en vertical y horizontal -->
 
-## 📌 **Métodos de indexación en DataFrames**
+## 📌 **Métodos de indexación en dataframes**
 
 Una vez que has creado un DataFrame, puedes acceder a los datos de diferentes maneras utilizando métodos de indexación en Pandas. Estos métodos te permiten seleccionar subconjuntos de datos específicos en el DataFrame, ya sea en forma vertical o en horizontal.
 

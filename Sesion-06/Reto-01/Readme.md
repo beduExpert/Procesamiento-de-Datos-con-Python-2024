@@ -28,7 +28,7 @@ datos = {
 
 Realiza los siguientes pasos para explorar y manipular los datos:
 
-1. 📊 **Crea una serie de Pandas a partir del diccionario `datos` y llámala `gastos_mensuales`.**
+1. 📊 **Crea una serie de pandas a partir del diccionario `datos` y llámala `gastos_mensuales`.**
 
 2. 🧐 **Imprime la siguiente información de la serie `gastos_mensuales`**:
     - 🔢 Tamaño de la serie para verificar cuántas divisiones hay.

@@ -12,19 +12,19 @@ En Python existen diversas formas de cargar y gestionar datos. En este ejemplo, 
 
 ---
 
-## 📂 Carga de Archivos en Google Colab
+## 📂 Carga de archivos en google colab
 
 Para trabajar en el entorno de Google Colab, los archivos deben ser cargados previamente en una carpeta de Google Drive. Es necesario montar el sistema de archivos de Google Drive para acceder a los archivos desde Google Colab. Aquí te dejamos varios links que te pueden ayudar a realizar esta tarea:
 
-- [Cargar archivos en Google Colab](https://colab.research.google.com/notebooks/io.ipynb)
-- [Montar Google Drive en Google Colab](https://colab.research.google.com/notebooks/io.ipynb#scrollTo=7taylj9w6kU9)
-- [Conectar Google Drive con Google Colab](https://colab.research.google.com/notebooks/io.ipynb#scrollTo=7taylj9w6kU9)
+- [Cargar archivos en google colab](https://colab.research.google.com/notebooks/io.ipynb)
+- [Montar google drive en google colab](https://colab.research.google.com/notebooks/io.ipynb#scrollTo=7taylj9w6kU9)
+- [Conectar google drive con google colab](https://colab.research.google.com/notebooks/io.ipynb#scrollTo=7taylj9w6kU9)
 
-### 📥 Cargar Archivos `.csv` y `.json`
+### 📥 Cargar archivos `.csv` y `.json`
 
 A continuación, te mostramos cómo cargar archivos `.csv` y `.json` en un DataFrame utilizando Pandas en Google Colab:
 
-1. **Montar Google Drive:**
+1. **Montar google drive:**
    ```python
    from google.colab import drive
    drive.mount('/content/drive')
@@ -50,25 +50,25 @@ La ruta puede variar dependiendo de la ubicación de los archivos en tu Google D
 
 ---
 
-Exploraremos algunas características básicas del DataFrame para entender mejor los datos con los que estamos trabajando:
+Exploraremos algunas características básicas del dataframe para entender mejor los datos con los que estamos trabajando:
 
-1. **Forma del DataFrame:**
+1. **Forma del dataframe:**
    Utiliza `df.shape` para obtener el número de filas y columnas.
 
-2. **Tipos de Datos:**
+2. **Tipos de datos:**
    Revisa `df.dtypes` para entender los tipos de datos de cada columna, asegurándote de que son adecuados para el análisis posterior.
 
-3. **Información del DataFrame:**
+3. **Información del dataframe:**
    Con `df.info()`, puedes obtener un resumen que incluye el número de valores no nulos y el tipo de datos de cada columna, lo cual es útil para identificar columnas con valores faltantes.
 
-4. **Visualización de Datos:**
-   Utiliza `df.head()` y `df.tail()` para ver las primeras y últimas filas del DataFrame, proporcionando una vista rápida de los datos en ambos extremos.
+4. **Visualización de datos:**
+   Utiliza `df.head()` y `df.tail()` para ver las primeras y últimas filas del dataframe, proporcionando una vista rápida de los datos en ambos extremos.
 
 ---
 
 ### 💡 **¿Sabías que...?**
 
-Google Colab no solo es compatible con Python, sino que también puede ejecutar código en R, lo que lo convierte en una herramienta versátil para el análisis de datos y la ciencia de datos. Para trabajar con R en Google Colab, puedes usar una celda de código mágico agregando %%R al inicio de la celda. Esto te permite aprovechar las capacidades de ambas lenguas en un solo entorno.
+Google colab no solo es compatible con Python, sino que también puede ejecutar código en R, lo que lo convierte en una herramienta versátil para el análisis de datos y la ciencia de datos. Para trabajar con R en google colab, puedes usar una celda de código mágico agregando R al inicio de la celda. Esto te permite aprovechar las capacidades de ambas lenguas en un solo entorno.
 
 ---
 

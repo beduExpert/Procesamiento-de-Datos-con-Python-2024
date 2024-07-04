@@ -12,11 +12,11 @@ Una serie en Pandas representa una columna en una hoja de cálculo, con datos co
 
 ---
 
-## 📊 **Series en Pandas** 📈
+## 📊 **Series en pandas** 📈
 
 Las Series son secuencias ordenadas unidimensionales que pueden contener diversos tipos de valores, similares a las listas. Cada elemento tiene un índice, que no necesariamente es numérico, y se utiliza para acceder a los datos de forma eficiente.
 
-### 🛠️ **Creando Series**
+### 🛠️ **Creando series**
 
 Recuerda importar la librería de Pandas antes de crear una Serie:
 
@@ -40,7 +40,7 @@ import pandas as pd
 
 ---
 
-### 📊 **Visualizando Series**
+### 📊 **Visualizando series**
 
 Puedes visualizar una Serie simplemente imprimiéndola en la consola, o usando el método `print()`.
 
@@ -59,7 +59,7 @@ El signo `dtype: int64` indica que los datos en la Serie son de tipo numérico (
 ---
 
 
-### 📐 **Tipos de Datos en Series**
+### 📐 **Tipos de datos en series**
 
 Pandas maneja distintos tipos de datos en las Series para adecuarse a diversas necesidades de información.
 

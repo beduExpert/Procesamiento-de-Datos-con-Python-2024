@@ -32,11 +32,11 @@ datos = {
 
 Realiza los siguientes pasos para gestionar y analizar los datos de proyectos:
 
-1. 📊 **Crear el DataFrame con índices personalizados:**
+1. 📊 **Crear el dataframe con índices personalizados:**
     - Utiliza cualquier nombre para los 5 proyectos como índices.
-    - Imprime el DataFrame inicial.
+    - Imprime el dataframe inicial.
 
-2. 📊 **Añade una nueva columna al DataFrame llamada 'Riesgo de Retraso':** que evalúe la duración estimada de cada proyecto. Si la duración es superior a 50 días, asigna un riesgo de "Alto", de lo contrario, será "Bajo".
+2. 📊 **Añade una nueva columna al dataframe llamada 'Riesgo de Retraso':** que evalúe la duración estimada de cada proyecto. Si la duración es superior a 50 días, asigna un riesgo de "Alto", de lo contrario, será "Bajo".
 
     - Puedes utilizar un list comprehension para evaluar cada fila del DataFrame y asignar el riesgo correspondiente.
 

@@ -52,7 +52,7 @@ Asi mismo al involucrar dobles corchetes `[[ ]]` en la selección de elementos, 
 
 ---
 
-### 📚 **Ejemplos Prácticos**
+### 📚 **Ejemplos prácticos**
 
 Recuerda que es necesario importar la librería de Pandas para trabajar con Series y DataFrames:
 
@@ -130,13 +130,13 @@ De esta forma podemos extraer información específica de una Serie en Pandas, u
 
 ### 💡 **¿Sabías que...?**
 
-🔗 **Encadenamiento de Métodos**: Pandas está promoviendo el encadenamiento de métodos, lo que permite realizar múltiples operaciones en una sola línea. Esto mejora tanto la legibilidad como la eficiencia en la ejecución de los programas.
+🔗 **Encadenamiento de métodos**: Pandas está promoviendo el encadenamiento de métodos, lo que permite realizar múltiples operaciones en una sola línea. Esto mejora tanto la legibilidad como la eficiencia en la ejecución de los programas.
 
 🔄 **Eliminación de `inplace`**: Se planea eliminar el parámetro `inplace` para simplificar el código y porque no funciona dentro de cadenas de métodos. Este cambio busca hacer la interfaz más intuitiva.
 
-🚀 **Integración con Apache Arrow**: Pandas podría adoptar Apache Arrow como backend, lo que permitiría un manejo más eficiente de grandes volúmenes de datos y mejoraría el rendimiento general de las operaciones.
+🚀 **Integración con apache arrow**: Pandas podría adoptar Apache Arrow como backend, lo que permitiría un manejo más eficiente de grandes volúmenes de datos y mejoraría el rendimiento general de las operaciones.
 
-🛠️ **Arrays de Extensión**: La introducción de 'Extension Arrays' permite crear tipos de datos personalizados, facilitando la adaptación de Pandas a necesidades específicas de análisis de datos.
+🛠️ **Arrays de extensión**: La introducción de 'Extension Arrays' permite crear tipos de datos personalizados, facilitando la adaptación de Pandas a necesidades específicas de análisis de datos.
 
 ---
 
