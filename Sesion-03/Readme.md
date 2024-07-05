@@ -35,7 +35,7 @@ Las tuplas en Python son estructuras de datos similares a las listas, pero con l
 Se definen mediante paréntesis `()` y los elementos se separan por comas `,`
 
 #### 📜 **[Ejemplo 02: Tuplas](Ejemplo-02/Readme.md)**
-#### 🔥 **[Reto 01: Sistema de Reservaciones](Reto-01/Readme.md)**
+#### 🔥 **[Reto 01: Sistema de reservaciones](Reto-01/Readme.md)**
 ---
 
 ### 📖 Conjuntos y sus métodos
@@ -56,7 +56,7 @@ Se definen mediante llaves `{}` y los elementos se separan por comas `,` y cada 
 
 #### 📜 **[Ejemplo 04: Diccionarios](Ejemplo-04/Readme.md)**
 
-#### 🔥 **[Reto 02: Gestión de Préstamos en Biblioteca](Reto-02/Readme.md)**
+#### 🔥 **[Reto 02: Gestión de préstamos en biblioteca](Reto-02/Readme.md)**
 ---
 
 ⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../Sesion-04/Readme.md) ➡️

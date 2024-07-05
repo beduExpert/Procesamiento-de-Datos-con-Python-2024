@@ -1,8 +1,8 @@
-🏠 [**Inicio**](../../Readie.md) ➡️ / 📖 [**Sesión 07**](../Readme.md) ➡️ / 📝 `Ejemplo 03: Limpieza de Datos`
+🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 [**Sesión 07**](../Readme.md) ➡️ / 📝 `Ejemplo 03: Limpieza de Datos`
 
 ## 🎯 Objetivo
 
-Comprender y aplicar técnicas fundamentales de limpieza de datos en Pandas para mejorar la calidad y confiabilidad de los conjuntos de datos. Usando tecnicas de conteo y eliminación de valores faltantes para mejorar la calidad de los datos, durante la interpretación de los análisis.
+Comprender y aplicar técnicas de limpieza de datos en Pandas para mejorar la calidad y confiabilidad de los conjuntos de datos. Usando técnicas de conteo y eliminación de valores faltantes para mejorar la calidad de la información, durante la interpretación de los análisis.
 
 ---
 
@@ -14,38 +14,49 @@ La limpieza de datos es crucial en data science para asegurar que los análisis 
 
 ## 📊 **Técnicas de limpieza de datos** 🧹
 
-### 🛠️ **Identificación de Valores Faltantes**
+### 🛠️ **Identificación de valores faltantes**
 
-Los valores faltantes pueden representarse como `NaN` o `None` en Pandas que representa Not a Number o un valor nulo. Es importante identificar estos valores para determinar su impacto en el análisis y decidir cómo manejarlos.
+Los valores faltantes pueden representarse como `NaN` o `None` en Pandas, que representan Not a Number o un valor nulo. Es importante identificar estos valores para determinar su impacto en el análisis y decidir cómo manejarlos.
 
-Utilizando la libreria de numpy, podemos generar valores `NaN` en un DataFrame de Pandas.
+Utilizando la librería de numpy, podemos generar valores `NaN` en un DataFrame de Pandas.
 
 ```python
 import pandas as pd
 import numpy as np
 
-# Crear un DataFrame de ejemplo
-df = pd.DataFrame({
-    'A': [1, np.nan, 3],
-    'B': [4, 5, None],
-    'C': [7, 8, 9],
-    'D': [np.nan, 11, 12],
-    'E': [15, 16, 17],
-    'F': [18, np.nan, 20],
-    'G': [21, 22, 23],
-    'H': [np.nan, 25, 26]
-})
+# Crear un DataFrame para un restaurante con valores faltantes
+data = {
+    'Orden': [101, 102, 103, 104, 105, 106, 107, 108],
+    'Platillo': ['Tacos', 'Burrito', np.nan, 'Enchiladas', 'Tacos', 'Quesadilla', 'Tacos', 'Burrito'],
+    'Precio': [10, 12, 11, 13, 10, 9, np.nan, 12],
+    'Categoría': ['Comida rápida', 'Comida rápida', 'Comida rápida', 'Comida tradicional', 'Comida rápida', 'Comida rápida', 'Comida rápida', 'Comida rápida'],
+    'Mesero': ['Juan', 'Ana', 'Pedro', 'Ana', np.nan, 'Juan', 'Pedro', 'Ana'],
+    'Fecha': ['2022-07-01', '2022-07-01', '2022-07-02', np.nan, '2022-07-02', '2022-07-03', '2022-07-03', '2022-07-04']
+}
 
-# Mostrar dónde están los valores faltantes
-print(df.isna())
+df = pd.DataFrame(data)
+
+# Mostrar el DataFrame, recuerda al no usar print, se muestra de forma más amigable, esto es aplicable para todos los ejemplos.
+df.head()
 ```
 
-### 🛠️ **Identificación y conteo de NaNs**
+**Salida:**
+
+```plaintext
+    Orden    Platillo  Precio           Categoría Mesero       Fecha
+0    101       Tacos    10.0       Comida rápida   Juan  2022-07-01
+1    102     Burrito    12.0       Comida rápida    Ana  2022-07-01
+2    103         NaN    11.0       Comida rápida  Pedro  2022-07-02
+3    104  Enchiladas    13.0  Comida tradicional    Ana         NaN
+4    105       Tacos    10.0       Comida rápida    NaN  2022-07-02
+```
+
+---
+
+### 🔍 **Identificación y conteo de NaNs**
 
 Aprender a detectar y contar los `NaNs` es importante para evaluar la calidad de los datos y decidir cómo manejarlos. Pandas ofrece funciones como `isna()`, `isnull()`, `notna()` y `notnull()` para identificar valores faltantes.
 
-
-<!-- Tabla -->
 | Función | Descripción |
 | --- | --- |
 | `isna()` | Devuelve `True` si el valor es `NaN` |
@@ -53,65 +64,86 @@ Aprender a detectar y contar los `NaNs` es importante para evaluar la calidad de
 | `notna()` | Devuelve `False` si el valor es `NaN` |
 | `notnull()` | Alias de `notna()` |
 
-
 ```python
 # Contar NaNs en cada columna
 nan_por_columna = df.isna().sum()
-print(nan_por_columna)
+print(f"NaNs por columna:\n{nan_por_columna}\n")
+
+print("-"*20)
 
 # Contar NaNs en cada fila
 nan_por_fila = df.isna().sum(axis=1)
-print(nan_por_fila)
+print(f"NaNs por fila:\n{nan_por_fila}")
 ```
 
-Para establecer el conteo ya sea por renglon o por columna, se puede utilizar el argumento `axis` con el valor `0` para columnas y `1` para renglones.
+Para establecer el conteo ya sea por renglón o por columna, se puede utilizar el argumento `axis` con el valor `0` para columnas y `1` para renglones.
 
-### 🛠️ **Eliminación de valores faltantes**
+---
 
-Puedes eliminar filas o columnas que contengan valores nullos usando `dropna()`. Las opciones `axis` y `how` permiten especificar cómo y dónde aplicar la eliminación.
+### 🗑️ **Eliminación de valores faltantes**
 
-<!-- Tabla -->
+Antes de eliminar filas o columnas, es importante comprender el impacto de modificar directamente el DataFrame original. Para evitar cambios no deseados y mantener la integridad de los datos, es aconsejable trabajar con una copia utilizando el método .copy(), que crea una copia física e independiente del DataFrame original.
+
+```python
+# Crear una copia del DataFrame para manipulaciones seguras
+df_clean = df.copy()
+df_clean.head()
+```
+<!-- Nota -->
+> **Nota:** Utilizar .copy() es recomendable para probar o validar modificaciones sin alterar los datos originales, especialmente valioso en entornos de producción o cuando múltiples rutinas dependen de una fuente de datos inalterada..
+
+
+Puedes eliminar filas o columnas que contengan valores nulos usando `dropna()`. Las opciones `axis` y `how` permiten especificar cómo y dónde aplicar la eliminación.
+
 | Argumento | Descripción |
 | --- | --- |
 | `axis` | `0` para filas, `1` para columnas |
 | `how` | `any` para eliminar si hay al menos un `NaN`, `all` para eliminar si todos los valores son `NaN` |
 
+**Antes de eliminar valores nulos**, evalúa su impacto en el análisis 📊 y la pérdida de datos. Considera cómo esta acción podría afectar la calidad e interpretación de los resultados 📉. Toma decisiones informadas para mantener la integridad de las tendencias.
+
 ```python
 # Eliminar filas donde cualquier valor es NaN (axis=0)
-df.dropna(axis=0, how='any')
+df_clean.dropna(axis=0, how='any')
 ```
 
 ```python
-# Eliminar columnas donde todos los valores son NaN (axis=1)
-df.dropna(axis=1, how='all')
+# Eliminar columnas donde cualquier valor es NaN (axis=1)
+df_clean.dropna(axis=1, how='any')
 ```
+
+> **Nota:** Estas dos líneas de código representan una vista previa de los datos, no modifican el DataFrame original. Para aplicar los cambios, se debe usar el argumento `inplace=True`.
+
+---
 
 ### 🛠️ **Limpieza avanzada**
 
 Además de manejar valores faltantes, la limpieza de datos puede incluir la corrección de tipos de datos, manejo de valores atípicos y normalización de formatos.
 
 ```python
-# Convertir tipos de datos para uniformidad, este proceso se conoce como "casting"
-df['A'] = df['A'].astype(float)
+# Reemplazar NaN en 'Precio' con la mediana
+df_clean['Precio'].fillna(value=df_clean['Precio'].median(), inplace=True)
+
+# Reemplazar NaN en 'Platillo' con 'Desconocido'
+df_clean['Platillo'].fillna(value='Desconocido', inplace=True)
+
+# Reemplazar NaN en 'Mesero' con 'Desconocido'
+df_clean['Mesero'].fillna(value='Desconocido', inplace=True)
+
+# Reemplazar NaN en 'Fecha' con la fecha actual
+df_clean['Fecha'].fillna(value=pd.Timestamp.now().date(), inplace=True)
+
+# Mostrar el DataFrame actualizado
+df_clean.head()
 ```
 
-```python
-# Reemplazar valores NaN con un valor estándar, como 0
-df.fillna(value=0, inplace=True)
-```
-
-```python
-# Reemplazar valores NaN con la media de la columna
-df.fillna(value=df.mean(), inplace=True)
-```
-
-Castin y reemplazo de valores `NaN` son técnicas comunes para mejorar la calidad de los datos y facilitar el análisis, especialmente en la preparación de datos para modelos de machine learning.
+> **Nota:** La función `pd.Timestamp.now().date()` devuelve la fecha actual en formato año-mes-día (YYYY-MM-DD).
 
 ---
 
 ### 💡 **¿Sabías que...?**
 
-Una adecuada limpieza de datos puede reducir significativamente los errores de análisis y mejorar la interpretación de los modelos de machine learning y estadísticas descriptivas. Un conjunto de datos bien preparado es fundamental para lograr insights precisos y confiables.
+En el sector financiero, la limpieza de datos es crucial para la detección de fraudes. Un estudio de SAS revela que la precisión de los algoritmos de detección puede mejorar hasta un 25% al corregir datos faltantes y atípicos. Por ejemplo, una institución bancaria que implemente técnicas avanzadas como la imputación de valores faltantes y la eliminación de outliers puede reducir falsos positivos, optimizando recursos y mejorando la eficiencia operativa.
 
 ---
 
