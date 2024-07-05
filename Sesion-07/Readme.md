@@ -22,11 +22,9 @@ Antes de comenzar con los ejercicios de esta sesión, recordemos que en el mater
 
 En esta sección, aprenderemos sobre dos tipos principales de operaciones que se pueden realizar en Series de Pandas.
 
-- Funciones vectorizadas
-Las funciones vectorizadas aplican operaciones a cada elemento de una Serie de manera eficiente. Esto incluye operaciones aritméticas, lógicas y transformaciones matemáticas, como sumar, restar, multiplicar, dividir, calcular raíces cuadradas o exponentes, y comparar valores.
+- **Funciones vectorizadas:** Las funciones vectorizadas aplican operaciones a cada elemento de una Serie de manera eficiente. Esto incluye operaciones aritméticas, lógicas y transformaciones matemáticas, como sumar, restar, multiplicar, dividir, calcular raíces cuadradas o exponentes, y comparar valores.
 
-- Funciones de agregación
-Las funciones de agregación resumen una Serie en un solo valor o en un conjunto de valores resumidos. Ejemplos comunes incluyen la suma, el promedio, el mínimo, el máximo, el conteo y la mediana de los valores de la Serie.
+- **Funciones de agregación:** Las funciones de agregación resumen una Serie en un solo valor o en un conjunto de valores resumidos. Ejemplos comunes incluyen la suma, el promedio, el mínimo, el máximo, el conteo y la mediana de los valores de la Serie.
 
 Agregaremos una nueva librería a nuestro repertorio de herramientas para el análisis de datos: NumPy. NumPy es una librería de Python que se utiliza para realizar operaciones matemáticas y numéricas de manera eficiente, incluyendo funciones matemáticas avanzadas, operaciones de álgebra lineal, generación de números aleatorios y manipulación de arreglos multidimensionales.
 
@@ -67,10 +65,10 @@ Una de las practicas más comunes en el análisis de datos es la manipulación d
 
 Algunas de las practicas más comunes en la manipulación de columnas incluyen:
 
-- snake_case: Convertir los nombres de las columnas a minúsculas y separar las palabras con guiones bajos.
-- Eliminar espacios en blanco: Eliminar los espacios en blanco al principio y al final de los nombres de las columnas.
-- Renombrar columnas: Cambiar los nombres de las columnas para que sean más descriptivos y fáciles de entender.
-- Reindexar columnas: Cambiar el orden de las columnas para que se ajusten a un orden específico o a una estructura de datos predefinida.
+- **snake_case:** Convertir los nombres de las columnas a minúsculas y separar las palabras con guiones bajos.
+- **Eliminar espacios en blanco:** Eliminar los espacios en blanco al principio y al final de los nombres de las columnas.
+- **Renombrar columnas:** Cambiar los nombres de las columnas para que sean más descriptivos y fáciles de entender.
+- **Reindexar columnas:** Cambiar el orden de las columnas para que se ajusten a un orden específico o a una estructura de datos predefinida.
 
 
 #### 📜 **[Ejemplo 04: Manipulación, reindexado y renombrado de columnas](Ejemplo-04/Readme.md)**

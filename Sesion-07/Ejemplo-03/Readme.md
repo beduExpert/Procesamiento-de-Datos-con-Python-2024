@@ -80,7 +80,7 @@ Para establecer el conteo ya sea por renglón o por columna, se puede utilizar e
 
 ---
 
-### 🗑️ **Eliminación de Valores Faltantes**
+### 🗑️ **Eliminación de valores faltantes**
 
 #### 🛡️ **Trabajar con copias para la seguridad de los datos**
 
@@ -89,7 +89,7 @@ Antes de proceder a la eliminación de filas o columnas, es crucial comprender e
 ```python
 # Crear una copia del DataFrame para manipulaciones seguras
 df_clean = df.copy()
-print(df_clean.head())
+df_clean.head()
 ```
 
 > **📝 Nota:** Utilizar `.copy()` es altamente recomendable para probar o validar modificaciones sin alterar los datos originales. Esto es especialmente valioso en entornos de producción o cuando múltiples procesos dependen de una fuente de datos inalterada.
@@ -120,15 +120,13 @@ df_clean.dropna(axis=1, how='any')
 
 #### 📋 **Uso avanzado con `subset`**
 
-Controla específicamente qué filas o columnas evaluar para la eliminación, utilizando el argumento `subset` que acepta una lista de nombres de columnas.
+Controla específicamente qué filas por columnas evaluar para la eliminación, utilizando el argumento `subset` que acepta una lista de nombres de columnas.
 
 ```python
 # Eliminar filas donde las columnas 'Platillo' o 'Precio' contienen NaN
 df_clean.dropna(subset=['Platillo', 'Precio'], axis=0, how='any')
-
-# Eliminar columnas donde las columnas 'Mesero' o 'Fecha' contienen NaN
-df_clean.dropna(subset=['Mesero', 'Fecha'], axis=1, how='any')
 ```
+El el argumento `subset`solo se aplica a renglones y no a columnas, por lo que no es necesario especificar el `axis`.
 
 ---
 
