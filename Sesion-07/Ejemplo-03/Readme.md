@@ -37,7 +37,7 @@ data = {
 df = pd.DataFrame(data)
 
 # Mostrar el DataFrame, recuerda al no usar print, se muestra de forma más amigable, esto es aplicable para todos los ejemplos.
-df.head()
+df.head(10)
 ```
 
 **Salida:**
@@ -80,39 +80,55 @@ Para establecer el conteo ya sea por renglón o por columna, se puede utilizar e
 
 ---
 
-### 🗑️ **Eliminación de valores faltantes**
+### 🗑️ **Eliminación de Valores Faltantes**
 
-Antes de eliminar filas o columnas, es importante comprender el impacto de modificar directamente el DataFrame original. Para evitar cambios no deseados y mantener la integridad de los datos, es aconsejable trabajar con una copia utilizando el método .copy(), que crea una copia física e independiente del DataFrame original.
+#### 🛡️ **Trabajar con copias para la seguridad de los datos**
+
+Antes de proceder a la eliminación de filas o columnas, es crucial comprender el impacto de modificar directamente el `DataFrame` original. Para evitar cambios no deseados y asegurar la integridad de los datos:
 
 ```python
 # Crear una copia del DataFrame para manipulaciones seguras
 df_clean = df.copy()
-df_clean.head()
+print(df_clean.head())
 ```
-<!-- Nota -->
-> **Nota:** Utilizar .copy() es recomendable para probar o validar modificaciones sin alterar los datos originales, especialmente valioso en entornos de producción o cuando múltiples rutinas dependen de una fuente de datos inalterada..
 
+> **📝 Nota:** Utilizar `.copy()` es altamente recomendable para probar o validar modificaciones sin alterar los datos originales. Esto es especialmente valioso en entornos de producción o cuando múltiples procesos dependen de una fuente de datos inalterada.
 
-Puedes eliminar filas o columnas que contengan valores nulos usando `dropna()`. Las opciones `axis` y `how` permiten especificar cómo y dónde aplicar la eliminación.
+#### 🔄 **Uso de `dropna()` para eliminar datos nulos**
 
-| Argumento | Descripción |
-| --- | --- |
-| `axis` | `0` para filas, `1` para columnas |
-| `how` | `any` para eliminar si hay al menos un `NaN`, `all` para eliminar si todos los valores son `NaN` |
+`dropna()` permite eliminar filas o columnas que contienen valores nulos, con opciones para especificar exactamente cómo y dónde aplicar estas eliminaciones.
 
-**Antes de eliminar valores nulos**, evalúa su impacto en el análisis 📊 y la pérdida de datos. Considera cómo esta acción podría afectar la calidad e interpretación de los resultados 📉. Toma decisiones informadas para mantener la integridad de las tendencias.
+```plaintext
+| Argumento | Descripción                          |
+|-----------|--------------------------------------|
+| `axis`    | `0` para filas, `1` para columnas    |
+| `how`     | `any` para eliminar si hay un `NaN`, `all` para eliminar solo si todos los valores son `NaN` |
+```
+
+**Evaluar el impacto antes de eliminar:**
+Antes de eliminar valores nulos, considera su impacto en el análisis y la integridad de los datos. Decisiones informadas ayudan a mantener la relevancia y precisión de los resultados analíticos.
 
 ```python
-# Eliminar filas donde cualquier valor es NaN (axis=0)
+# Eliminar filas donde cualquier valor es NaN
 df_clean.dropna(axis=0, how='any')
-```
 
-```python
-# Eliminar columnas donde cualquier valor es NaN (axis=1)
+# Eliminar columnas donde cualquier valor es NaN
 df_clean.dropna(axis=1, how='any')
 ```
 
-> **Nota:** Estas dos líneas de código representan una vista previa de los datos, no modifican el DataFrame original. Para aplicar los cambios, se debe usar el argumento `inplace=True`.
+> **📝 Nota:** Estas operaciones muestran una vista previa de los datos. Para aplicar los cambios de forma permanente, utiliza `inplace=True`.
+
+#### 📋 **Uso avanzado con `subset`**
+
+Controla específicamente qué filas o columnas evaluar para la eliminación, utilizando el argumento `subset` que acepta una lista de nombres de columnas.
+
+```python
+# Eliminar filas donde las columnas 'Platillo' o 'Precio' contienen NaN
+df_clean.dropna(subset=['Platillo', 'Precio'], axis=0, how='any')
+
+# Eliminar columnas donde las columnas 'Mesero' o 'Fecha' contienen NaN
+df_clean.dropna(subset=['Mesero', 'Fecha'], axis=1, how='any')
+```
 
 ---
 
@@ -137,7 +153,7 @@ df_clean['Fecha'].fillna(value=pd.Timestamp.now().date(), inplace=True)
 df_clean.head()
 ```
 
-> **Nota:** La función `pd.Timestamp.now().date()` devuelve la fecha actual en formato año-mes-día (YYYY-MM-DD).
+> **📝 Nota:** La función `pd.Timestamp.now().date()` devuelve la fecha actual en formato año-mes-día (YYYY-MM-DD).
 
 ---
 
