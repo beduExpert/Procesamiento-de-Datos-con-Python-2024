@@ -16,6 +16,6 @@
 6. 📊 [Sesión 06: Pandas y análisis exploratorio de datos.](Sesion-06/Readme.md)
 7. 🧹 [Sesión 07: Funciones vectorizadas, de agregación y limpieza de datos.](Sesion-07/Readme.md)
 8. 🔍 [Sesión 08: Transformación, filtración y ordenamiento de datos.](Sesion-08/Readme.md)
-9. 📁 [Datasets](Datasets/Readme.md)
+9. 📁 [Datasets](Datasets/)
 
 ➡️ [**Siguiente**](Sesion-01/Readme.md)
