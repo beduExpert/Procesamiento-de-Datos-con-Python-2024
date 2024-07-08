@@ -6,7 +6,7 @@
 
 ## 🎯 Objetivo
 
-⚒️ Desarrollar habilidades avanzadas en Pandas mediante la ejecución de operaciones aritméticas con Series y DataFrames, así como realizar tareas exhaustivas de limpieza de datos. Además, aprender a manipular, reindexar y renombrar columnas para preparar los datos de manera efectiva para el análisis.
+⚒️ Desarrollar habilidades avanzadas en pandas mediante la ejecución de operaciones aritméticas con series y dataframes, así como realizar tareas exhaustivas de limpieza de datos. Además, aprender a manipular, reindexar y renombrar columnas para preparar los datos de manera efectiva para el análisis.
 
 ---
 

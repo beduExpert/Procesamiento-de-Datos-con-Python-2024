@@ -19,7 +19,7 @@ for elemento in secuencia:
     # Bloque de código a ejecutar para cada elemento en la secuencia
 ```
 
-**Nota:** La función `range()` genera una secuencia de números enteros. Será utilizada en los ejemplos siguientes.
+> **📝 Nota:**  La función `range()` genera una secuencia de números enteros. Será utilizada en los ejemplos siguientes.
 
 ```python
 range(inicio, fin, incremento)

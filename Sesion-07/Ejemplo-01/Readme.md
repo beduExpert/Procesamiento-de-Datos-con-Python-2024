@@ -2,7 +2,7 @@
 
 ## 🎯 Objetivo
 
-Explorar y aplicar operaciones aritméticas y funciones de agregación con series en Pandas, facilitando el procesamiento y análisis de datos con Python.
+Explorar y aplicar operaciones aritméticas y funciones de agregación con series en Pandas, facilitando el procesamiento y análisis de datos con python.
 
 ---
 

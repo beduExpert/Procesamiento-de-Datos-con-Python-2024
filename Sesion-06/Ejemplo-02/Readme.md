@@ -44,11 +44,11 @@ data = pd.Series([10, 20, 30, 40, 50], index=['a', 'b', 'c', 'd', 'e'])
   data.loc[['a', 'b', 'c']]  # Elementos con índices 'a', 'b', y 'c'
   ```
 
-### 📌 **Nota:**
-
-Es importante diferenciar entre `.iloc` y `.loc`, ambos métodos pueden ser utilizados para acceder a elementos por posición o etiqueta. Sin embargo, `.iloc` se enfoca en la posición numérica de los elementos, mientras que `.loc` se enfoca en las etiquetas de índice.
-
-Asi mismo al involucrar dobles corchetes `[[ ]]` en la selección de elementos, se está creando una lista de elementos, lo cual es diferente a seleccionar un solo elemento.
+> **📝 Nota:** 
+>
+>Es importante diferenciar entre `.iloc` y `.loc`, ambos métodos pueden ser utilizados para acceder a elementos por posición o etiqueta. Sin embargo, `.iloc` se enfoca en la posición numérica de los elementos, mientras que `.loc` se enfoca en las etiquetas de índice.
+>
+>Asi mismo al involucrar dobles corchetes `[[ ]]` en la selección de elementos, se está creando una lista de elementos, lo cual es diferente a seleccionar un solo elemento.
 
 ---
 

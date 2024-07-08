@@ -44,9 +44,8 @@ A continuación, te mostramos cómo cargar archivos `.csv` y `.json` en un DataF
    df_json.head()
    ```
 
-<!-- Nota -->
-### 📌 **Nota**:
-La ruta puede variar dependiendo de la ubicación de los archivos en tu Google Drive. Asegúrate de proporcionar la ruta correcta para acceder a los archivos `.csv` y `.json` que deseas cargar.
+
+> **📝 Nota:** La ruta puede variar dependiendo de la ubicación de los archivos en tu Google Drive. Asegúrate de proporcionar la ruta correcta para acceder a los archivos `.csv` y `.json` que deseas cargar.
 
 ---
 

@@ -2,7 +2,7 @@
 
 ## 🎯 Objetivo
 
-Implementar operaciones aritméticas y de agregación utilizando DataFrames en Pandas, transformando grandes conjuntos de datos de manera rapida y efectiva.
+Implementar operaciones aritméticas y de agregación utilizando dataframes en pandas, transformando grandes conjuntos de datos de manera rapida y efectiva.
 
 ---
 

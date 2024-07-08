@@ -2,7 +2,7 @@
 
 ## 🎯 Objetivo
 
-⚒️ Explorar y manipular un dataframe que contiene las calificaciones de diferentes estudiantes en diversas materias, utilizando Pandas para realizar un análisis básico y extraer información relevante.
+⚒️ Explorar y manipular un dataframe que contiene las calificaciones de diferentes estudiantes en diversas materias, utilizando pandas para realizar un análisis básico y extraer información relevante.
 
 ---
 

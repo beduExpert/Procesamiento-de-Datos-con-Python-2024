@@ -2,7 +2,7 @@
 
 ## 🎯 Objetivo
 
-Comprender y aplicar técnicas de limpieza de datos en Pandas para mejorar la calidad y confiabilidad de los conjuntos de datos. Usando técnicas de conteo y eliminación de valores faltantes para mejorar la calidad de la información, durante la interpretación de los análisis.
+Comprender y aplicar técnicas de limpieza de datos en pandas para mejorar la calidad y confiabilidad de los conjuntos de datos. Usando técnicas de conteo y eliminación de valores faltantes para mejorar la calidad de la información, durante la interpretación de los análisis.
 
 ---
 

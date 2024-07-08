@@ -30,9 +30,7 @@
    ...
    ```
 
-<!-- Nota con emoji -->
-📌 **Nota**:
-   - Considera que las peliculas pueden cambiar con respecto a la fecha en que se realice el reto, por lo que los resultados pueden variar, sin embargo, el formato de impresión debe ser similar.
+> **📝 Nota:** Considera que las peliculas pueden cambiar con respecto a la fecha en que se realice el reto, por lo que los resultados pueden variar, sin embargo, el formato de impresión debe ser similar.
 
 ---
 

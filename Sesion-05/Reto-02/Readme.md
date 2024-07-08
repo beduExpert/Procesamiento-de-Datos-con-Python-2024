@@ -55,13 +55,13 @@
    ```
 ---
 
-📌 **Nota**:
-   - Asegúrate de tener instalados los paquetes necesarios (`mysql-connector-python` para MySQL y `pymongo` para MongoDB).
-   ```plaintext
-   !pip install mysql-connector-python
-   !pip install pymongo
-   ```
-   - Los nombres de host, usuario, contraseña, base de datos y colecciones deben ser reemplazados por la información específica que proporcione tu experto o experta.
+> **📝 Nota:** 
+>    - Asegúrate de tener instalados los paquetes necesarios (`mysql-connector-python` para MySQL y `pymongo` para MongoDB).
+>    ```plaintext
+>    !pip install mysql-connector-python
+>    !pip install pymongo
+>    ```
+>    - Los nombres de host, usuario, contraseña, base de datos y colecciones deben ser reemplazados por la información específica que proporcione tu experto o experta.
 
 ---
 

@@ -2,7 +2,7 @@
 
 ## 🎯 Objetivo
 
-⚒️ Explorar y manipular un dataframe que contiene datos de encuestas de satisfacción de clientes en comercio electrónico, utilizando Pandas para realizar un análisis básico y extraer información relevante.
+⚒️ Explorar y manipular un dataframe que contiene datos de encuestas de satisfacción de clientes en comercio electrónico, utilizando pandas para realizar un análisis básico y extraer información relevante.
 
 ---
 
@@ -64,4 +64,4 @@ Realiza los siguientes pasos para explorar y manipular los datos:
 
 ---
 
-⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../Ejemplo-03/Readme.md) ➡️
+⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../../Sesion-08/Readme.md) ➡️
