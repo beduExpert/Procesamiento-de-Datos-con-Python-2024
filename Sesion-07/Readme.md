@@ -39,7 +39,7 @@ Similar a las Series, los DataFrames en Pandas también admiten operaciones arit
 
 
 #### 📜 **[Ejemplo 02: Operaciones aritméticas con dataframes](Ejemplo-02/Readme.md)**
-#### 🔥 **[Reto 01: Evaluación de rendimiento academico](Reto-01/Readme.md)**
+#### 🔥 **[Reto 01: Evaluación de rendimiento académico](Reto-01/Readme.md)**
 
 ---
 

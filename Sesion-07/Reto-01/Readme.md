@@ -1,4 +1,4 @@
-🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 [**Sesión 07**](../Readme.md) ➡️ / ⚡`Reto 01: Evaluación de rendimiento academico`
+🏠 [**Inicio**](../../Readme.md) ➡️ / 📖 [**Sesión 07**](../Readme.md) ➡️ / ⚡`Reto 01: Evaluación de rendimiento académico`
 
 ## 🎯 Objetivo
 

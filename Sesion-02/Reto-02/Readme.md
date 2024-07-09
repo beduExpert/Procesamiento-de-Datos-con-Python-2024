@@ -27,7 +27,26 @@
 
 5. 🧮 Después de añadir cada producto al pedido, muestra un mensaje indicando el producto añadido y el total acumulado. Luego, pregunta al usuario si desea continuar añadiendo productos. Si responde "no", muestra el total del pedido, agradece y finaliza el bucle.
 
-6. 📦 Al final del bucle, muestra el total del pedido y un mensaje de agradecimiento.
+6. 📦 Al final del bucle, muestra el total del pedido y un mensaje de agradecimiento, algo similar a esto:
+
+   ```plaintext
+      Bienvenido al sistema de pedido a domicilio.
+      --------------------
+      1. Pizza - $10
+      2. Hamburguesa - $8
+      3. Ensalada - $7
+      0. Finalizar pedido
+      --------------------
+
+      Introduce el número de la opción que deseas: 1
+      Añadiste Pizza a tu pedido. Total actual: $10
+      ¿Deseas seguir añadiendo productos? (sí/no): no
+      --------------------------------------------------
+
+      El total de su pedido es: $10
+      Gracias por su pedido. ¡Buen provecho!
+   ```
+Recuerda no necesariamente debes seguir el formato presentado, puedes personalizar los mensajes a tu gusto.
 
 ---
 
