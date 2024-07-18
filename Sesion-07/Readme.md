@@ -78,4 +78,4 @@ Algunas de las practicas más comunes en la manipulación de columnas incluyen:
 
 ---
 
-⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../Sesion-07/Readme.md) ➡️
+⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../Sesion-08/Readme.md) ➡️

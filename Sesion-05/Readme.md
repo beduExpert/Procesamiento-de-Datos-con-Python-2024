@@ -49,7 +49,7 @@ En el círculo de estudio se destinara una hora para reforzar los temas aprendid
 
 #### 📜 **[Circulo: Formato de preguntas y respuestas](Ejemplo-03/Readme.md)**
 
-#### 🏗️ **[Esqueleto de proyecto final](Ejemplo-04/Readme.md)**
+<!-- #### 🏗️ **[Esqueleto de proyecto final](Ejemplo-04/Readme.md)** -->
 
 ---
 
