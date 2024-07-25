@@ -136,20 +136,23 @@ Además de manejar valores faltantes, la limpieza de datos puede incluir la corr
 
 ```python
 # Reemplazar NaN en 'Precio' con la mediana
-df_clean['Precio'].fillna(value=df_clean['Precio'].median(), inplace=True)
+df_clean.fillna({'Precio': df_clean['Precio'].median()}, inplace=True)
 
 # Reemplazar NaN en 'Platillo' con 'Desconocido'
-df_clean['Platillo'].fillna(value='Desconocido', inplace=True)
+df_clean.fillna({'Platillo': 'Desconocido'}, inplace=True)
 
 # Reemplazar NaN en 'Mesero' con 'Desconocido'
-df_clean['Mesero'].fillna(value='Desconocido', inplace=True)
+df_clean.fillna({'Mesero': 'Desconocido'}, inplace=True)
 
 # Reemplazar NaN en 'Fecha' con la fecha actual
-df_clean['Fecha'].fillna(value=pd.Timestamp.now().date(), inplace=True)
+df_clean.fillna({'Fecha': pd.Timestamp.now().date()}, inplace=True)
 
 # Mostrar el DataFrame actualizado
-df_clean.head()
+print(df_clean)
+
 ```
+
+
 
 > **📝 Nota:** La función `pd.Timestamp.now().date()` devuelve la fecha actual en formato año-mes-día (YYYY-MM-DD).
 

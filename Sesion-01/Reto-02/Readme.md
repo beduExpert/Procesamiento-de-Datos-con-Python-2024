@@ -16,15 +16,22 @@
    - Stock.
    - Cantidad.
 
-2. ⌨️ Declara las variables necesarias para almacenar la información de los productos, incluyendo su nombre, precio y stock, así como la cantidad de cada producto que deseas comprar.
+2. ⌨️ Declara las variables necesarias para almacenar la información de los productos, incluyendo su nombre, precio, stock y cantidad de cada producto que deseas comprar.
+
+   Puedes usar asignación múltiple para declarar las variables de los productos, en una sola línea:
+
+   ```python
+   nombre, precio, stock, cantidad = "Producto 1", 10.0, 5, 2
+   ```
+
 
 3. 🧮 Realiza las siguientes comprobaciones usando operadores aritméticos, lógicos y relacionales:
-   - Comparar si el precio de un producto es mayor que el de otro.
-   - Verificar si dos productos tienen precios menores a 30 y stocks mayores a 10.
-   - Comprobar si dos productos tienen el mismo stock.
-   - Evaluar condiciones combinadas sobre el stock y precio de los productos.
-   - Comparar si la cantidad de un producto es mayor a 5.
-   - Aplicar un aumento del 10% en el precio de un producto utilizando operadores de asignación.
+   - Comparar si el stock de un producto es mayor que el de otro.
+   - Verificar si un producto específico tiene un precio mayor a 20 y su stock es menor a 5.
+   - Comprobar si dos productos tienen el mismo nombre.
+   - Evaluar si el precio de un producto multiplicado por su cantidad es mayor que 100.
+   - Comparar si la cantidad de un producto es mayor a 10.
+   - Aplicar un descuento del 15% en el precio de un producto utilizando operadores de asignación.
 
 4. 🖨️ Imprime los resultados de cada una de las condiciones evaluadas.
 
@@ -35,10 +42,6 @@
    ```plaintext
    🛍️ Total a pagar por los productos es: $XX.XX
    ```
-
----
-
-✅ **Desafío adicional**: intenta imprimir un listado detallado de los productos comprados, como si fuera un ticket de compra, incluyendo el nombre, precio y stock de cada producto, así como el precio final después de aplicar cualquier aumento, puedes implementar prints personalizados.
 
 ---
 

@@ -29,7 +29,8 @@ df.head()
 Realiza los siguientes pasos para explorar y manipular los datos:
 
 1. 📊 **Calcular la suma total de las calificaciones de cada estudiante**.
-   - Puedes usar un filtro para obtener las calificaciones de cada estudiante: `df[df['Estudiante'] == 'NOMBRE']['Calificación'].FUNCION()`
+   - Puedes usar un filtro para obtener las calificaciones de cada estudiante: 
+   `df[df['Estudiante'] == 'NOMBRE']['Calificación'].FUNCION()`
    - Este proceso lo veremos mas a detalle en la siguiente sesión.
 2. 🔢 **Calcular el promedio de las calificaciones de cada estudiante**.
 3. 📏 **Determinar la calificación más alta y más baja registrada en el DataFrame**.

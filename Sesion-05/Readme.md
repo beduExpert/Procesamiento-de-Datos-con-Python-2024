@@ -44,7 +44,7 @@ Para MySQL, usaremos la biblioteca `mysql-connector-python`, y para MongoDB, la 
 
 ### ⭕ Círculo de estudio
 
-En el círculo de estudio se destinara una hora para reforzar los temas aprendidos durante las sesiones previas. Asi mismo compartiran los enlaces y/o documentos relacionados al avance de sus proyectos.
+En el círculo de estudio se destinara una hora para reforzar los temas aprendidos durante las sesiones previas. Así mismo compartirán los enlaces y/o documentos relacionados al avance de sus proyectos.
 
 
 #### 📜 **[Circulo: Formato de preguntas y respuestas](Ejemplo-03/Readme.md)**

@@ -33,9 +33,9 @@ Realiza los siguientes pasos para explorar y manipular los datos:
 2. 🧐 **Imprime la siguiente información de la serie `gastos_mensuales`**:
     - 🔢 Tamaño de la serie para verificar cuántas divisiones hay.
     - 📏 Tipo de dato de la serie para asegurarte de que todos los datos son numéricos.
-    - 🏷️ Divisiones incluidas en la serie usando la propiedad `index`.
+    - 🏷️ Divisiones incluidas en la serie.
 
-3. 🔍 **Usando diferentes métodos de indexación obten la siguiente información**:
+3. 🔍 **Usando diferentes métodos de indexación obtén la siguiente información**:
     - 💼 Gastos de Ventas, IT e Investigación y Desarrollo.
     - 📈 Gastos desde Marketing hasta Recursos Humanos.
     - 🛠️ Gastos desde Desarrollo de Producto hasta Operaciones.

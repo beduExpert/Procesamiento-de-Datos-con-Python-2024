@@ -13,7 +13,7 @@
 
 1. 🗣️ Supongamos que hay 10 pasillos en total en una tienda de abarrotes y el artículo lo dejaron en uno de esos pasillos de manera aleatoria.
 
-2. ⌨️ Define una variable para almacenar el número total de pasillos. Luego, emplea la funcionalidad de `random()` para seleccionar un pasillo al azar y guarda este número en otra variable.
+2. ⌨️ Define una variable para almacenar el número total de pasillos. Luego, emplea la funcionalidad de `randint()` de la clase `random` para seleccionar un pasillo al azar y guarda este número en otra variable.
 
 3. 🔄 Utiliza un ciclo `for` simulando que vas en busca de ese articulo pasillo tras pasillo hasta llegar al ultimo.
 
