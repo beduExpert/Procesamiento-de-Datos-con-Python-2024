@@ -39,12 +39,12 @@ Realiza los siguientes pasos para explorar y manipular los datos:
    ...
    ```
    
-2. 🗑️ **Eliminar filas Iincompletas**:
-   - Eliminar filas donde 'Fecha_Encuesta'o 'Puntuacion_Satisfaccion' contienen por lo menos u nvalor nulo.
+2. 🗑️ **Eliminar filas incompletas**:
+   - Eliminar filas donde 'Fecha_Encuesta'o 'Puntuacion_Satisfaccion' contienen por lo menos un valor nulo.
    - Usa el método `.copy()` para manipulaciones seguras.
 
 3. 📝 **Manejo de comentarios faltantes**:
-   - Reemplaza los valores nulos en la columna 'Comentarios' con 'Sin comentarios' usando `fillna()`.
+   - Reemplaza los valores nulos en la columna 'Comentarios' con 'Sin comentarios'.
 
 4. 🔄 **Reindexar el dataframe**:
    - Reorganiza los índices después de eliminar filas.
