@@ -32,7 +32,7 @@ El **`casting`** en Pandas, realizado a través de funciones como **`astype()`**
 Aprenderemos a aplicar filtros para seleccionar subconjuntos de datos basados en condiciones específicas, lo que es esencial para la exploración y análisis de datos.
 
 #### 📜 **[Ejemplo 02: Técnicas avanzadas de filtrado en dataframes](Ejemplo-02/Readme.md)**
-#### 🔥 **[Reto 01: Filtrado avanzado de datos](Reto-01/Readme.md)**
+#### 🔥 **[Reto 01: Limpieza y conversión de datos](Reto-01/Readme.md)**
 
 ---
 
@@ -49,7 +49,7 @@ Discutiremos cómo ordenar datos en DataFrames, tanto por índices como por valo
 Profundizaremos en las técnicas de combinación de DataFrames mediante `merge`, y de agrupación de datos con `groupby`, dos herramientas poderosas para el análisis de grandes volúmenes de datos.
 
 #### 📜 **[Ejemplo 04: Combinación y agrupación de datos](Ejemplo-04/Readme.md)**
-#### 🔥 **[Reto 02: Análisis agregado de datos](Reto-02/Readme.md)**
+#### 🔥 **[Reto 02: Análisis de datos de tráfico en una ciudad](Reto-02/Readme.md)**
 
 ---
 
