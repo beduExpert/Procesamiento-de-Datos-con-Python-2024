@@ -87,7 +87,7 @@ df_right.head(10)
 
 ### 📊 **Agrupación de datos con `groupby`**
 
-La función `groupby` en Pandas permite agrupar datos en un DataFrame en función de una o más columnas, permitiendo realizar operaciones estadísticas y de agregación en los grupos resultantes.
+La función `groupby` en Pandas permite agrupar datos en un Dataframes en función de una o más columnas, permitiendo realizar operaciones estadísticas y de agregación en los grupos resultantes.
 
 Algunas funciones de agregación comunes incluyen `sum`, `mean`, `count`, `min`, `max`, `std`, `var`, entre otras.
 
@@ -129,7 +129,7 @@ print(promedio_ventas_mes)
 
 ### 💡 **¿Sabías que...?**
 
-- **`merge`** puede ser utilizado no solo para combinar dos DataFrames basados en claves coincidentes, sino también para realizar left, right, y outer joins, proporcionando una flexibilidad comparable a las bases de datos relacionales.
+- **`merge`** puede ser utilizado no solo para combinar dos Dataframes basados en claves coincidentes, sino también para realizar left, right, y outer joins, proporcionando una flexibilidad comparable a las bases de datos relacionales.
 - **`groupby`** no solo es útil para sumar o promediar datos, sino que también puede ser utilizado para aplicar una multitud de funciones estadísticas, transformaciones personalizadas y filtrados complejos dentro de los grupos.
 
 ---

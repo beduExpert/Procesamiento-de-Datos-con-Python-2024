@@ -8,7 +8,7 @@ Desarrollar habilidades para ordenar y transformar dataframes en Pandas, utiliza
 
 ## 🚀 Comencemos
 
-Ordenar y transformar DataFrames son técnicas esenciales en el análisis de datos, permitiendo no solo organizar la información de manera más efectiva, sino también aplicar transformaciones específicas para preparar los datos para análisis posteriores.
+Ordenar y transformar Dataframes son técnicas esenciales en el análisis de datos, permitiendo no solo organizar la información de manera más efectiva, sino también aplicar transformaciones específicas para preparar los datos para análisis posteriores.
 
 ---
 
@@ -34,7 +34,7 @@ df.head(10)
 
 ### 📊 **Ordenamiento de dataframes**
 
-La función `sort_values` permite ordenar un DataFrame por una o más columnas, facilitando la visualización y el análisis de datos de manera más efectiva.
+La función `sort_values` permite ordenar un Dataframes por una o más columnas, facilitando la visualización y el análisis de datos de manera más efectiva.
 
 ```python
 # Ordenar renglones por la columna 'Edad' en orden ascendente
@@ -58,7 +58,7 @@ df_ordenado.head(10)
 
 ### 🎲 **Transformación con `map` y `apply`**
 
-Estas funciones son útiles para realizar transformaciones específicas en los datos, permitiendo tanto cambios simples como operaciones más complejas en todo el DataFrame.
+Estas funciones son útiles para realizar transformaciones específicas en los datos, permitiendo tanto cambios simples como operaciones más complejas en todo el Dataframes.
 
 #### 🔄 Uso de `map` en una Serie:
 
@@ -103,7 +103,7 @@ df[['Paciente', 'Edad', 'Grupo de Edad']]
 
 #### 🔄 Uso de `apply` en un dataframe:
 
-La función `apply` se utiliza para aplicar una función a lo largo de los renglones o columnas de un DataFrame, permitiendo realizar operaciones más complejas y personalizadas en los datos.
+La función `apply` se utiliza para aplicar una función a lo largo de los renglones o columnas de un Dataframes, permitiendo realizar operaciones más complejas y personalizadas en los datos.
 
 - **Ejemplo de cálculo de costo por día hospitalizado:**
 
@@ -130,7 +130,7 @@ La función `apply` se utiliza para aplicar una función a lo largo de los rengl
 ### 💡 **¿Sabías que...?**
 
 - `apply()`:
-Es notable por permitir la ejecución de funciones complejas y personalizadas en múltiples columnas de DataFrames, facilitando operaciones avanzadas como lógicas condicionales y manipulaciones de fechas, además de poder retornar múltiples valores nuevos desde una sola aplicación.
+Es notable por permitir la ejecución de funciones complejas y personalizadas en múltiples columnas de Dataframes, facilitando operaciones avanzadas como lógicas condicionales y manipulaciones de fechas, además de poder retornar múltiples valores nuevos desde una sola aplicación.
 
 - `map()`:
 Está optimizado para `Series`, siendo ideal para transformaciones eficientes utilizando diccionarios, otras Series o funciones, especialmente útil para codificaciones rápidas y conversión de datos categóricos con alineación automática de índices.
