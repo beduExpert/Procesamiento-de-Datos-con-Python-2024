@@ -98,12 +98,12 @@ df_clean.head()
 
 `dropna()` permite eliminar filas o columnas que contienen valores nulos, con opciones para especificar exactamente cómo y dónde aplicar estas eliminaciones.
 
-```plaintext
+
 | Argumento | Descripción                          |
 |-----------|--------------------------------------|
 | `axis`    | `0` para filas, `1` para columnas    |
 | `how`     | `any` para eliminar si hay un `NaN`, `all` para eliminar solo si todos los valores son `NaN` |
-```
+
 
 **Evaluar el impacto antes de eliminar:**
 Antes de eliminar valores nulos, considera su impacto en el análisis y la integridad de los datos. Decisiones informadas ayudan a mantener la relevancia y precisión de los resultados analíticos.

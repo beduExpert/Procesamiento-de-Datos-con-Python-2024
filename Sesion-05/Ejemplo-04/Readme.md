@@ -39,3 +39,5 @@ La implementación de un sistema de procesamiento de datos en Python para una bi
 - **Documentación del proyecto**: Se entregará un documento en formato Markdown que incluya la descripción del proyecto, los objetivos, la solución propuesta y ejemplos de código.
 
 - **Presentación en PowerPoint**: Se preparará una presentación en PowerPoint que resuma los aspectos más relevantes del proyecto y su importancia en el contexto actual de las bibliotecas digitales.
+
+⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../../Sesion-05/Readme.md) ➡️

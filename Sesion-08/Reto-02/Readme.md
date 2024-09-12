@@ -70,4 +70,4 @@ df_meteorologico = pd.DataFrame(
 
 ---
 
-⬅️ [**Anterior**](../Readme.md) | [**Siguiente**](../../Sesion-09/Readme.md) ➡️
+⬅️ [**Anterior**](../Readme.md) | 🏠 [**Inicio**](../../Readme.md)
